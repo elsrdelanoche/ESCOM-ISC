@@ -1,0 +1,2 @@
+codigo.vhd #Entity bin_to_7seg 4
+codigo.vhd #Architecture behavior bin_to_7seg 12
