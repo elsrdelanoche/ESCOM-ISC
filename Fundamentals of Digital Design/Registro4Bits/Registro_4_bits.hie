@@ -1,0 +1,2 @@
+Registro_4_bits.vhd #Entity pines 4
+Registro_4_bits.vhd #Architecture r4 pines 10
