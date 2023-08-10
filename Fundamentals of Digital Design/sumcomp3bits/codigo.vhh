@@ -1,0 +1,9 @@
+ENTITY full_adder_3bit IS
+    PORT (
+	a : in std_logic_vector (2 downto 0) ; 
+	b : in std_logic_vector (2 downto 0) ; 
+	c_in : in std_logic  ; 
+	sum : inout std_logic_vector (2 downto 0) ; 
+	c_out : inout std_logic 
+    ) ;
+END full_adder_3bit ;
