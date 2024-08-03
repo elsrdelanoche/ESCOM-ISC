@@ -1,0 +1,26 @@
+
+.bg-custom {
+    background-color: #000002; /* Color personalizado (en este caso, magenta) */
+  }
+
+
+  .bg-custom-gradient {
+    background-image: linear-gradient(to right, #1591C9, #FF26C6); /* Gradiente personalizado */
+  }
+
+  .bg-custom-gradient-alt {
+    background-color: linear-gradient(to right, #FC45FC,#26C65C); /* Gradiente personalizado */
+  }
+
+  .cont {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 100px;
+    background-color: white;
+  }
+
+
+

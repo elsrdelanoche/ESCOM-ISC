@@ -1,0 +1,1 @@
+En caso de que no funcione la creacion del pdf solo elimine la carpete tfpdf y coloquela de nuevo en la raiz principal.
