@@ -1,0 +1,2 @@
+codigo.vhd #Entity bcd_7seg 4
+codigo.vhd #Architecture behavioral bcd_7seg 9

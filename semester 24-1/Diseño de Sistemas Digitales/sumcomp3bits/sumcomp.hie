@@ -1,0 +1,2 @@
+codigo.vhd #Entity full_adder_3bit 4
+codigo.vhd #Architecture behavioral full_adder_3bit 12

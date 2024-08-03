@@ -1,0 +1,41 @@
+
+     | | | | | | |
+   _________________
+  -|               |-
+  -|               |-
+  -|               |-
+  -|    CYPRESS    |-
+  -|               |-
+  -|               |-   Warp VHDL Synthesis Compiler: Version 6.3 IR 35
+  -|               |-   Copyright (C) 1991-2001 Cypress Semiconductor
+   |_______________|
+     | | | | | | |
+
+======================================================================
+Compiling:  SumadorConcurrentes.vhd
+Options:    -m -yu -e10 -w100 -o2 -ygs -fP -v10 -dc22v10 -ppalce22v10-25pc/pi -b SumadorConcurrentes.vhd -u SumadorCompletoconcurrentes.hie
+======================================================================
+
+vhdlfe V6.3 IR 35:  VHDL parser
+Sat Jan 28 12:37:25 2023
+
+Library 'work' => directory 'lc22v10'
+Linking 'C:\Archivos de programa\Cypress\Warp\bin\std.vhd'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\cypress.vhd'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\work\cypress.vif'.
+Library 'ieee' => directory 'C:\Archivos de programa\Cypress\Warp\lib\ieee\work'
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\ieee\work\stdlogic.vif'.
+SumadorConcurrentes.vhd (line 12, col 15):  (E0) syntax error
+Error occurred within '(' at line 12, column 5 in SumadorConcurrentes.vhd.
+SumadorConcurrentes.vhd (line 12, col 15):  (E68) Missing right parenthesis
+SumadorConcurrentes.vhd (line 12, col 15):  (E18) Missing THEN.
+SumadorConcurrentes.vhd (line 12, col 24):  (E3) Need a '<=' or ':=' here.
+SumadorConcurrentes.vhd (line 12, col 28):  (E59) Expected , or ;, but got )
+SumadorConcurrentes.vhd (line 12, col 28):  (E0) syntax error
+SumadorConcurrentes.vhd (line 14, col 17):  (E0) syntax error
+Error occurred within '(' at line 14, column 8 in SumadorConcurrentes.vhd.
+SumadorConcurrentes.vhd (line 14, col 17):  (E68) Missing right parenthesis
+SumadorConcurrentes.vhd (line 14, col 17):  (E18) Missing THEN.
+SumadorConcurrentes.vhd (line 14, col 18):  (E3) Need a '<=' or ':=' here.
+SumadorConcurrentes.vhd (line 14, col 33):  (E59) Expected , or ;, but got )
+vhdlfe:  SumadorConcurrentes.vhd:  Abort:  (E46) Error limit (10) exceeded

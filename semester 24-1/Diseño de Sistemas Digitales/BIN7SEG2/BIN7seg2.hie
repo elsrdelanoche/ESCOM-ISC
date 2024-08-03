@@ -1,0 +1,2 @@
+cidogo.vhd #Entity bin_to_7seg 4
+cidogo.vhd #Architecture behavior bin_to_7seg 12

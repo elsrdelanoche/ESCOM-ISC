@@ -1,0 +1,2 @@
+codigo.vhd #Entity sum_diff_2bit 5
+codigo.vhd #Architecture behavioral sum_diff_2bit 12

@@ -1,0 +1,2 @@
+sumadorCompleto.vhd #Entity sumadorcompleto 3
+sumadorCompleto.vhd #Architecture sumadorcarch sumadorcompleto 8

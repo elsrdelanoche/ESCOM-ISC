@@ -1,0 +1,9 @@
+ENTITY sumador IS
+    PORT (
+	a : in std_logic  ; 
+	b : in std_logic  ; 
+	cin : in std_logic  ; 
+	cout : inout std_logic  ; 
+	s : inout std_logic 
+    ) ;
+END sumador ;

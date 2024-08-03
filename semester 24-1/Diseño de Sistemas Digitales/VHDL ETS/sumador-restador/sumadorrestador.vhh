@@ -1,0 +1,10 @@
+ENTITY sumadorrestador IS
+    PORT (
+	a : in std_logic  ; 
+	b : in std_logic  ; 
+	carry : in std_logic  ; 
+	estado : in std_logic  ; 
+	sum : inout std_logic  ; 
+	cout : inout std_logic 
+    ) ;
+END sumadorrestador ;

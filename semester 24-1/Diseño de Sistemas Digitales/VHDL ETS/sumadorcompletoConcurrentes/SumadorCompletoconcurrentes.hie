@@ -1,0 +1,2 @@
+SumadorConcurrentes.vhd #Entity sumador_completo 4
+SumadorConcurrentes.vhd #Architecture asumador_completo sumador_completo 8

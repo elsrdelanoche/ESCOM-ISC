@@ -1,0 +1,2 @@
+sumador2bits.vhd #Entity mediosumador 3
+sumador2bits.vhd #Architecture mediosumarch mediosumador 9

@@ -1,0 +1,393 @@
+
+     | | | | | | |
+   _________________
+  -|               |-
+  -|               |-
+  -|               |-
+  -|    CYPRESS    |-
+  -|               |-
+  -|               |-   Warp VHDL Synthesis Compiler: Version 6.3 IR 35
+  -|               |-   Copyright (C) 1991-2001 Cypress Semiconductor
+   |_______________|
+     | | | | | | |
+
+======================================================================
+Compiling:  code.vhd
+Options:    -m -yu -e10 -w100 -o2 -ygs -fP -v10 -dc22v10 -ppalce22v10-25pc/pi -b code.vhd -u conador.hie
+======================================================================
+
+vhdlfe V6.3 IR 35:  VHDL parser
+Sun Jan 29 17:48:38 2023
+
+Library 'work' => directory 'lc22v10'
+Linking 'C:\Archivos de programa\Cypress\Warp\bin\std.vhd'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\cypress.vhd'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\work\cypress.vif'.
+Library 'ieee' => directory 'C:\Archivos de programa\Cypress\Warp\lib\ieee\work'
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\ieee\work\stdlogic.vif'.
+
+vhdlfe:  No errors.
+
+
+tovif V6.3 IR 35:  High-level synthesis
+Sun Jan 29 17:48:38 2023
+
+Linking 'C:\Archivos de programa\Cypress\Warp\bin\std.vhd'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\cypress.vhd'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\work\cypress.vif'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\ieee\work\stdlogic.vif'.
+
+tovif:  No errors.
+
+
+topld V6.3 IR 35:  Synthesis and optimization
+Sun Jan 29 17:48:38 2023
+
+Linking 'C:\Archivos de programa\Cypress\Warp\bin\std.vhd'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\cypress.vhd'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\work\cypress.vif'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\ieee\work\stdlogic.vif'.
+
+----------------------------------------------------------
+Detecting unused logic.
+----------------------------------------------------------
+
+
+
+------------------------------------------------------
+Alias Detection
+------------------------------------------------------
+
+------------------------------------------------------
+Aliased 0 equations, 23 wires.
+------------------------------------------------------
+
+----------------------------------------------------------
+Circuit simplification
+----------------------------------------------------------
+
+----------------------------------------------------------
+Circuit simplification results:
+
+	Expanded 0 signals.
+	Turned 0 signals into soft nodes.
+	Maximum default expansion cost was set at 10.
+----------------------------------------------------------
+Created 42 PLD nodes.
+
+topld:  No errors.
+
+----------------------------------------------------------------------------
+PLD Optimizer Software:       DSGNOPT.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+DESIGN HEADER INFORMATION  (17:48:39)
+
+Input File(s): code.pla
+Device       : C22V10
+Package      : palce22v10-25pc/pi
+ReportFile   : code.rpt
+
+Program Controls:
+    COMMAND LANGUAGE_VHDL 
+    COMMAND PROPERTY BUS_HOLD ENABLE 
+
+Signal Requests:
+    GROUP USEPOL ALL
+    GROUP FAST_SLEW ALL
+
+Completed Successfully  
+----------------------------------------------------------------------------
+PLD Optimizer Software:       DSGNOPT.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+OPTIMIZATION OPTIONS       (17:48:39)
+
+Messages:
+  Information: Process virtual 'cuenta_IBV_7D'cuenta_IBV_7D ... expanded.
+  Information: Process virtual 'cuenta_IBV_6D'cuenta_IBV_6D ... expanded.
+  Information: Process virtual 'cuenta_IBV_5D'cuenta_IBV_5D ... expanded.
+  Information: Process virtual 'cuenta_IBV_4D'cuenta_IBV_4D ... expanded.
+  Information: Process virtual 'cuenta_IBV_3D'cuenta_IBV_3D ... expanded.
+  Information: Process virtual 'cuenta_IBV_2D'cuenta_IBV_2D ... expanded.
+  Information: Process virtual 'cuenta_IBV_1D'cuenta_IBV_1D ... expanded.
+  Information: Optimizing logic using best output polarity for signals:
+         salida_IBV(1).D salida_IBV(2).D salida_IBV(3).D salida_IBV(4).D
+         salida_IBV(5).D salida_IBV(6).D salida_IBV(7).D
+
+  Information: Selected logic optimization OFF for signals:
+         salida_IBV(0).D salida_IBV(0).AR salida_IBV(0).C salida_IBV(1).AR
+         salida_IBV(1).C salida_IBV(2).AR salida_IBV(2).C salida_IBV(3).AR
+         salida_IBV(3).C salida_IBV(4).AR salida_IBV(4).C salida_IBV(5).AR
+         salida_IBV(5).C salida_IBV(6).AR salida_IBV(6).C salida_IBV(7).AR
+         salida_IBV(7).C
+
+
+
+Summary:
+                 Error Count = 0      Warning Count = 0
+
+Completed Successfully  
+----------------------------------------------------------------------------
+PLD Optimizer Software:       MINOPT.EXE     01/NOV/1999  [v4.02 ] 6.3 IR 35
+
+LOGIC MINIMIZATION         ()
+
+Messages:
+
+
+Summary:
+                 Error Count = 0      Warning Count = 0
+
+Completed Successfully
+----------------------------------------------------------------------------
+PLD Optimizer Software:       DSGNOPT.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+OPTIMIZATION OPTIONS       (17:48:39)
+
+Messages:
+  Information: Optimizing Banked Preset/Reset requirements.
+
+
+Summary:
+                 Error Count = 0      Warning Count = 0
+
+Completed Successfully  
+----------------------------------------------------------------------------
+PLD Compiler Software:        PLA2JED.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+<CYPRESSTAG name="Equations" icon=FILE_RPT_EQUATION>
+DESIGN EQUATIONS           (17:48:39)
+</CYPRESSTAG>
+
+    salida_IBV(0).D =
+          /salida_IBV(0).Q 
+
+    salida_IBV(0).AR =
+          reset 
+
+    salida_IBV(0).SP =
+          GND
+
+    salida_IBV(0).C =
+          clk 
+
+    salida_IBV(1).D =
+          /salida_IBV(0).Q * salida_IBV(1).Q 
+        + salida_IBV(0).Q * /salida_IBV(1).Q 
+
+    salida_IBV(1).AR =
+          reset 
+
+    salida_IBV(1).SP =
+          GND
+
+    salida_IBV(1).C =
+          clk 
+
+    salida_IBV(2).D =
+          salida_IBV(0).Q * salida_IBV(1).Q * /salida_IBV(2).Q 
+        + /salida_IBV(0).Q * salida_IBV(2).Q 
+        + /salida_IBV(1).Q * salida_IBV(2).Q 
+
+    salida_IBV(2).AR =
+          reset 
+
+    salida_IBV(2).SP =
+          GND
+
+    salida_IBV(2).C =
+          clk 
+
+    salida_IBV(3).D =
+          salida_IBV(0).Q * salida_IBV(1).Q * salida_IBV(2).Q * 
+          /salida_IBV(3).Q 
+        + /salida_IBV(0).Q * salida_IBV(3).Q 
+        + /salida_IBV(1).Q * salida_IBV(3).Q 
+        + /salida_IBV(2).Q * salida_IBV(3).Q 
+
+    salida_IBV(3).AR =
+          reset 
+
+    salida_IBV(3).SP =
+          GND
+
+    salida_IBV(3).C =
+          clk 
+
+    salida_IBV(4).D =
+          salida_IBV(0).Q * salida_IBV(1).Q * salida_IBV(2).Q * 
+          salida_IBV(3).Q * /salida_IBV(4).Q 
+        + /salida_IBV(0).Q * salida_IBV(4).Q 
+        + /salida_IBV(1).Q * salida_IBV(4).Q 
+        + /salida_IBV(2).Q * salida_IBV(4).Q 
+        + /salida_IBV(3).Q * salida_IBV(4).Q 
+
+    salida_IBV(4).AR =
+          reset 
+
+    salida_IBV(4).SP =
+          GND
+
+    salida_IBV(4).C =
+          clk 
+
+    salida_IBV(5).D =
+          salida_IBV(0).Q * salida_IBV(1).Q * salida_IBV(2).Q * 
+          salida_IBV(3).Q * salida_IBV(4).Q * /salida_IBV(5).Q 
+        + /salida_IBV(0).Q * salida_IBV(5).Q 
+        + /salida_IBV(1).Q * salida_IBV(5).Q 
+        + /salida_IBV(2).Q * salida_IBV(5).Q 
+        + /salida_IBV(3).Q * salida_IBV(5).Q 
+        + /salida_IBV(4).Q * salida_IBV(5).Q 
+
+    salida_IBV(5).AR =
+          reset 
+
+    salida_IBV(5).SP =
+          GND
+
+    salida_IBV(5).C =
+          clk 
+
+    salida_IBV(6).D =
+          salida_IBV(0).Q * salida_IBV(1).Q * salida_IBV(2).Q * 
+          salida_IBV(3).Q * salida_IBV(4).Q * salida_IBV(5).Q * 
+          /salida_IBV(6).Q 
+        + /salida_IBV(0).Q * salida_IBV(6).Q 
+        + /salida_IBV(1).Q * salida_IBV(6).Q 
+        + /salida_IBV(2).Q * salida_IBV(6).Q 
+        + /salida_IBV(3).Q * salida_IBV(6).Q 
+        + /salida_IBV(4).Q * salida_IBV(6).Q 
+        + /salida_IBV(5).Q * salida_IBV(6).Q 
+
+    salida_IBV(6).AR =
+          reset 
+
+    salida_IBV(6).SP =
+          GND
+
+    salida_IBV(6).C =
+          clk 
+
+    salida_IBV(7).D =
+          salida_IBV(0).Q * salida_IBV(1).Q * salida_IBV(2).Q * 
+          salida_IBV(3).Q * salida_IBV(4).Q * salida_IBV(5).Q * 
+          salida_IBV(6).Q * /salida_IBV(7).Q 
+        + /salida_IBV(0).Q * salida_IBV(7).Q 
+        + /salida_IBV(1).Q * salida_IBV(7).Q 
+        + /salida_IBV(2).Q * salida_IBV(7).Q 
+        + /salida_IBV(3).Q * salida_IBV(7).Q 
+        + /salida_IBV(4).Q * salida_IBV(7).Q 
+        + /salida_IBV(5).Q * salida_IBV(7).Q 
+        + /salida_IBV(6).Q * salida_IBV(7).Q 
+
+    salida_IBV(7).AR =
+          reset 
+
+    salida_IBV(7).SP =
+          GND
+
+    salida_IBV(7).C =
+          clk 
+
+
+Completed Successfully  
+----------------------------------------------------------------------------
+PLD Compiler Software:        PLA2JED.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+DESIGN RULE CHECK          (17:48:39)
+
+Messages:
+                 None.
+
+
+Summary:
+                 Error Count = 0      Warning Count = 0
+
+Completed Successfully  
+----------------------------------------------------------------------------
+PLD Compiler Software:        PLA2JED.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+<CYPRESSTAG name="Pinout" icon=FILE_RPT_PINOUT>
+PINOUT INFORMATION   (17:48:39)
+</CYPRESSTAG>
+Messages:
+  Information: Checking for duplicate NODE logic.
+                 None.
+
+
+                                 C22V10
+                 __________________________________________
+            clk =| 1|                                  |24|* not used       
+          reset =| 2|                                  |23|= salida_IBV(6)  
+       not used *| 3|                                  |22|= salida_IBV(4)  
+       not used *| 4|                                  |21|= salida_IBV(2)  
+       not used *| 5|                                  |20|= salida_IBV(0)  
+       not used *| 6|                                  |19|* not used       
+       not used *| 7|                                  |18|* not used       
+       not used *| 8|                                  |17|= salida_IBV(1)  
+       not used *| 9|                                  |16|= salida_IBV(3)  
+       not used *|10|                                  |15|= salida_IBV(5)  
+       not used *|11|                                  |14|= salida_IBV(7)  
+       not used *|12|                                  |13|* not used       
+                 __________________________________________
+
+
+Summary:
+                 Error Count = 0      Warning Count = 0
+
+Completed Successfully  
+----------------------------------------------------------------------------
+PLD Compiler Software:        PLA2JED.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+<CYPRESSTAG name="Utilization" icon=FILE_RPT_UTILIZATION>
+RESOURCE UTILIZATION (17:48:39)
+</CYPRESSTAG>
+  Information: Macrocell Utilization.
+
+                     Description        Used     Max
+                 ______________________________________
+                 | Dedicated Inputs   |    1  |   11  |
+                 | Clock/Inputs       |    1  |    1  |
+                 | I/O Macrocells     |    8  |   10  |
+                 ______________________________________
+                                          10  /   22   = 45  %
+
+
+  Information: Output Logic Product Term Utilization.
+
+                  Node#  Output Signal Name  Used   Max
+                 ________________________________________
+                 | 14  |  salida_IBV(7)   |   8  |   8  |
+                 | 15  |  salida_IBV(5)   |   6  |  10  |
+                 | 16  |  salida_IBV(3)   |   4  |  12  |
+                 | 17  |  salida_IBV(1)   |   2  |  14  |
+                 | 18  |  Unused          |   0  |  16  |
+                 | 19  |  Unused          |   0  |  16  |
+                 | 20  |  salida_IBV(0)   |   1  |  14  |
+                 | 21  |  salida_IBV(2)   |   3  |  12  |
+                 | 22  |  salida_IBV(4)   |   5  |  10  |
+                 | 23  |  salida_IBV(6)   |   7  |   8  |
+                 | 25  |  Unused          |   0  |   1  |
+                 ________________________________________
+                                             36  / 121   = 29  %
+
+
+Completed Successfully  
+----------------------------------------------------------------------------
+PLD Compiler Software:        PLA2JED.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+JEDEC ASSEMBLE             (17:48:39)
+
+Messages:
+  Information: Output file 'code.pin' created.
+  Information: Output file 'code.jed' created.
+
+  Usercode:    
+  Checksum:    E30A
+
+
+
+Summary:
+                 Error Count = 0      Warning Count = 0
+
+Completed Successfully at 17:48:39

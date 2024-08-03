@@ -1,0 +1,6 @@
+hen '1' => 
+ 	Cout <=A and B ;´	
+	S <=A xor B;
+ when '0' => 
+ 	Cout <=((NOT A)and B);
+	S<= A XOR B;

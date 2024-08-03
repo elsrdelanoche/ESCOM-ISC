@@ -1,0 +1,40 @@
+library ieee;
+use ieee.std_logic_1164.all;
+entity sumador is 
+port(A,B,Cin: in std_logic;
+	 Cout,S: out std_logic);
+end sumador;
+
+Architecture sumadorArch of sumador is
+begin
+process(A,B,cin)
+begin 
+if(A='0'and B='0' and Cin='0')THEN 
+Cout<='0', S<='0';
+else if(A='0'and B='0' Cin='1') THEN 
+Cout<='0', S<='1';
+else if(A='0'and B='1 Cin='0') THEN 
+Cout<='0', S<='1';
+else if(A='0'and B='1' Cin='1') THEN 
+Cout<='1', S<='0';
+else if(A='1'and B='0' Cin='0') THEN 
+Cout<='0', S<='1';
+else if(A='1'and B='0' Cin='1') THEN 
+Cout<='1', S<='0';
+else if(A='1'and B='1' Cin='0') THEN 
+Cout<='1', S<='0';
+else if(A='1'and B='0' Cin='1') THEN 
+Cout<='1', S<='1';
+else Cout<='1',S<='1';
+end if;
+end if;
+end if;
+end if;
+end if;
+end if;
+
+end if;
+end if;
+
+end process;
+ end sumadorArch;

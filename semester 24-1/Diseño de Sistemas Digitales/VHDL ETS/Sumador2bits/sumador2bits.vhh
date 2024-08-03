@@ -1,0 +1,8 @@
+ENTITY mediosumador IS
+    PORT (
+	a : in std_logic  ; 
+	b : in std_logic  ; 
+	sum : inout std_logic  ; 
+	cout : inout std_logic 
+    ) ;
+END mediosumador ;
