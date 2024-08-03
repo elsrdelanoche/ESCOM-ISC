@@ -1,0 +1,17 @@
+digraph StackAutomaton {
+	start [shape=none, label="",height=0.08, width=0.08];
+	start -> 0;
+	0 [shape=circle];
+	1 [shape=circle];
+	2 [shape=doublecircle];
+	0 -> 0 [label="0,!/!0;  "];
+
+	0 -> 0 [label="0,0/00;  "];
+
+	0 -> 1 [label="1,0/$;  "];
+
+	1 -> 1 [label="1,0/$;  "];
+
+	1 -> 2 [label="!,!/$;  "];
+
+}

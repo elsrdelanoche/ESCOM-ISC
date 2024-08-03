@@ -1,0 +1,19 @@
+Componentes_Pasivos{
+200>Resistencia[Valor(Oh):200&300,Voltaje_Maximo(V):20]0.25,
+300>Capacitor[Valor(uF):200,Voltaje_Maximo(V):20]20,
+200>Inductor[Valor(uH):300,Corriente_Maxima(A):2]10}
+Memorias{
+10>RAM[Modelo:INTEL6116,Capacidad(GB):20]100,
+20>ROM[Modelo:ATmega,Capacidad(GB):40]100}
+Amplificadores{
+10>OPAMP[Modelo:LM742,Voltaje_De_Alimentación:18,Bandwidth:1,UNDDS_Bandwidth:MHz,Corriente_De_Alimentacion(mA):2.8]2,
+10>OPAMP[Modelo:TL072,Voltaje_De_Alimentación:15,Bandwidth:3,UNDDS_Bandwidth:MHz,Corriente_De_Alimentacion(mA):1.3]2,
+10>OPAMP[Modelo:AD825,Voltaje_De_Alimentación:15,Bandwidth:20,UNDDS_Bandwidth:MHz,Corriente_De_Alimentacion(mA):3.5]2,
+10>OPAMP[Modelo:OPA2134,Voltaje_De_Alimentación:18,Bandwidth:8,UNDDS_Bandwidth:MHz,Corriente_De_Alimentacion(mA):8]2}
+Transistores{
+10>TransistorBJT[Modelo:2N3904,VceMax:40,IcMax(mA):200,Hfe:300,Bandwidth(Mhz):270,Vce_sat:0.2]2,
+10>TransistorFET[Modelo:J310,VdsMax:25,IdMax(mA):50,Bandwidth(Mhz):450,Rds_on(Ohms):10]2,
+10>TransistorMOSFET[Modelo:IRF540,VdsMax:100,Idc(A):33,Bandwidth(Mhz):450,Cin(pF):0.077]2}
+Transductores o Sensores{
+10>Temperatura[Modelo:LM35,Tmin(ºC):-55,TMax(ºC):150,Equivalencia(mV/ºC):10,Resolusion(ºC):0.5]2,
+10>Luminicensia[Modelo:TSL2561,Longitud_De_Onda_min(nm):300,Longitud_De_onda_Max(nm):1100,Sensibilidad_min(Lux):1,Sensibilidad_Max(Lux):40000,Resolucion(bits):16,Interfaz_De_Comunicacion:I2C&SMBus,Alimentacion_min:2.7,Alimentacion_Max:3.6]2};
