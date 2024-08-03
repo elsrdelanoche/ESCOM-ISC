@@ -1,0 +1,2 @@
+INSERT INTO  tlb001reporteincidentevial (folio, fecha, incidente_c4, delegacion_ini, fechacreacion, mes)
+SELECT ﻿folio, fecha_creacion,incidente_c4 ,delegacion_inicio , fecha_creacion, mes FROM incidentesvia2dosem2020.incidentevial2dsem2020;

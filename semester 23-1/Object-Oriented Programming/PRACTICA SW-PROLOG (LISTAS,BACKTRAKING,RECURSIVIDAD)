@@ -1,0 +1,33 @@
+PRACTICA SWI-PROLOG 
+
+---------------PROGRAMA------------
+
+%CASO PARA BACKTRAKING
+%connected(d,h). 
+%connected(h,f). 
+%connected(f,a).
+%connected(a,b). 
+%connected(f,g).
+%connected(i,f).
+%path(X,Y) :-connected(X,Y).
+%path(X,Y) :-connected(X,Z), path(Z,Y).
+%CASO PARA RECURSIVIDAD 
+masgrande(elefante,caballo).
+masgrande(caballo,perro).
+masgrande(perro,raton).
+muchomasgrande(A,B):-masgrande(A,B).%primera regla
+muchomasgrande(A,C):-masgrande(A,B),masgrande(B,C).%2d regla
+muchomasgrande(A,D):-masgrande(A,B),masgrade(B,C),masgrande(C,D).%3ra regla
+
+
+
+----------------TERMINAL----------
+% CASO PARA BACKTRAKING
+%connected(f,X).
+%path(d,X).
+%CASO PARA RECURSIVIDAD
+%listas
+%[X,Y,Z]=[jhon,likes,mary].
+[[the,Y]|Z]=[[X,mine],[is,here]]
+
+

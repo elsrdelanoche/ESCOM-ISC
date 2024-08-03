@@ -1,0 +1,1 @@
+select distinct linea from ingresos_metro

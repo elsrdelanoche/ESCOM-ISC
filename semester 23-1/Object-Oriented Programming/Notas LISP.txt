@@ -1,0 +1,559 @@
+Materia paradigmas de programación
+***LISP***
+
+funcion (   )
+	  |
+	Lista
+	
+	Colección
+	((head) rest o list)
+
+Example: (+ 3 4)
+	  |   |
+	Head  List
+
+
+CL-USER> (/ 10 3)
+10/3
+CL-USER> (/ 10 3.0)
+3.3333333
+CL-USER> (+ 5 (/ 9 3))
+8
+CL-USER> (/ (+ 5 9) 3)
+14/3
+CL-USER> (sqrt 16)		Raices
+4.0
+CL-USER> (expt 2 10)		Potencias devuelve n1 a la n2
+1024
+CL-USER> (sqrt (- (expt 5 7) (sqrt (expt 3 2))))
+279.50314
+CL-USER> (exp 1)		Potencia devuelve e a la n1
+2.7182817
+CL-USER> (exp 2.718217)
+15.153278
+CL-USER> (exp 4)
+54.59815
+CL-USER> (log 54.59815)
+4.0
+
+*********************************************************************
+
+Funciones con nombre
+(defun nombre (lista de argumentos o variables) (implementación de función))
+
+Example:
+	CL-USER> (defun cuadrado (N) (* N N))
+	CUADRADO
+	CL-USER> (cuadrado 3)
+	9
+
+***Programar log x + y^3***
+CL-USER> (defun sumLog (x y) (+ (log x) (expt y 3)))
+SUMLOG
+CL-USER> (sumLog 10 5)
+127.30258
+***************************
+
+CL-USER> (mod 100 30)		Devuelve el resto de la división entera de n1 por n2 ó  n1%n2
+10
+CL-USER> (mod 100 31.4)
+5.800003
+CL-USER> (mod 100 30.0)
+10.0
+CL-USER> (/ 100 30 3)
+10/9
+CL-USER> (log 10)		devuelve el logaritmo neperiano de n
+2.3025851
+CL-USER> (log 100 10)		devuelve el logaritmo de n1 en la base n2
+2.0
+CL-USER> (log 1024 2)
+10.0
+
+***Programar log2N * e^5 + y***
+CL-USER> (defun prodlog
+           (N Y)
+           (+  (* (log N 2) (exp 5)) Y))
+PRODLOG
+CL-USER> (prodlog 10 5)
+498.01785
+*******************************
+CL-USER> (1+ 9)
+10
+CL-USER> (1- 8)
+7
+CL-USER> (max 1 2 3 4 5 6 7)
+7
+CL-USER> (min 10 4 6 3)
+3
+CL-USER> (max (mod 100 20) (sqrt 5))
+2.236068
+CL-USER> (< 3 4 5)
+T
+CL-USER> (= 4 4)
+T
+CL-USER> (/= 3 4)
+T
+CL-USER> (and (= 1 1) (/= 3 4))
+T
+CL-USER> (setq edad 20)			Asigna un valor a la variable
+; in: SETQ EDAD
+;     (SETQ EDAD 20)
+; 
+; caught WARNING:
+;   undefined variable: COMMON-LISP-USER::EDAD
+; 
+; compilation unit finished
+;   Undefined variable:
+;     EDAD
+;   caught 1 WARNING condition
+20
+CL-USER> (setq est 1.8)
+; in: SETQ EST
+;     (SETQ EST 1.8)
+; 
+; caught WARNING:
+;   undefined variable: COMMON-LISP-USER::EST
+; 
+; compilation unit finished
+;   Undefined variable:
+;     EST
+;   caught 1 WARNING condition
+1.8
+CL-USER> (and (= edad 19) (/= est 1.8))
+NIL
+CL-USER> (not nil)			Niega lo falso
+T
+CL-USER> (not T)
+NIL
+CL-USER> (not (= edad 19))
+T
+CL-USER> (or (= edad 19) (/= est 1.5))
+; in: OR (= EDAD 19)
+;     (= EDAD 19)
+; 
+; caught WARNING:
+;   undefined variable: COMMON-LISP-USER::EDAD
+
+;     (/= EST 1.5)
+; --> IF 
+; ==>
+;   (= EST 1.5)
+; 
+; caught WARNING:
+;   undefined variable: COMMON-LISP-USER::EST
+; 
+; compilation unit finished
+;   Undefined variables:
+;     EDAD EST
+;   caught 2 WARNING conditions
+T
+CL-USER> (evenp 8)			Evalua si es par
+T
+CL-USER> (oddp 7)			Evalua si es impar
+T
+
+***********************************************************************************
+Tarea: programar una función que recibe tres variables numericas y que indica si el 
+maximo de ellos es par, retornar valor logico
+CL-USER> (defun maxpar (a b c) (evenp (max a b c)) )
+MAXPAR
+CL-USER> (maxpar 49 82 13)
+T
+***********************************************************************************
+
+Uso del case
+Funciona como cualquier case jaja
+CL-USER> (case 1
+           (1 'primero)
+           (2 "segundo 2th"))
+PRIMERO
+CL-USER> (case 2
+           (1 'primero)
+           (2 "segundo 2th"))
+"segundo 2th"
+o tambien se puede enviar una variable al case
+CL-USER> (setq N 1)
+1
+CL-USER> (case N
+           (1 'primero)
+           (2 "segundo 2th"))
+PRIMERO
+**********************************************************************
+DO
+(do ((variable v.inicial (avance)))
+		((finalizar hasta) 'fin)
+		(función o impresión)
+		)
+Imprimir las potencias de 2 hasta la n potencia
+CL-USER> (defun pot2 (b)
+           (do ((a 1 (1+ a)))
+               ((= a (+ b 1)) 'fin)
+             (print (expt 2 a))
+             )
+           )
+POT2
+***Prueba
+CL-USER> (pot2 5)
+2 
+4 
+8 
+16 
+32 
+FIN
+-----------------------------------------------
+Imprimir un bucle de numeros romanos de 1 a n
+CL-USER> (defun rom (a)
+           (case a
+             (1 'I)
+             (2 'II)
+             (3 'III)
+             (4 'IV)
+             (5 'V)
+             (6 'VI)
+             (7 'VII)
+             (8 'VIII)
+             (9 'IX)
+             )
+           )
+ROM
+CL-USER> (defun romanos (n)
+           (do ((a 1 (1+ a)))
+               ((= a (+ n 1)) 'fin)
+               (print (rom a)))
+           )
+**Prueba**
+CL-USER> (romanos 8)
+
+I 
+II 
+III 
+IV 
+V 
+VI 
+VII 
+VIII 
+FIN
+********************************************************************************************
+30 de Agosto 2020
+LISTAS
+(car L)		//Funcion de busqueda en listas	
+  |		//devuelve el primer elemento de L, si L no es NIL; devolvera NIL, si L es NIL
+head			
+
+(rest L)	//Devuelve la lista formada por los elementos de L excepto el primero, si L no es NIL
+  |cdr		//Equivalente a CDR
+'(   )
+CL-USER> (setq L '(5 6 7 80))
+(5 6 7 80)
+CL-USER> (car L)
+5
+CL-USER> (rest L)
+(6 7 80)
+CL-USER> (cdr L)	//Función igual a REST
+(6 7 80)
+CL-USER> (rest (rest L))
+(7 80)
+CL-USER> (car (rest L))
+6
+--------------------------------------------------------------------------------------------
+Uso de MAPC
+aplica la funcion tomando como argumento los primeros elementos de la lista l, después toma
+como argumento los segundos elementos de la lista y así hasta que la lista se termina.
+(MAPC 'funcion 'List)
+
+CL-USER> (mapc 'print '(1 4 899))	//Aplica una misma función a cada elemento de la lista
+1 
+4 
+899 
+(1 4 899)
+
+Ejercicio: Aplicar n al cuadrado a cada valor de la lista
+CL-USER> (defun cuadrado		//Definimos la función
+           (N)
+           (print (expt n 2)))
+CUADRADO
+CL-USER> (mapc 'cuadrado '(1 4 8999))	//Insertamos la funcion a aplicar a la lista con MAPC
+1 
+16 
+80982001 
+(1 4 8999)
+---------------------------------------------------------------
+Ejercicio
+Describir una funcion que reciba una base y un exponente (potencia) y que sea un ciclo e 
+imprima 5¹ 5² 5³
+CL-USER> (defun pot (b p)
+           (do ((A 1 (1+ A)))
+               ((= A (+ p 1)) 'fin)
+             (print (expt b A))
+             )
+           )
+POT
+CL-USER> (pot 5 7)
+5 
+25 
+125 
+625 
+3125 
+15625 
+78125 
+FIN
+
+CONVERTIR A BINARIO
+CL-USER> (defun binario (n)
+           (format T "~b" n))
+BINARIO
+CL-USER> (binario 8)
+1000
+NIL
+
+Recibir una lista de numeros y pasarlos a binario.
+CL-USER> (defun binario (n)
+           (format T "~b~%" n))		;los simbolos extras se encargan del salto de linea
+BINARIO
+CL-USER> (mapc 'binario '(1 2 3 4))
+1
+10
+11
+100
+(1 2 3 4)
+******************************************************************************************
+Practica LISP 31 agosto
+
+Uso de mapcar
+CL-USER> (mapcar'+'(1 2 3)'(4 5 6)'(7 8 9))
+(12 15 18)
+
+Calculo de hipotenusa
+CL-USER> (defun hip (a b) (sqrt (+ (expt a 2) (expt b 2))))
+HIP
+CL-USER> (hip 3 4)
+5.0
+
+Ahora con listas
+CL-USER> (mapc 'hip '(3 4 5) '(6 7 8))
+6.708204
+8.062258
+9.433981
+(3 4 5)
+
+para tener un salto de line usar (terpri)
+CL-USER> (defun hip (a b) (print ( sqrt (+ (expt a 2) (expt b 2))))
+(terpri)
+)
+WARNING: redefining COMMON-LISP-USER::HIP in DEFUN
+HIP
+CL-USER> (mapc 'hip '(3 4 5) '(6 7 8))
+6.708204
+
+8.062258
+
+9.433981
+(3 4 5)
+
+
+Uso de apply
+CL-USER> (apply 'sqrt '(8))
+2.828427
+
+CL-USER> (defun row (N)
+(do (( A 1 (1+ A)))
+((= A (+ N 1)) 'FIN)
+(format T "~D" N)
+)
+(terpri)
+)
+ROW
+CL-USER> (row 6)
+666666
+NIL
+CL-USER> (defun asterisk (B) (mapcar 'row B))
+ASTERISK
+CL-USER> (asterisk '(4 6 8))
+4444
+666666
+88888888
+*******************************************************************************************
+hacer un programa para saber si todos son pares y uno es negativo
+CL-USER> (defun pares (n) (evenp n))
+PARES
+CL-USER> (pares 6)
+T
+CL-USER> (defun TodosPares (b) (mapcar 'pares b))
+TODOSPARES
+CL-USER> (todospares '(2 4 6))
+(T T T)
+CL-USER> (todospares '(2 4 5))
+(T T NIL)
+
+numeros a hexadecimal
+CL-USER> (defun hexa (n)
+	(format T "~x~%" N)
+		)
+HEXA
+CL-USER> (defun funcion8 (h) (mapcar 'hexa h))
+FUNCION8
+CL-USER> (funcion8 '(15 4 10 16))
+F
+4
+A
+10
+
+IMprimir Par o impar
+CL-USER> (defun imprimirpar (g) (if (evenp g) (print 'par)) (print 'impar))
+IMPRIMIRPAR
+CL-USER> (defun parimpar (m) (mapcar 'imprimirpar m))
+PARIMPAR
+CL-USER> (parimpar '(2 4 8 7 5))
+"par"
+"par"
+"par"
+"impar"
+"impar"
+("par" "par" "par" "impar" "impar")
+
+
+Numweos romanos
+CL-USER> (DEFUN digitoROM (A)
+(case A
+(1 (print 'I))
+(2 (print 'II))
+(3 (print 'III))
+(4 (print 'IV))
+(5 (print 'V))
+(6 (print 'VI))
+(7 (print 'VII))
+(8 (print 'VIII))
+(9 (print 'IX))
+)
+)
+WARNING: redefining COMMON-LISP-USER::DIGITOROM in DEFUN
+DIGITOROM
+CL-USER> (defun digitos_romanos (x) (mapc 'digitorom x))
+WARNING: redefining COMMON-LISP-USER::DIGITOS_ROMANOS in DEFUN
+DIGITOS_ROMANOS
+CL-USER> (digitos_romanos '(1 5 9))
+I
+V
+IX
+(1 5 9)
+CL-USER> (defun digito_romano_bis (g) (mapcar 'digitorom g))
+DIGITO_ROMANO_BIS
+CL-USER> (digito_romano_bis '( 1 5 9))
+I
+V
+IX
+(I V IX)
+---------------------------------------------------------------------------------
+14/10/2022
+lisp repaso
+1. aplique la función para que muestre el producto de una lista de enteros
+2. Defina una función, reciba dos listas como parámetros, y devuelva el producto de los elementos de ambas listas.
+       (produc ‘(2 4) ‘(3 2 5))
+                   240
+3. Realice una función que lea los catetos a y b de un triangulo e imprima la hipotenusa.
+4. Defina una función que lea un número entero y lo muestre en binario, octal y hexadecimal.
+5. Use la funcion Do, para mostrar la siguiente secuencia:  1 2 4 8 16 32 …67108864. 
+6. Que potencia para la base 2, se necesita para obtener el número: 134217728
+7. Muestre en pantalla el valor del numero E.  
+8. Dada una lista, indicar si todos sus elementos son pares.
+9. Dada una lista, indicar si alguno de sus elementos es número.
+10. Muestre el seno de E. 
+11. Escriba una función que reciba un valor en radianes y regrese el valor correspondiente en grados.
+12. Dada una lista, devuelva su quinto elemento, multiplicado por su sexto elemento.
+13. Lea tres palabras del teclado y devuelva una lista con esas palabras.
+14. Repase el manual y pruebe otras funciones
+
+*******************************************************************************************
+18/10/2022	Grupo Saul
+1. (firstSecond '(A B C) '(D E F))		'(A E)
+CL-USER> (defun firstSecond (L1 L2)
+           (list
+             (first L1)
+             (second L2)
+             )
+           )
+FIRSTSECOND
+CL-USER> (firstsecond '(A B C) '(D E F))
+(A E)
+
+2.
+3.(secondHalf '(1 2 3 4 5 6))			'(4 5 6)
+	Tips: (butlast)(length)
+4. (ZeroList)
+	ingrese un numero: 4			'(0 0 0 0)
+	Tips: (make-list)(read)(print)
+(MAKE-LIST 3 :INITIAL-ELEMENT 'Z) ---> (Z Z Z)
+
+5. (mirror '(1 2 3 4))				'(1 2 3 4 4 3 2 1)
+	Tips:(append)(nconc)(reverse)
+CL-USER> (defun mirror (L1)
+          (append L1 (reverse L1)) )
+MIRROR
+CL-USER> (mirror '(1 2 3 4))
+(1 2 3 4 4 3 2 1)
+
+6. (lista 5)					'(1 2 3 4 5)
+	Tips:(progn)(setq)(cons)(do)(setq L'())
+7.(binario 8)					'(1 10 11 100 101 110 111 1000)
+	Tips: (do) (setq) *print-base* (print) (cons)
+8. (factorial 5)				120
+	Tips: Ejecute la funcion por pasos: (trace factorial)
+CL-USER> (defun factorial (n)
+           (cond ((= n 1) 1)
+                 (t (* n (factorial (- n 1))))
+                 )
+           )
+FACTORIAL
+CL-USER> (factorial 5)
+120
+
+9. (fibonacii 6)					1 1 2 3 5 8
+	Tip:Use recursibidad
+CL-USER> (defun fibonacci (n)
+           (cond ((= n 1) 1)
+                 (t (cond ((= n 0) 0)
+                          (t (+ (fibonacci (- n 1)) (fibonacci (- n 2)) ))
+                          )
+                    )
+                 )
+           )
+FIBONACCI
+CL-USER> (fibonacci 14)
+377
+
+10. Use la funcipn (with-open-file), para escribir en el archivo, las funciones 1-6, cargue su archivo (load "math.pl) y pruebe las funciones.
+11. Repase las funciones vistas hasta el momento
+-------------------------------------------------------------------------------------------
+19/10/2022	Lisp práctica 
+1. (ThreeFourFive ‘(1 2 3) ‘(4 5 7 6) ‘(7 8 1 1 9))        (3 6 9)
+CL-USER> (defun threefourfive (L1 L2 L3)
+           (list
+             (third L1)
+             (fourth L2)
+             (fifth L3)
+             )
+           )
+THREEFOURFIVE
+CL-USER> (threefourfive '(1 2 3) '(4 5 7 6) '(7 8 1 1 9))
+(3 6 9)
+
+2. (raicesCubicas ‘(8 27 64))   (2 3 4)
+CL-USER> (defun cubicroot (n)
+           (expt n (/ 1 3)))
+CUBICROOT
+CL-USER> (mapcar 'cubicroot '(8 27 64))
+(2.0 3.0 4.0)
+
+3. (secuencia 9)  (9 8 7 6 5 4 3 2 1)
+4. (paresCubos ‘(1 2 3 4))                                8  64    
+5. (palindromo ‘(o s o))   (o s o) Si es palindromo
+6. (binario 9)   (0 1 10 11 100 101 110 111 1000 1001)
+7. (numero 15)   15 1111 17 F
+8. (edad)   Ingrese su edad: 20   Ud es mayor de edad
+9. (restos ‘(a b c) (d e f))  (b c e f)
+10. Pruebe 5 funciones de listas del manual
+11. (factorial 5)  120. (esta en el manual)
+12. (secondhalf ‘(1 2 3 4))  (3 4)
+13. Escriba las funciones a un archivo
+14. Cargue su archivo
+15. Use las funciones de su archivo

@@ -1,0 +1,47 @@
+SWI-PROLOG. PRACTICA 11 DE NOV 
+
+% cada quien con los datos de sy familia
+parent('oliver','Alejandro').
+parent('lulu','Alejandro').
+parent('oliver','Daniel').
+parent('lulu','Daniel'). 
+% mis abuelos paternos. 
+parent('santiago','oliver').
+%mis abuelos maternos. 
+parent('maria','lulu'). 
+%papas de un tio
+parent('santiago','elena').
+parent('Luis','elena').
+
+abuelo(X,Y):- parent(X,Z), parent(Z,Y). 
+
+uncle(X,Y):- parent(W,X), parent(W,Z), X\=Z,
+                         parent(Z,Y).
+brother(X,Y):- parent(P,X),parent(P.Y),X\=Y. 
+%comando para saber que pedo con este programa. 
+%parent(X,Y),parent(Z,W).
+
+----------------------------------------------------
+FIBONACCI
+
+fib(0, 1) :- !.
+fib(1, 1) :- !.
+fib(N, F) :-
+        N > 1,
+        N1 is N-1,
+        N2 is N-2,
+        fib(N1, F1),
+        fib(N2, F2),
+        F is F1+F2.
+% CODIGO A EJECUTAR 
+time(fib(5, Fib)).
+%codigo de fib en simulador, 
+fib(8,F).
+
+
+
+
+
+
+
+

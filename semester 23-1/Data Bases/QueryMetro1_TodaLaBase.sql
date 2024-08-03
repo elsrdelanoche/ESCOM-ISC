@@ -1,0 +1,1 @@
+select *from ingresos_metro
