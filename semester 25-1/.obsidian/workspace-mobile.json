@@ -1,0 +1,226 @@
+{
+  "main": {
+    "id": "f13fadd905423eeb",
+    "type": "split",
+    "children": [
+      {
+        "id": "3bbbd57dd7e32c3a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7c6952e38a3df821",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GYM/Rutina Sep 23/Jueves.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ee9157e4317ad493",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GYM/Rutina Sep 23/Viernes.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "85305ed06ccd3346",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "002fff269d9c86a4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ESCOM/24-1/Probabilidad y estadistica/C13 Var aleatorias.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c1b1d7cf8d7ebebc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GYM/Rutina Sep 23/Sabado.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "3a616b6d0e76c33d",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "2009ca1766c91d4b",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "2ca61e30c642e724",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "60cf24d12c83fb2b",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          }
+        }
+      },
+      {
+        "id": "315fec8a0fe7f5b0",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {}
+        }
+      },
+      {
+        "id": "6706e33c2a50bf1d",
+        "type": "leaf",
+        "state": {
+          "type": "all-properties",
+          "state": {
+            "sortOrder": "frequency"
+          }
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "8cd2ac19aec05ff7",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "b8fe21671cd91a82",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "GYM/Rutina Sep 23/Sabado.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "19686579a4ba8a70",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "GYM/Rutina Sep 23/Sabado.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "fd972ed2331e8a8e",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "GYM/Rutina Sep 23/Sabado.md"
+          }
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "c1b1d7cf8d7ebebc",
+  "lastOpenFiles": [
+    "GYM/Rutina Sep 23/Progreso carrera.md",
+    "GYM/Rutina Sep 23/Jueves.md",
+    "GYM/Rutina Sep 23/Viernes.md",
+    "GYM/Rutina Sep 23/Miercoles.md",
+    "ESCOM/24-1/Probabilidad y estadistica/C6.md",
+    "Excalidraw/cervezas.excalidraw.md",
+    "ESCOM/24-1/Probabilidad y estadistica/Clase 1.md",
+    "GYM/Rutina Sep 23/Lunes.md",
+    "GYM/Rutina Sep 23/Sabado.md",
+    "C15 promedio.md",
+    "ESCOM/24-1/Probabilidad y estadistica/C13 Var aleatorias.md",
+    "Untitled",
+    "Excalidraw/VariableAlt2.excalidraw.md",
+    "Personal/Personal.md",
+    "Personal/Daily dreams/Octubre 23.md",
+    "Personal/Pensamientos.md",
+    "Personal/Ideas/Ideas.md",
+    "La crítica es para todo aquel que quiera criticar.md",
+    "Excalidraw/Drawing 2023-10-03 06.28.09.excalidraw.md",
+    "ESCOM/24-1/Probabilidad y estadistica/c10.md",
+    "GYM/Rutina Sep 23/Martes.md",
+    "16 de octubre 2023.md",
+    "15 octubre 2023.md",
+    "Daily dreams",
+    "Personal",
+    "Ideas",
+    "ESCOM/24-1/Probabilidad y estadistica/Clase 2.md",
+    "Pasted image 20230830161426.png.md",
+    "ESCOM/24-1/Probabilidad y estadistica/Clase 0.md",
+    "ESCOM/24-1/Probabilidad y estadistica/C11.md",
+    "ESCOM/24-1/Compiladores/Material Profe/Compiladores, principios, técnicas y herramientas.pdf",
+    "attachments/Pasted image 20230908113441.png",
+    "Context/spacesLastSync.log"
+  ]
+}
