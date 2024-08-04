@@ -1,8 +1,0 @@
-ENTITY restador IS
-    PORT (
-	a : in std_logic  ; 
-	b : in std_logic  ; 
-	r : inout std_logic  ; 
-	carry : inout std_logic 
-    ) ;
-END restador ;

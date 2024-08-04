@@ -1,7 +1,0 @@
-ENTITY bin_to_7seg IS
-    PORT (
-	clk : in std_logic  ; 
-	bin_in : in std_logic_vector (3 downto 0) ; 
-	seg : inout std_logic_vector (6 downto 0)
-    ) ;
-END bin_to_7seg ;

@@ -1,8 +1,0 @@
-ENTITY sum_diff_2bit IS
-    PORT (
-	a : in std_logic_vector (1 downto 0) ; 
-	b : in std_logic_vector (1 downto 0) ; 
-	operation : in std_logic  ; 
-	seg : inout std_logic_vector (6 downto 0)
-    ) ;
-END sum_diff_2bit ;

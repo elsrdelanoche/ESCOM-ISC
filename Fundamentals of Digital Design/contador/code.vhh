@@ -1,7 +1,0 @@
-ENTITY contador IS
-    PORT (
-	clk : in std_logic  ; 
-	reset : in std_logic  ; 
-	salida_IBV : inout std_logic_vector (7 downto 0)
-    ) ;
-END contador ;

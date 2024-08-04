@@ -1,2 +1,0 @@
-codigo.vhd #Entity half_adder 4
-codigo.vhd #Architecture behavioral half_adder 11
