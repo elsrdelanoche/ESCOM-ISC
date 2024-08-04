@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/alfre/Desktop/resume/resume2/ESCOM-ISC",
-      "program": "c:/Users/alfre/Desktop/resume/resume2/ESCOM-ISC/build/Debug/outDebug",
+      "cwd": "c:/Users/alfre/Documents/GitHub/ESCOM-ISC",
+      "program": "c:/Users/alfre/Documents/GitHub/ESCOM-ISC/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
