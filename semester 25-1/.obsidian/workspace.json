@@ -13,13 +13,22 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ESCOM/24-2/Software Engineer/1er Parcial.md",
+                "file": "Administracion-de-Servicios-en-Red/Prueba.md",
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "2e1696b202d656dd",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -43,7 +52,7 @@
             }
           },
           {
-            "id": "0ca8cfa0ad4f2d60",
+            "id": "26a0f886a7290e67",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -58,14 +67,15 @@
             }
           },
           {
-            "id": "eba037f2955d80e5",
+            "id": "f37a7fd6499a5179",
             "type": "leaf",
             "state": {
-              "type": "bookmarks",
+              "type": "mk-path-view",
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -85,7 +95,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ESCOM/24-2/Software Engineer/1er Parcial.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,20 +111,8 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ESCOM/24-2/Software Engineer/1er Parcial.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "af36a0dba20fbce5",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true
               }
             }
           },
@@ -124,9 +121,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "ESCOM/24-2/Software Engineer/1er Parcial.md"
-              }
+              "state": {}
             }
           },
           {
@@ -140,6 +135,17 @@
                 "searchQuery": ""
               }
             }
+          },
+          {
+            "id": "58257f218a36e0f0",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
           }
         ]
       }
@@ -150,18 +156,20 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-kanban:Create new board": false,
       "switcher:Abrir selector rápido": false,
       "graph:Abrir vista gráfica": false,
-      "canvas:Crear nuevo lienzo": false,
-      "daily-notes:Abrir la nota de hoy": false,
       "templates:Insertar plantilla": false,
       "command-palette:Abrir paleta de comandos": false,
-      "obsidian-kanban:Create new board": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "omnisearch:Omnisearch": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "2dc2f281dd2f43ce",
+  "active": "f37a7fd6499a5179",
   "lastOpenFiles": [
+    "Tags",
+    "Administracion-de-Servicios-en-Red/Prueba.md",
     "ESCOM/24-2/Instrumentación y control/3er Parcial.md",
     "ESCOM/24-2/Instrumentación y control/2do Parcial.md",
     "ESCOM/24-2/Instrumentación y control/1er Parcial.md",
@@ -186,8 +194,6 @@
     "ESCOM/24-1/FEPI/Clase 3.md",
     "ESCOM/24-1/FEPI/FEPI.md",
     "ESCOM/24-1/Compiladores/Clase 0.md",
-    "ESCOM/24-1/Compiladores/C7.md",
-    "ESCOM/24-1/Compiladores/C6.md",
     "ESCOM/24-2/Instrumentación y control/Material Z/ProyectoInstru.pdf"
   ]
 }

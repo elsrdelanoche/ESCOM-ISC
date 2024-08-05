@@ -4,6 +4,8 @@
 #include <tuple>
 #include <fstream>
 #include <sstream>
+#include <thread>
+#include <chrono>
 
 using namespace std;
 
@@ -13,9 +15,15 @@ public:
         : tape(tape), head(0), currentState(initialState), transitionTable(transitionTable) {}
 
     void execute() {
+        cout << "Starting Turing Machine Execution..." << endl;
+        cout << "Initial Tape: ";
+        printTape();
         while (true) {
+            this_thread::sleep_for(chrono::milliseconds(500)); // Pause for visualization
+
             if (transitionTable.find({currentState, tape[head]}) == transitionTable.end()) {
-                cout << "Final State Reached: " << currentState << endl;
+                cout << "\nFinal State Reached: " << currentState << endl;
+                cout << "Final Tape: ";
                 printTape();
                 return;
             }
@@ -25,7 +33,9 @@ public:
             currentState = nextState;
             head += moveDirection;
 
+            cout << "\nStep: ";
             printTape();
+            cout << "Current State: " << currentState << endl;
         }
     }
 
@@ -36,14 +46,15 @@ private:
     unordered_map<tuple<int, char>, tuple<int, char, int>> transitionTable;
 
     void printTape() {
+        cout << "| ";
         for (int i = 0; i < tape.size(); ++i) {
             if (i == head) {
-                cout << '[' << tape[i] << ']';
+                cout << '[' << tape[i] << "] ";
             } else {
-                cout << ' ' << tape[i] << ' ';
+                cout << ' ' << tape[i] << "  ";
             }
         }
-        cout << endl;
+        cout << '|' << endl;
     }
 };
 
@@ -54,18 +65,17 @@ unordered_map<tuple<int, char>, tuple<int, char, int>> parseTransitionTable(istr
         istringstream iss(line);
         int currentState, nextState, moveDirection;
         char readSymbol, writeSymbol;
-        if (!(iss >> currentState >> readSymbol >> nextState >> writeSymbol >> moveDirection)) {
-            cerr << "Error parsing transition table." << endl;
-            continue;
+        if (iss >> currentState >> readSymbol >> nextState >> writeSymbol >> moveDirection) {
+            transitionTable[{currentState, readSymbol}] = {nextState, writeSymbol, moveDirection};
+        } else {
+            cerr << "Error parsing line: " << line << endl;
         }
-        transitionTable[{currentState, readSymbol}] = {nextState, writeSymbol, moveDirection};
     }
     return transitionTable;
 }
 
 vector<char> parseTape(const string& input) {
-    vector<char> tape(input.begin(), input.end());
-    return tape;
+    return vector<char>(input.begin(), input.end());
 }
 
 int main() {
@@ -90,14 +100,18 @@ int main() {
         cin.ignore();
 
         cout << "Enter transition table (end with an empty line):\n";
-        istringstream iss;
         string line;
         while (true) {
             getline(cin, line);
             if (line.empty()) break;
-            iss.str(line);
-            iss.clear();
-            transitionTable = parseTransitionTable(iss);
+            istringstream iss(line);
+            int currentState, nextState, moveDirection;
+            char readSymbol, writeSymbol;
+            if (!(iss >> currentState >> readSymbol >> nextState >> writeSymbol >> moveDirection)) {
+                cerr << "Error parsing transition table." << endl;
+                continue;
+            }
+            transitionTable[{currentState, readSymbol}] = {nextState, writeSymbol, moveDirection};
         }
     } else if (choice == 2) {
         // Input from file
@@ -129,3 +143,4 @@ int main() {
 
     return 0;
 }
+

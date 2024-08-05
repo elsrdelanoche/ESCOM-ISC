@@ -1,4 +1,6 @@
 {
-  "cssTheme": "Tokyo Night",
-  "accentColor": "#00c9cc"
+  "cssTheme": "AnuPpuccin",
+  "accentColor": "#0091ff",
+  "interfaceFontFamily": "",
+  "monospaceFontFamily": "Consolas"
 }

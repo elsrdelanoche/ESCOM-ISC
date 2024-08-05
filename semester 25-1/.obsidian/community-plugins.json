@@ -1,6 +1,11 @@
 [
   "obsidian-kanban",
   "obsidian-excalidraw-plugin",
-  "obsidian-git",
-  "nldates-obsidian"
+  "nldates-obsidian",
+  "omnisearch",
+  "editing-toolbar",
+  "cmenu-plugin",
+  "table-editor-obsidian",
+  "make-md",
+  "obsidian-tracker"
 ]
