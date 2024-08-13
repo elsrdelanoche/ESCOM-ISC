@@ -42,7 +42,9 @@
   "showRibbon": true,
   "deleteFileOption": "trash",
   "expandedSpaces": [
-    "//Tags"
+    "//Tags",
+    "/",
+    "//Administracion-de-Servicios-en-Red"
   ],
   "expandFolderOnClick": true,
   "menuTriggerChar": "/",
