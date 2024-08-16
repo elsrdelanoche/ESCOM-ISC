@@ -11,8 +11,12 @@
             "id": "2e1696b202d656dd",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Inteligencia-Artificial/Inteligencia artificial.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -66,7 +70,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "c15648a40d8a8acb",
@@ -82,6 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Inteligencia-Artificial/Inteligencia artificial.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,6 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Inteligencia-Artificial/Inteligencia artificial.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -108,7 +115,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Inteligencia-Artificial/Inteligencia artificial.md"
+              }
             }
           },
           {
@@ -153,12 +162,15 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "f37a7fd6499a5179",
+  "active": "2e1696b202d656dd",
   "lastOpenFiles": [
+    "Inteligencia-Artificial/attachments/Pasted image 20240816014556.png",
+    "Inteligencia-Artificial/attachments/Pasted image 20240816014259.png",
+    "Inteligencia-Artificial/attachments",
+    "Tags",
     "Inteligencia-Artificial/Inteligencia artificial.md",
     "Excalidraw/Drawing 2024-08-13 00.33.52.excalidraw.md",
     "Excalidraw",
-    "Tags",
     "Administracion-de-Servicios-en-Red/Prueba.md",
     "Sistemas-Distribuidos",
     "Arquitectura-de-Computadoras",
@@ -186,7 +198,6 @@
     "ESCOM/24-1/FEPI/C8 Preguntas.md",
     "ESCOM/24-1/FEPI/Clase 4.md",
     "ESCOM/24-1/FEPI/Clase 3.md",
-    "ESCOM/24-1/FEPI/FEPI.md",
     "ESCOM/24-2/Instrumentación y control/Material Z/ProyectoInstru.pdf"
   ]
 }

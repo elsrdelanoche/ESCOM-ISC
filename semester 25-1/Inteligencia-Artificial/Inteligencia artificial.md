@@ -92,33 +92,33 @@ Según Howard Gardner, existen varios tipos de inteligencias múltiples bien def
 ## **1.2 Historia de la inteligencia Artificial**
 La historia de la inteligencia artificial **comenzó en 1943** con la publicación del artículo «A Logical Calculus of Ideas Immanent in Nervous Activity» de Warren McCullough y Walter Pitts. En ese trabajo, los científicos presentaron el primer modelo matemático para la creación de una red neuronal.
 
-El **primer ordenador de red neuronal**, Snarc, fue creado en 1950 por dos alumnos de Harvard: Marvin Minsky y Dean Edmonds. Ese mismo año, Alan Turing publicó el Test de Turing, que todavía se utiliza hoy para valorar las IA.
+- El **primer ordenador de red neuronal**, Snarc, fue creado en 1950 por dos alumnos de Harvard: Marvin Minsky y Dean Edmonds. Ese mismo año, Alan Turing publicó el Test de Turing, que todavía se utiliza hoy para valorar las IA.
 
-En 1952, Arthur Samuel creó un software capaz **de aprender a jugar al ajedrez** de forma autónoma. El término inteligencia artificial fue utilizado por primera vez en la conferencia «Dartmouth Summer Research Project on Artificial Intelligence» de John McCarthy en 1956.
+- En 1952, Arthur Samuel creó un software capaz **de aprender a jugar al ajedrez** de forma autónoma. El término inteligencia artificial fue utilizado por primera vez en la conferencia «Dartmouth Summer Research Project on Artificial Intelligence» de John McCarthy en 1956.
 
-En ese acto, los investigadores presentaron los objetivos y la visión de la IA. Muchos consideran esta conferencia como **el verdadero nacimiento** de la inteligencia artificial, tal y como se conoce hoy en día.
+- En ese acto, los investigadores presentaron los objetivos y la visión de la IA. Muchos consideran esta conferencia como **el verdadero nacimiento** de la inteligencia artificial, tal y como se conoce hoy en día.
 
-En 1959, Arthur Samuel acuñó **el término Machine Learning** mientras trabajaba en IBM. Por su parte, John McCarthy y Marvin Minsky fundaron el MIT Artificial Intelligence Project. En 1963, John McCarthy también creó el «AI Lab» en la Universidad de Stanford.
+- En 1959, Arthur Samuel acuñó **el término Machine Learning** mientras trabajaba en IBM. Por su parte, John McCarthy y Marvin Minsky fundaron el MIT Artificial Intelligence Project. En 1963, John McCarthy también creó el «AI Lab» en la Universidad de Stanford.
 
-En los siguientes años, se cernieron dudas sobre el campo de la IA. En 1966, **el informe estadounidense ALPAC** puso de manifiesto la falta de avances en la investigación de la traducción automática destinada a traducir simultáneamente la lengua rusa en el contexto de la Guerra Fría. Muchos proyectos financiados por el gobierno estadounidense fueron cancelados.
+- En los siguientes años, se cernieron dudas sobre el campo de la IA. En 1966, **el informe estadounidense ALPAC** puso de manifiesto la falta de avances en la investigación de la traducción automática destinada a traducir simultáneamente la lengua rusa en el contexto de la Guerra Fría. Muchos proyectos financiados por el gobierno estadounidense fueron cancelados.
 
-Del mismo modo, en 1973, el gobierno británico publicó su informe «Lighthill» en el que destacaba las decepciones de la investigación en IA. Una vez más, los proyectos de investigación fueron reducidos por los recortes presupuestarios. Este periodo de duda duró hasta 1980, y ahora se denomina el «**primer invierno de la IA**«.
+- Del mismo modo, en 1973, el gobierno británico publicó su informe «Lighthill» en el que destacaba las decepciones de la investigación en IA. Una vez más, los proyectos de investigación fueron reducidos por los recortes presupuestarios. Este periodo de duda duró hasta 1980, y ahora se denomina el «**primer invierno de la IA**«.
 
-Ese invierno terminó con **la creación de R1 (XCON)** por parte de Digital Equipment Corporations. Este sistema comercial experto está diseñado para configurar los pedidos de nuevos sistemas informáticos, y provocó un auténtico auge de las inversiones que se prolongó durante más de una década.
+- Ese invierno terminó con **la creación de R1 (XCON)** por parte de Digital Equipment Corporations. Este sistema comercial experto está diseñado para configurar los pedidos de nuevos sistemas informáticos, y provocó un auténtico auge de las inversiones que se prolongó durante más de una década.
 
-Japón y Estados Unidos hicieron grandes inversiones en la investigación de la IA. Las empresas se gastaron **más de mil millones de dólares al año** en sistemas expertos y el sector no paraba de crecer.
+- Japón y Estados Unidos hicieron grandes inversiones en la investigación de la IA. Las empresas se gastaron **más de mil millones de dólares al año** en sistemas expertos y el sector no paraba de crecer.
 
-Desgraciadamente, el mercado de las máquinas “Lisp” se desplomó en 1987 al surgir alternativas más baratas. Este fue **el «segundo invierno de la IA»**. Las empresas perdieron el interés por los sistemas expertos. Los gobiernos de Estados Unidos y Japón abandonaron sus proyectos de investigación y se gastaron miles de millones de dólares para nada.
+- Desgraciadamente, el mercado de las máquinas “Lisp” se desplomó en 1987 al surgir alternativas más baratas. Este fue **el «segundo invierno de la IA»**. Las empresas perdieron el interés por los sistemas expertos. Los gobiernos de Estados Unidos y Japón abandonaron sus proyectos de investigación y se gastaron miles de millones de dólares para nada.
 
-_Diez años después, en 1997, la historia de la IA estuvo marcada por un acontecimiento importante. La IA Deep Blue de IBM triunfó sobre el campeón mundial de ajedrez Gary Kasparov. Por primera vez, el hombre fue derrotado por la máquina._
+- _Diez años después, en 1997, la historia de la IA estuvo marcada por un acontecimiento importante. La IA Deep Blue de IBM triunfó sobre el campeón mundial de ajedrez Gary Kasparov. Por primera vez, el hombre fue derrotado por la máquina._
 
-Diez años después, los avances tecnológicos permitieron **el resurgimiento de la inteligencia artificial**. En 2008, Google hizo grandes avances en el reconocimiento de voz y lanzó esa función en sus aplicaciones para smartphones.
+- Diez años después, los avances tecnológicos permitieron **el resurgimiento de la inteligencia artificial**. En 2008, Google hizo grandes avances en el reconocimiento de voz y lanzó esa función en sus aplicaciones para smartphones.
 
-En 2012, Andrew Ng alimentó una red neuronal con **10 millones de vídeos de YouTube** como serie de datos de entrenamiento. Gracias al Deep Learning, esta red neuronal aprendió a reconocer un gato sin que se le enseñara lo que es un gato. Este fue el inicio de una nueva era para Deep Learning.
+- En 2012, Andrew Ng alimentó una red neuronal con **10 millones de vídeos de YouTube** como serie de datos de entrenamiento. Gracias al Deep Learning, esta red neuronal aprendió a reconocer un gato sin que se le enseñara lo que es un gato. Este fue el inicio de una nueva era para Deep Learning.
 
-En 2016 se produjo otra victoria de la IA sobre el ser humano, con **el triunfo del sistema AlphaGo** de Google DeepMind sobre Lee Sedol, el campeón de Go. La inteligencia artificial también conquistó el campo de los videojuegos, especialmente con DeepMind AlphaStar en Starcraft u OpenAI Five en Dota 2.
+- En 2016 se produjo otra victoria de la IA sobre el ser humano, con **el triunfo del sistema AlphaGo** de Google DeepMind sobre Lee Sedol, el campeón de Go. La inteligencia artificial también conquistó el campo de los videojuegos, especialmente con DeepMind AlphaStar en Starcraft u OpenAI Five en Dota 2.
 
-Actualmente, empresas de todos los sectores utilizan el Deep Learning y el Machine Learning para infinidad de aplicaciones. La IA no deja de avanzar y sorprender con su rendimiento. El **sueño de la inteligencia artificial general** se acerca cada vez más a la realidad.
+- Actualmente, empresas de todos los sectores utilizan el Deep Learning y el Machine Learning para infinidad de aplicaciones. La IA no deja de avanzar y sorprender con su rendimiento. El **sueño de la inteligencia artificial general** se acerca cada vez más a la realidad.
 
 ## 1.3 Problemas, áreas y aplicaciones de la inteligencia artificial
 El impacto de la inteligencia artificial en la sociedad es profundo y abarca diversas áreas, entre ellas la empresarial. El uso de [**herramientas de inteligencia artificial**](https://www.apd.es/herramientas-ia-productividad-empresa/) ha demostrado ser una herramienta poderosa para impulsar la eficiencia en organizaciones. Los **campos de aplicación** de la [**inteligencia artificial en las empresas**](https://www.apd.es/el-gran-impacto-de-la-inteligencia-artificial-en-las-empresas/) son muchos, y algunos están orientados a satisfacer necesidades muy distintas.
@@ -222,16 +222,29 @@ Los agentes inteligentes se clasifican en 6 [tipos](https://www.ceupe.com/blog/
 - Sistemas de análisis de la competencia laboral.
 - Elaboración de agentes con la capacidad de mantener una comunicación fluida con usuarios.
 # 2.Algoritmos de búsqueda
-	- 2.1 Problemas y espacios de búsqueda
-		- 2.1.1 Caracterización de problemas
-		- 2.1.2 Espacios de búsqueda
-	- 2.2 Algoritmos de búsqueda no informados
-		- 2.2.1 Búsqueda en anchura 
-		- 2.2.2 Búsqueda en profundidad
-	- 2.3 Algoritmos de búsqueda informados 
-		- 2.3.1 Heurística 
-		- 2.3.2 Algoritmo de escalada simple y primero el mejor 
-		- 2.3.3 Algoritmo A*
+## 2.1 Problemas y espacios de búsqueda
+Podemos pensar en una variedad de problemas que van desde cómo alcanzar una fuente de comida situada a cierta distancia y a la que no se puede ir directamente, hasta cómo resolver un pequeño juego como podría ser el famoso cubo de Rubik, o resolver el problema matemático de encontrar la solución a una ecuación numérica. 
+
+Lo que consideremos o no solución dependerá del contexto concreto del problema, y puede ser, por ejemplo, el conjunto de acciones que nos llevan a cumplir cierta propiedad, conseguir cierto objetivo, o verificar ciertas restricciones.
+
+Una de las aproximaciones más generales y sencillas de formalizar un problema y sus posibles mecanismos de solución es por medio de lo que se denomina **espacio de estados**. Antes de definir formalmente en qué consiste este espacio, observemos que en todo momento estamos tratando con métodos en los que la resolución de los problemas se dan de forma dinámica, es decir, se supone que se produce una evolución temporal, que pasa por etapas, que nos permite llegar de la situación inicial en la que el problema se presenta hasta una situación final en la que se ha encontrado la solución del mismo. Es precisamente esta dinámica, en la que aplicamos las acciones u operaciones de las que disponemos, la que permite ir modificando cada situación posible para llevarnos desde el inicio a la solución. Simplemente, denominaremos **estado** a la _representación de los elementos que describen el problema en un momento dado_, es decir, a la situación en que se encuentra o se podría encontrar el problema en cada instante de tiempo.
+### 2.1.1 Caracterización de problemas
+Una de las aproximaciones más generales y sencillas de formalizar un problema y sus posibles mecanismos de solución es por medio de lo que se denomina **espacio de estados**. Antes de definir formalmente en qué consiste este espacio, observemos que en todo momento estamos tratando con métodos en los que la resolución de los problemas se dan de forma dinámica, es decir, se supone que se produce una evolución temporal, que pasa por etapas, que nos permite llegar de la situación inicial en la que el problema se presenta hasta una situación final en la que se ha encontrado la solución del mismo. Es precisamente esta dinámica, en la que aplicamos las acciones u operaciones de las que disponemos, la que permite ir modificando cada situación posible para llevarnos desde el inicio a la solución. Simplemente, denominaremos **estado** a la _representación de los elementos que describen el problema en un momento dado_, es decir, a la situación en que se encuentra o se podría encontrar el problema en cada instante de tiempo.
+![[Pasted image 20240816014556.png]]
+### 2.1.2 Espacios de búsqueda
+Normalmente, los algoritmos que vamos a ver se basan en la suposición de que el espacio de búsqueda tiene la estructura de un grafo dirigido: cada **nodo** del grafo representa uno de los estados del espacio, y dos nodos están conectados si existe una forma de ir de uno al otro por medio de una acción.
+
+Normalmente, cuando resolvemos el problema a partir de un estado particular, podemos construir un árbol que se construye partiendo del estado inicial y donde en cada nivel se añaden los estados que se pueden alcanzar desde los estados del nivel anterior (y que, en consecuencia, puede contener estados repetidos). En este caso, la **profundidad** (dd, de **depth**) del árbol es la longitud máxima de los caminos que se pueden construir desde cualquier nodo a la raíz; y el **factor de ramificación** (b, de **branch**) del árbol es el máximo número de sucesores que puede tener un nodo del árbol.
+
+En un árbol, los sucesores inmediatos de un nodo (salvo las **hojas**, claro, que son los nodos terminales) se llaman **hijos**, el predecesor de un nodo (salvo la **raíz**, que no tiene predecesor), que es único, se llama **padre**, y los nodos que tienen el padre común se llaman **hermanos**.
+![[Pasted image 20240816014259.png]]
+- 2.2 Algoritmos de búsqueda no informados
+- 2.2.1 Búsqueda en anchura 
+- 2.2.2 Búsqueda en profundidad
+- 2.3 Algoritmos de búsqueda informados 
+- 2.3.1 Heurística 
+- 2.3.2 Algoritmo de escalada simple y primero el mejor 
+- 2.3.3 Algoritmo A*
 	- 2.4 Búsqueda adversaria 
 		- 2.4.1 Algoritmo Min Max 
 		- 2.4.2 Algoritmo Poda Alpha Beta
