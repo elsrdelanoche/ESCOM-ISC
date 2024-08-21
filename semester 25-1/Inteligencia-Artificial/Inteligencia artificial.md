@@ -238,9 +238,39 @@ Normalmente, cuando resolvemos el problema a partir de un estado particular, pod
 
 En un árbol, los sucesores inmediatos de un nodo (salvo las **hojas**, claro, que son los nodos terminales) se llaman **hijos**, el predecesor de un nodo (salvo la **raíz**, que no tiene predecesor), que es único, se llama **padre**, y los nodos que tienen el padre común se llaman **hermanos**.
 ![[Pasted image 20240816014259.png]]
-- 2.2 Algoritmos de búsqueda no informados
-- 2.2.1 Búsqueda en anchura 
-- 2.2.2 Búsqueda en profundidad
+
+## 2.2 Algoritmos de búsqueda no informados
+La búsqueda no informada consiste en la selección e implementación de estrategias de búsqueda de un estado solución a partir de un estado inicial sin introducir al algoritmo de solución conocimiento sobre el impacto de las transiciones en la exploración del espacio de estados.
+### 2.2.1 Búsqueda en anchura (BFS)
+La búsqueda en anchura (BFS, breadth-first search) provee un algoritmo simple (basado en el recorrido de árboles por niveles) para encontrar un estado solución desde un estado inicial.
+
+Al implementarse mediante el recorrido por niveles, se requiere una estructura cola (FIFO, first-in, first-out)
+- En implementaciones multiagente, es posible que se requiera mantener la cola generada después de visitar (procesar) un nodo.
+
+
+``` python
+función BFS : nodo t;
+	retorna ruta //solucion
+
+	Q <- Cola() //Frontera
+	Q.encolar(t)
+	mientras ! Q.cola_vacia() do
+		//retorna el primer elemento de la cola
+		t <- Q.desencolar()
+		//revisar si es estado solución
+		si estado_objetivo(t)==verdadero
+			return reconstruir_solución(t)
+		t.hijos=expandir_nodo(t)
+		para cada H en t.hijos(t)	
+			Q.encolar(h)
+		fin_para
+	fin_mientras
+	retornar FALLO //p.ej. NULL o none
+```
+
+Ejemplo: Búsqueda de anchura
+![[IA_BFS.excalidraw]]
+### 2.2.2 Búsqueda en profundidad
 - 2.3 Algoritmos de búsqueda informados 
 - 2.3.1 Heurística 
 - 2.3.2 Algoritmo de escalada simple y primero el mejor 
