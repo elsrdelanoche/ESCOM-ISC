@@ -1,6 +1,7 @@
 {
   "cssTheme": "Tokyo Night",
-  "accentColor": "#0091ff",
+  "accentColor": "#ae00ff",
   "interfaceFontFamily": "",
-  "monospaceFontFamily": "Consolas"
+  "monospaceFontFamily": "Consolas",
+  "nativeMenus": true
 }

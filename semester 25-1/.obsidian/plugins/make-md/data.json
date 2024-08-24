@@ -42,10 +42,11 @@
   "showRibbon": true,
   "deleteFileOption": "trash",
   "expandedSpaces": [
-    "//Tags",
     "/",
-    "//Administracion-de-Servicios-en-Red",
-    "//Inteligencia-Artificial"
+    "//Excalidraw",
+    "//Inteligencia-Artificial",
+    "//attachments",
+    "//Tags"
   ],
   "expandFolderOnClick": true,
   "menuTriggerChar": "/",
@@ -86,7 +87,7 @@
   "fmKeyFilter": "_filters",
   "fmKeyLinks": "_links",
   "openSpacesOnLaunch": true,
-  "indexSVG": false,
+  "indexSVG": true,
   "quickFrames": [],
   "readableLineWidth": true,
   "autoAddContextsToSubtags": true,

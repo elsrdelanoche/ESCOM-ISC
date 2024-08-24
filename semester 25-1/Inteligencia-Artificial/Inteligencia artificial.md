@@ -230,14 +230,14 @@ Lo que consideremos o no solución dependerá del contexto concreto del problema
 Una de las aproximaciones más generales y sencillas de formalizar un problema y sus posibles mecanismos de solución es por medio de lo que se denomina **espacio de estados**. Antes de definir formalmente en qué consiste este espacio, observemos que en todo momento estamos tratando con métodos en los que la resolución de los problemas se dan de forma dinámica, es decir, se supone que se produce una evolución temporal, que pasa por etapas, que nos permite llegar de la situación inicial en la que el problema se presenta hasta una situación final en la que se ha encontrado la solución del mismo. Es precisamente esta dinámica, en la que aplicamos las acciones u operaciones de las que disponemos, la que permite ir modificando cada situación posible para llevarnos desde el inicio a la solución. Simplemente, denominaremos **estado** a la _representación de los elementos que describen el problema en un momento dado_, es decir, a la situación en que se encuentra o se podría encontrar el problema en cada instante de tiempo.
 ### 2.1.1 Caracterización de problemas
 Una de las aproximaciones más generales y sencillas de formalizar un problema y sus posibles mecanismos de solución es por medio de lo que se denomina **espacio de estados**. Antes de definir formalmente en qué consiste este espacio, observemos que en todo momento estamos tratando con métodos en los que la resolución de los problemas se dan de forma dinámica, es decir, se supone que se produce una evolución temporal, que pasa por etapas, que nos permite llegar de la situación inicial en la que el problema se presenta hasta una situación final en la que se ha encontrado la solución del mismo. Es precisamente esta dinámica, en la que aplicamos las acciones u operaciones de las que disponemos, la que permite ir modificando cada situación posible para llevarnos desde el inicio a la solución. Simplemente, denominaremos **estado** a la _representación de los elementos que describen el problema en un momento dado_, es decir, a la situación en que se encuentra o se podría encontrar el problema en cada instante de tiempo.
-![[Pasted image 20240816014556.png]]
+![[IA_Caracteristicas.excalidraw]]
 ### 2.1.2 Espacios de búsqueda
 Normalmente, los algoritmos que vamos a ver se basan en la suposición de que el espacio de búsqueda tiene la estructura de un grafo dirigido: cada **nodo** del grafo representa uno de los estados del espacio, y dos nodos están conectados si existe una forma de ir de uno al otro por medio de una acción.
 
 Normalmente, cuando resolvemos el problema a partir de un estado particular, podemos construir un árbol que se construye partiendo del estado inicial y donde en cada nivel se añaden los estados que se pueden alcanzar desde los estados del nivel anterior (y que, en consecuencia, puede contener estados repetidos). En este caso, la **profundidad** (dd, de **depth**) del árbol es la longitud máxima de los caminos que se pueden construir desde cualquier nodo a la raíz; y el **factor de ramificación** (b, de **branch**) del árbol es el máximo número de sucesores que puede tener un nodo del árbol.
 
 En un árbol, los sucesores inmediatos de un nodo (salvo las **hojas**, claro, que son los nodos terminales) se llaman **hijos**, el predecesor de un nodo (salvo la **raíz**, que no tiene predecesor), que es único, se llama **padre**, y los nodos que tienen el padre común se llaman **hermanos**.
-![[Pasted image 20240816014259.png]]
+![[IA_EspaciosBusqueda.excalidraw]]
 
 ## 2.2 Algoritmos de búsqueda no informados
 La búsqueda no informada consiste en la selección e implementación de estrategias de búsqueda de un estado solución a partir de un estado inicial sin introducir al algoritmo de solución conocimiento sobre el impacto de las transiciones en la exploración del espacio de estados.
@@ -326,3 +326,13 @@ Ejemplo: Búsqueda de anchura
 		- 5.2.3 Perceptrón simple y multicapa 
 		- 5.2.4 Propagación hacia atrás 
 		- 5.2.5 Aplicaciones
+
+# Referencias
+ [https://www.significados.com/inteligencia/](https://www.significados.com/inteligencia/)  
+[https://mexico.unir.net/noticias/educacion/howard-gardner-inteligencias-multiples-creatividad/](https://mexico.unir.net/noticias/educacion/howard-gardner-inteligencias-multiples-creatividad/)  
+[https://datascientest.com/es/inteligencia-artificial-definicion](https://datascientest.com/es/inteligencia-artificial-definicion)  
+[https://www.apd.es/tecnicas-de-la-inteligencia-artificial-cuales-son-y-para-que-se-utilizan/](https://www.apd.es/tecnicas-de-la-inteligencia-artificial-cuales-son-y-para-que-se-utilizan/)  
+[https://www.gq.com.mx/articulo/peligros-de-la-inteligencia-artificial](https://www.gq.com.mx/articulo/peligros-de-la-inteligencia-artificial)  
+[https://nuevosdialogos.unam.mx/comentarios/los-agentes-inteligentes-son-parte-de-la-ia/](https://nuevosdialogos.unam.mx/comentarios/los-agentes-inteligentes-son-parte-de-la-ia/)  
+[https://www.ceupe.com/blog/agente-inteligente.html](https://www.ceupe.com/blog/agente-inteligente.html)  
+[https://www.cs.us.es/~fsancho/Cursos/SVRAI/EspaciosEstados.md.html](https://www.cs.us.es/~fsancho/Cursos/SVRAI/EspaciosEstados.md.html)
