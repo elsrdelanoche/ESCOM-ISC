@@ -11,9 +11,11 @@
             "id": "20ba9e40399dad6b",
             "type": "leaf",
             "state": {
-              "type": "mk-space",
+              "type": "markdown",
               "state": {
-                "path": "06 - Inteligencia_Artificial"
+                "file": "05 - Arquitectura_de_Computadoras/Arquitectura de computadoras.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -63,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -84,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "05 - Arquitectura_de_Computadoras/Arquitectura de computadoras.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "05 - Arquitectura_de_Computadoras/Arquitectura de computadoras.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -110,7 +113,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "05 - Arquitectura_de_Computadoras/Arquitectura de computadoras.md"
+              }
             }
           },
           {
@@ -157,8 +162,10 @@
       "daily-notes:Open today's daily note": false
     }
   },
-  "active": "f37a7fd6499a5179",
+  "active": "20ba9e40399dad6b",
   "lastOpenFiles": [
+    "05 - Arquitectura_de_Computadoras/Arquitectura de computadoras.md",
+    "05 - Arquitectura_de_Computadoras/temario.pdf",
     "06 - Inteligencia_Artificial/06 - Inteligencia_Artificial.md",
     "05 - Arquitectura_de_Computadoras/05 - Arquitectura_de_Computadoras.md",
     "00 - attachments/IA_BFS.excalidraw.md",
@@ -185,7 +192,6 @@
     "Tags",
     "Vault.md",
     "07 - Sistemas_Distribuidos",
-    "06 - Aplicaciones_Comunicaciones_en_Red",
     "Administracion-de-Servicios-en-Red/Administracion-de-Servicios-en-Red.md",
     "# attachments/Drawing 2024-08-24 00.52.11.excalidraw.md",
     "Excalidraw/Drawing 2024-08-24 00.37.55.excalidraw.md",
@@ -197,7 +203,6 @@
     "attachments/Pasted Image 20240821125740_992.png",
     "attachments/Pasted Image 20240821115645_555.png",
     "SDGP.excalidraw.md",
-    "Excalidraw/Drawing 2024-08-13 00.33.52.excalidraw.md",
     "00 - attachments/Pasted image 20240816014259.png"
   ]
 }
