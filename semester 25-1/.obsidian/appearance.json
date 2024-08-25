@@ -1,7 +1,13 @@
 {
-  "cssTheme": "Tokyo Night",
-  "accentColor": "#ae00ff",
-  "interfaceFontFamily": "",
+  "cssTheme": "Vauxhall",
+  "accentColor": "",
+  "interfaceFontFamily": "JetBrains Mono",
   "monospaceFontFamily": "Consolas",
-  "nativeMenus": true
+  "nativeMenus": true,
+  "textFontFamily": "JetBrains Mono",
+  "baseFontSizeAction": true,
+  "enabledCssSnippets": [
+    "Colored Sidebar Items",
+    "General Tweaks"
+  ]
 }

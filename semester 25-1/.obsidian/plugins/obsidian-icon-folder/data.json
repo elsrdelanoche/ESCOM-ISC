@@ -1,0 +1,42 @@
+{
+  "settings": {
+    "migrated": 6,
+    "iconPacksPath": ".obsidian/icons",
+    "fontSize": 16,
+    "emojiStyle": "native",
+    "iconColor": null,
+    "recentlyUsedIcons": [
+      "LiCloud",
+      "LiWifi",
+      "LiBrainCircuit",
+      "LiNetwork",
+      "LiComputer"
+    ],
+    "recentlyUsedIconsSize": 5,
+    "rules": [],
+    "extraMargin": {
+      "top": 0,
+      "right": 4,
+      "bottom": 0,
+      "left": 0
+    },
+    "iconInTabsEnabled": false,
+    "iconInTitleEnabled": false,
+    "iconInTitlePosition": "above",
+    "iconInFrontmatterEnabled": false,
+    "iconInFrontmatterFieldName": "icon",
+    "iconColorInFrontmatterFieldName": "iconColor",
+    "iconsBackgroundCheckEnabled": false,
+    "iconsInNotesEnabled": true,
+    "iconsInLinksEnabled": true,
+    "iconIdentifier": ":",
+    "lucideIconPackType": "native",
+    "debugMode": false
+  },
+  "00 - attachments": "🗄",
+  "05 - Arquitectura_de_Computadoras": "LiComputer",
+  "06 - Aplicaciones_Comunicaciones_en_Red": "LiNetwork",
+  "06 - Inteligencia_Artificial": "LiBrainCircuit",
+  "07 - Administración_Servicios_en _Red": "LiWifi",
+  "07 - Sistemas_Distribuidos": "LiCloud"
+}

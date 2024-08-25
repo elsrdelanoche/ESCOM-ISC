@@ -4,9 +4,11 @@
   "nldates-obsidian",
   "omnisearch",
   "editing-toolbar",
-  "table-editor-obsidian",
   "make-md",
   "obsidian-stylist",
   "heatmap-calendar",
-  "findoc"
+  "obsidian-icon-folder",
+  "homepage",
+  "settings-search",
+  "table-editor-obsidian"
 ]

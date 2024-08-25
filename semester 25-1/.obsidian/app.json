@@ -8,7 +8,7 @@
   },
   "alwaysUpdateLinks": true,
   "newFileLocation": "current",
-  "attachmentFolderPath": "/_attachments",
+  "attachmentFolderPath": "/00 - attachments",
   "focusNewTab": true,
-  "showIndentGuide": false
+  "showIndentGuide": true
 }

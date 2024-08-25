@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "3c5c151af55527bd",
+        "id": "06af37fc76b5b5d1",
         "type": "tabs",
         "children": [
           {
-            "id": "8f662a589bd7df95",
+            "id": "20ba9e40399dad6b",
             "type": "leaf",
             "state": {
               "type": "mk-space",
               "state": {
-                "path": "/"
+                "path": "06 - Inteligencia_Artificial"
               }
             }
           }
@@ -63,7 +63,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -125,7 +126,7 @@
             }
           },
           {
-            "id": "58257f218a36e0f0",
+            "id": "36629d9f02818d6b",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -144,58 +145,59 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-kanban:Create new board": false,
-      "switcher:Abrir selector rápido": false,
-      "graph:Abrir vista gráfica": false,
-      "templates:Insertar plantilla": false,
-      "command-palette:Abrir paleta de comandos": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "switcher:Open quick switcher": false,
       "omnisearch:Omnisearch": false,
+      "graph:Open graph view": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-kanban:Create new board": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "findoc:Create CSV File": false
+      "homepage:Open homepage": false,
+      "daily-notes:Open today's daily note": false
     }
   },
-  "active": "2d61b6a77d5f3264",
+  "active": "f37a7fd6499a5179",
   "lastOpenFiles": [
+    "06 - Inteligencia_Artificial/06 - Inteligencia_Artificial.md",
+    "05 - Arquitectura_de_Computadoras/05 - Arquitectura_de_Computadoras.md",
+    "00 - attachments/IA_BFS.excalidraw.md",
+    "00 - attachments/IA_EspaciosBusqueda.excalidraw.md",
+    "00 - attachments/IA_Caracteristicas.excalidraw.md",
+    "00 - attachments/Pasted image 20240816014556.png",
+    "00 - attachments/00 - attachments.md",
+    "06 - Aplicaciones_Comunicaciones_en_Red/06 - Aplicaciones_Comunicaciones_en_Red.md",
+    "07 - Administración_Servicios_en _Red/07 - Administración_Servicios_en _Red.md",
+    "07 - Sistemas_Distribuidos/07 - Sistemas_Distribuidos.md",
+    "06 - Inteligencia_Artificial/Inteligencia artificial.md",
+    "Home.md",
+    "2024-08-25.md",
+    "2024-08-24.md",
+    "Untitled.md",
+    "findoc_2024-08-25T02_37_01_818Z.csv",
+    "findoc_2024-08-25T02_37_01_546Z.csv",
+    "findoc_2024-08-25T02_37_01_372Z.csv",
+    "findoc_2024-08-25T02_37_01_169Z.csv",
+    "findoc_2024-08-25T02_37_00_085Z.csv",
+    "findoc_2024-08-25T02_36_58_537Z.csv",
+    "calendar.md",
+    "findoc_2024-08-25T02_20_42_054Z.csv",
+    "Tags",
     "Vault.md",
+    "07 - Sistemas_Distribuidos",
+    "06 - Aplicaciones_Comunicaciones_en_Red",
     "Administracion-de-Servicios-en-Red/Administracion-de-Servicios-en-Red.md",
     "# attachments/Drawing 2024-08-24 00.52.11.excalidraw.md",
-    "Inteligencia-Artificial/Inteligencia artificial.md",
-    "# attachments",
     "Excalidraw/Drawing 2024-08-24 00.37.55.excalidraw.md",
-    "Excalidraw",
     "Excalidraw/Drawing 2024-08-24 00.31.22.excalidraw.md",
     "Drawing 2024-08-24 00.30.07.excalidraw.md",
     "Drawing 2024-08-24 00.27.01.excalidraw.md",
     "attachments/Drawing 2024-08-24 00.26.05.excalidraw.md",
-    "attachments",
     "attatchments/Drawing 2024-08-24 00.24.32.excalidraw.md",
-    "attatchments",
-    "Tags",
-    "_attachments/IA_BFS.excalidraw.md",
     "attachments/Pasted Image 20240821125740_992.png",
     "attachments/Pasted Image 20240821115645_555.png",
     "SDGP.excalidraw.md",
     "Excalidraw/Drawing 2024-08-13 00.33.52.excalidraw.md",
-    "Excalidraw/Excalidraw.md",
-    "_attachments/IA_Caracteristicas.excalidraw.md",
-    "_attachments/IA_EspaciosBusqueda.excalidraw.md",
-    "_attachments/Pasted image 20240816014556.png",
-    "_attachments/Pasted image 20240816014259.png",
-    "_attachments",
-    "Administracion-de-Servicios-en-Red/Prueba.md",
-    "Sistemas-Distribuidos",
-    "Arquitectura-de-Computadoras",
-    "Inteligencia-Artificial",
-    "Aplicaciones-para-Comunicaciones-en-Red",
-    "ESCOM/24-2/Instrumentación y control/3er Parcial.md",
-    "ESCOM/24-2/Instrumentación y control/2do Parcial.md",
-    "ESCOM/24-2/Instrumentación y control/1er Parcial.md",
-    "ESCOM/24-2/ADS/1er Parcial.md",
-    "ESCOM/24-1/FEPI/C7 Ciclo de vida de proyectos.md",
-    "ESCOM/24-1/FEPI/C22.md",
-    "ESCOM/24-1/FEPI/C21.md",
-    "ESCOM/24-1/FEPI/C20.md",
-    "ESCOM/24-1/FEPI/C19.md"
+    "00 - attachments/Pasted image 20240816014259.png"
   ]
 }
