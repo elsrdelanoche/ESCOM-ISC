@@ -38,4 +38,8 @@ Se puede revisar la practica incluso martes o jueves, Lunes ya es otra practica
 
 
 ---
+# [[27/08/2024]]
+
 Arquitectura: composición de un microprocesador 
+
+![[Arqui2024-08-27 16.50.18.excalidraw]]

@@ -4,16 +4,26 @@
     "type": "split",
     "children": [
       {
-        "id": "9adf7809b964098f",
+        "id": "90299723adb26ebf",
         "type": "tabs",
         "children": [
           {
-            "id": "e5c957ffac82a899",
+            "id": "3654531989d39d85",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "00 - attachments/SistDist2024-08-28 18.39.48.excalidraw.md"
+              }
+            }
+          },
+          {
+            "id": "4ae7dd9720e503fb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "06 - Aplicaciones_Comunicaciones_en_Red/1er Parcial.md",
+                "file": "07 - Sistemas_Distribuidos/1er Parcial.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "06 - Aplicaciones_Comunicaciones_en_Red/1er Parcial.md",
+                "file": "00 - attachments/SistDist2024-08-28 18.39.48.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "06 - Aplicaciones_Comunicaciones_en_Red/1er Parcial.md",
+                "file": "00 - attachments/SistDist2024-08-28 18.39.48.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -114,7 +124,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "06 - Aplicaciones_Comunicaciones_en_Red/1er Parcial.md"
+                "file": "00 - attachments/SistDist2024-08-28 18.39.48.excalidraw.md"
               }
             }
           },
@@ -162,12 +172,18 @@
       "daily-notes:Open today's daily note": false
     }
   },
-  "active": "e5c957ffac82a899",
+  "active": "3654531989d39d85",
   "lastOpenFiles": [
-    "06 - Aplicaciones_Comunicaciones_en_Red/temario.pdf",
-    "06 - Aplicaciones_Comunicaciones_en_Red/1er Parcial.md",
-    "06 - Aplicaciones_Comunicaciones_en_Red/Aplicaciones para Comunicaciones en Red.md",
+    "07 - Sistemas_Distribuidos/1er Parcial.md",
+    "00 - attachments/SistDist2024-08-28 18.39.48.excalidraw.md",
+    "06 - Aplicaciones_Comunicaciones_en_Red/Material/rfc1180(TCP-IP).pdf",
+    "06 - Aplicaciones_Comunicaciones_en_Red/Material",
+    "05 - Arquitectura_de_Computadoras/Material",
+    "00 - attachments/Arqui2024-08-27 16.50.18.excalidraw.md",
     "05 - Arquitectura_de_Computadoras/1er Parcial.md",
+    "06 - Aplicaciones_Comunicaciones_en_Red/1er Parcial.md",
+    "06 - Aplicaciones_Comunicaciones_en_Red/temario.pdf",
+    "06 - Aplicaciones_Comunicaciones_en_Red/Aplicaciones para Comunicaciones en Red.md",
     "05 - Arquitectura_de_Computadoras/Evaluación.docx",
     "05 - Arquitectura_de_Computadoras/Arquitectura de computadoras.md",
     "07 - Administración_Servicios_en _Red/temario.pdf",
@@ -192,14 +208,9 @@
     "2024-08-24.md",
     "Untitled.md",
     "findoc_2024-08-25T02_37_01_818Z.csv",
-    "findoc_2024-08-25T02_37_01_546Z.csv",
-    "findoc_2024-08-25T02_37_01_372Z.csv",
-    "findoc_2024-08-25T02_37_01_169Z.csv",
     "calendar.md",
     "Vault.md",
     "Administracion-de-Servicios-en-Red/Administracion-de-Servicios-en-Red.md",
-    "# attachments/Drawing 2024-08-24 00.52.11.excalidraw.md",
-    "Excalidraw/Drawing 2024-08-24 00.37.55.excalidraw.md",
     "attachments/Pasted Image 20240821125740_992.png",
     "attachments/Pasted Image 20240821115645_555.png",
     "00 - attachments/Pasted image 20240816014259.png"
