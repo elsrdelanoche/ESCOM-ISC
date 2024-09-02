@@ -4,16 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "90299723adb26ebf",
+        "id": "317803e1ce5f491f",
         "type": "tabs",
         "children": [
           {
-            "id": "3654531989d39d85",
+            "id": "036e5c504a960230",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "00 - attachments/SistDist2024-08-28 18.39.48.excalidraw.md"
+                "file": "06 - Inteligencia_Artificial/1er Parcial.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -83,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00 - attachments/SistDist2024-08-28 18.39.48.excalidraw.md",
+                "file": "06 - Inteligencia_Artificial/1er Parcial.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00 - attachments/SistDist2024-08-28 18.39.48.excalidraw.md",
+                "file": "06 - Inteligencia_Artificial/1er Parcial.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -112,7 +114,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00 - attachments/SistDist2024-08-28 18.39.48.excalidraw.md"
+                "file": "06 - Inteligencia_Artificial/1er Parcial.md"
               }
             }
           },
@@ -160,9 +162,15 @@
       "daily-notes:Open today's daily note": false
     }
   },
-  "active": "2d61b6a77d5f3264",
+  "active": "036e5c504a960230",
   "lastOpenFiles": [
+    "06 - Inteligencia_Artificial/Inteligencia artificial.md",
+    "06 - Inteligencia_Artificial/1er Parcial.md",
+    "07 - Administración_Servicios_en _Red/1er Parcial.md",
+    "00 - attachments/redes3-2024-09-02 15.20.28.excalidraw.md",
+    "07 - Administración_Servicios_en _Red/Administración Servicios en Red.md",
     "07 - Sistemas_Distribuidos/1er Parcial.md",
+    "07 - Sistemas_Distribuidos/07 - Sistemas_Distribuidos.md",
     "00 - attachments/SistDist2024-08-28 18.39.48.excalidraw.md",
     "06 - Aplicaciones_Comunicaciones_en_Red/Material/rfc1180(TCP-IP).pdf",
     "06 - Aplicaciones_Comunicaciones_en_Red/Material",
@@ -176,7 +184,6 @@
     "05 - Arquitectura_de_Computadoras/Arquitectura de computadoras.md",
     "07 - Administración_Servicios_en _Red/temario.pdf",
     "07 - Sistemas_Distribuidos/temario.pdf",
-    "07 - Administración_Servicios_en _Red/Administración Servicios en Red.md",
     "06 - Inteligencia_Artificial/temario.pdf",
     "06 - Aplicaciones_Comunicaciones_en_Red/06 - Aplicaciones_Comunicaciones_en_Red.md",
     "00 - attachments/Untitled.md",
@@ -189,16 +196,11 @@
     "00 - attachments/IA_Caracteristicas.excalidraw.md",
     "00 - attachments/Pasted image 20240816014556.png",
     "07 - Administración_Servicios_en _Red/07 - Administración_Servicios_en _Red.md",
-    "07 - Sistemas_Distribuidos/07 - Sistemas_Distribuidos.md",
-    "06 - Inteligencia_Artificial/Inteligencia artificial.md",
     "Home.md",
     "2024-08-25.md",
     "2024-08-24.md",
     "Untitled.md",
     "findoc_2024-08-25T02_37_01_818Z.csv",
-    "calendar.md",
-    "Vault.md",
-    "Administracion-de-Servicios-en-Red/Administracion-de-Servicios-en-Red.md",
     "attachments/Pasted Image 20240821125740_992.png",
     "attachments/Pasted Image 20240821115645_555.png",
     "00 - attachments/Pasted image 20240816014259.png"
