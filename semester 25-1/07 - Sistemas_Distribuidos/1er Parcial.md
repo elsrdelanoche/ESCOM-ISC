@@ -16,3 +16,13 @@ Asistencias
 ---
 ## 28/08/2024
 ![[SistDist2024-08-28 18.39.48.excalidraw]]
+
+---
+# 3 de Septiembre 2024
+
+Lectura clase del día
+![[SistDist2024-09-03 18.41.41.excalidraw]]
+
+---
+# 4 de Septiembre 2024
+![[SistDist2024-09-04 18.41.07.excalidraw]]

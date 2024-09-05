@@ -4,22 +4,33 @@
     "type": "split",
     "children": [
       {
-        "id": "317803e1ce5f491f",
+        "id": "212008335d5d51e4",
         "type": "tabs",
         "children": [
           {
-            "id": "036e5c504a960230",
+            "id": "939860afbae2d733",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "06 - Inteligencia_Artificial/1er Parcial.md",
+                "file": "07 - Sistemas_Distribuidos/1er Parcial.md",
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "e20ed5c783c6a2b0",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "00 - attachments/SistDist2024-09-04 18.41.07.excalidraw.md"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "06 - Inteligencia_Artificial/1er Parcial.md",
+                "file": "00 - attachments/SistDist2024-09-04 18.41.07.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "06 - Inteligencia_Artificial/1er Parcial.md",
+                "file": "00 - attachments/SistDist2024-09-04 18.41.07.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -114,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "06 - Inteligencia_Artificial/1er Parcial.md"
+                "file": "00 - attachments/SistDist2024-09-04 18.41.07.excalidraw.md"
               }
             }
           },
@@ -150,56 +161,56 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-excalidraw-plugin:Create new drawing": false,
       "switcher:Open quick switcher": false,
       "omnisearch:Omnisearch": false,
       "graph:Open graph view": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "obsidian-kanban:Create new board": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "homepage:Open homepage": false,
       "daily-notes:Open today's daily note": false
     }
   },
-  "active": "036e5c504a960230",
+  "active": "e20ed5c783c6a2b0",
   "lastOpenFiles": [
+    "07 - Sistemas_Distribuidos/1er Parcial.md",
+    "00 - attachments/SistDist2024-09-04 18.41.07.excalidraw.md",
     "06 - Inteligencia_Artificial/Inteligencia artificial.md",
     "06 - Inteligencia_Artificial/1er Parcial.md",
+    "06 - Aplicaciones_Comunicaciones_en_Red/1er Parcial.md",
     "07 - Administración_Servicios_en _Red/1er Parcial.md",
+    "06 - Aplicaciones_Comunicaciones_en_Red/Aplicaciones para Comunicaciones en Red.md",
+    "00 - attachments/SistDist2024-09-03 18.41.41.excalidraw.md",
+    "05 - Arquitectura_de_Computadoras/1er Parcial.md",
+    "00 - attachments/Arqui2024-09-03 16.57.58.excalidraw.md",
+    "05 - Arquitectura_de_Computadoras/Arquitectura de computadoras.md",
+    "00 - attachments/Arqui2024-09-02 18.48.07.excalidraw.md",
     "00 - attachments/redes3-2024-09-02 15.20.28.excalidraw.md",
+    "05 - Arquitectura_de_Computadoras/05 - Arquitectura_de_Computadoras.md",
+    "07 - Administración_Servicios_en _Red/07 - Administración_Servicios_en _Red.md",
     "07 - Administración_Servicios_en _Red/Administración Servicios en Red.md",
-    "07 - Sistemas_Distribuidos/1er Parcial.md",
     "07 - Sistemas_Distribuidos/07 - Sistemas_Distribuidos.md",
     "00 - attachments/SistDist2024-08-28 18.39.48.excalidraw.md",
     "06 - Aplicaciones_Comunicaciones_en_Red/Material/rfc1180(TCP-IP).pdf",
     "06 - Aplicaciones_Comunicaciones_en_Red/Material",
     "05 - Arquitectura_de_Computadoras/Material",
     "00 - attachments/Arqui2024-08-27 16.50.18.excalidraw.md",
-    "05 - Arquitectura_de_Computadoras/1er Parcial.md",
-    "06 - Aplicaciones_Comunicaciones_en_Red/1er Parcial.md",
     "06 - Aplicaciones_Comunicaciones_en_Red/temario.pdf",
-    "06 - Aplicaciones_Comunicaciones_en_Red/Aplicaciones para Comunicaciones en Red.md",
     "05 - Arquitectura_de_Computadoras/Evaluación.docx",
-    "05 - Arquitectura_de_Computadoras/Arquitectura de computadoras.md",
     "07 - Administración_Servicios_en _Red/temario.pdf",
     "07 - Sistemas_Distribuidos/temario.pdf",
     "06 - Inteligencia_Artificial/temario.pdf",
     "06 - Aplicaciones_Comunicaciones_en_Red/06 - Aplicaciones_Comunicaciones_en_Red.md",
     "00 - attachments/Untitled.md",
     "00 - attachments/00 - attachments.md",
-    "05 - Arquitectura_de_Computadoras/05 - Arquitectura_de_Computadoras.md",
     "05 - Arquitectura_de_Computadoras/temario.pdf",
     "06 - Inteligencia_Artificial/06 - Inteligencia_Artificial.md",
     "00 - attachments/IA_BFS.excalidraw.md",
     "00 - attachments/IA_EspaciosBusqueda.excalidraw.md",
     "00 - attachments/IA_Caracteristicas.excalidraw.md",
     "00 - attachments/Pasted image 20240816014556.png",
-    "07 - Administración_Servicios_en _Red/07 - Administración_Servicios_en _Red.md",
-    "Home.md",
-    "2024-08-25.md",
-    "2024-08-24.md",
-    "Untitled.md",
     "findoc_2024-08-25T02_37_01_818Z.csv",
     "attachments/Pasted Image 20240821125740_992.png",
     "attachments/Pasted Image 20240821115645_555.png",
