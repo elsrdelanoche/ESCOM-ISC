@@ -38,4 +38,21 @@ Inteligencia Artificial: Dotar a una maquina con la capacidad de aprender, anali
 	- Dotar a las maquinas de generar y/o endender voz o texto
 - Visión por computadora
 	- Creación de algoritmos para que la maquina distinga profundidad
+
+
+---
+# 5 Septiembre 2024
+
+## Agentes inteligentes
+Son sistemas conformados por sensores, actuadores y sistemas de almacenamiento; para lograr un objetivo de forma autónoma.
+Ejemplos: 
+- Vehículos autónomos
 - 
+
+## Sistemas expertos
+
+
+
+notas:
+- Sensor: Dispositivo que transforma una variable física en una variable util (ejemplo: eléctrica) 
+- Actuadores: Transforman una variable útil a una variable física.

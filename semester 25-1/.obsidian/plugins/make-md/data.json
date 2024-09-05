@@ -42,7 +42,11 @@
   "showRibbon": true,
   "deleteFileOption": "trash",
   "expandedSpaces": [
-    "/"
+    "/",
+    "//07 - Sistemas_Distribuidos",
+    "//07 - Administración_Servicios_en _Red",
+    "//06 - Inteligencia_Artificial",
+    "//06 - Aplicaciones_Comunicaciones_en_Red"
   ],
   "expandFolderOnClick": true,
   "menuTriggerChar": "/",
