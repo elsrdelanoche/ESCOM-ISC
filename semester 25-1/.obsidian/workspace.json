@@ -4,52 +4,45 @@
     "type": "split",
     "children": [
       {
-        "id": "f7b7531a80d8de0c",
+        "id": "e758a091329bc26f",
         "type": "tabs",
         "children": [
           {
-            "id": "1b7d1cbc16083926",
+            "id": "d2e73aab2360e732",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "05 - Arquitectura_de_Computadoras/Material/Digital systems Tocci 8th edition.pdf"
+              }
+            }
+          },
+          {
+            "id": "31d7b309b06d2da0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "06 - Inteligencia_Artificial/1er Parcial.md",
+                "file": "05 - Arquitectura_de_Computadoras/Arquitectura de computadoras.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "4fb2c4cdb7e33960",
+            "id": "a107a19d93789ecd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "06 - Inteligencia_Artificial/1er Parcial Tareas.md",
+                "file": "05 - Arquitectura_de_Computadoras/1er Parcial.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
-      },
-      {
-        "id": "0d1d4e5168562499",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "16339874eb86a98a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "06 - Inteligencia_Artificial/Inteligencia artificial.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -116,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "06 - Inteligencia_Artificial/1er Parcial.md",
+                "file": "05 - Arquitectura_de_Computadoras/1er Parcial.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "06 - Inteligencia_Artificial/1er Parcial.md",
+                "file": "05 - Arquitectura_de_Computadoras/1er Parcial.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "06 - Inteligencia_Artificial/1er Parcial.md"
+                "file": "05 - Arquitectura_de_Computadoras/1er Parcial.md"
               }
             }
           },
@@ -193,45 +186,50 @@
       "daily-notes:Open today's daily note": false
     }
   },
-  "active": "1b7d1cbc16083926",
+  "active": "a107a19d93789ecd",
   "lastOpenFiles": [
-    "06 - Inteligencia_Artificial/Inteligencia artificial.md",
+    "00 - attachments/Pasted image 20240910175129.png",
+    "05 - Arquitectura_de_Computadoras/Material/Digital systems Tocci 8th edition.pdf",
+    "05 - Arquitectura_de_Computadoras/Arquitectura de computadoras.md",
+    "07 - Sistemas_Distribuidos/Codigos/ProxyInverso.java",
+    "07 - Sistemas_Distribuidos/Codigos/AnillosClientesServidores.java",
+    "07 - Sistemas_Distribuidos/Codigos/ProxyTransparente.java",
+    "07 - Sistemas_Distribuidos/Codigos",
+    "05 - Arquitectura_de_Computadoras/1er Parcial.md",
+    "00 - attachments/Pasted image 20240910173555.png",
+    "00 - attachments/Pasted image 20240910173224.png",
+    "00 - attachments/Pasted image 20240910172608.png",
+    "00 - attachments/Pasted image 20240910172424.png",
+    "00 - attachments/Pasted image 20240910172332.png",
+    "05 - Arquitectura_de_Computadoras/Material/Arquitectura de computdoras2.pdf",
+    "06 - Aplicaciones_Comunicaciones_en_Red/Aplicaciones para Comunicaciones en Red.md",
+    "06 - Aplicaciones_Comunicaciones_en_Red/1er Parcial.md",
     "06 - Inteligencia_Artificial/1er Parcial.md",
+    "00 - attachments/IA_2024-09-09 15.11.54.excalidraw.md",
     "07 - Administración_Servicios_en _Red/1er Parcial.md",
-    "06 - Inteligencia_Artificial/1er Parcial Tareas.md",
-    "00 - attachments/Redes3_2024-09-05 15.41.35.excalidraw.md",
-    "06 - Aplicaciones_Comunicaciones_en_Red/Ejercicio.md",
+    "00 - attachments/redes3_2024-09-05 21.56.26.excalidraw.md",
+    "07 - Administración_Servicios_en _Red/Tareas/Untitled.md",
+    "07 - Administración_Servicios_en _Red/Tareas/Tareas.md",
+    "07 - Administración_Servicios_en _Red/Tareas",
+    "07 - Administración_Servicios_en _Red/Glosario.md",
     "07 - Administración_Servicios_en _Red/Administración Servicios en Red.md",
+    "06 - Aplicaciones_Comunicaciones_en_Red/Ejercicio Funciones del Objeto Socket.md",
+    "06 - Aplicaciones_Comunicaciones_en_Red/Material/EjercicioFuncionesObjetoSockets.pdf",
+    "06 - Inteligencia_Artificial/1er Parcial Tareas.md",
+    "06 - Inteligencia_Artificial/Inteligencia artificial.md",
+    "00 - attachments/Redes3_2024-09-05 15.41.35.excalidraw.md",
     "07 - Administración_Servicios_en _Red/07 - Administración_Servicios_en _Red.md",
     "00 - attachments/SistDist2024-09-04 18.41.07.excalidraw.md",
     "07 - Sistemas_Distribuidos/1er Parcial.md",
-    "06 - Aplicaciones_Comunicaciones_en_Red/1er Parcial.md",
-    "06 - Aplicaciones_Comunicaciones_en_Red/Aplicaciones para Comunicaciones en Red.md",
     "00 - attachments/SistDist2024-09-03 18.41.41.excalidraw.md",
-    "05 - Arquitectura_de_Computadoras/1er Parcial.md",
     "00 - attachments/Arqui2024-09-03 16.57.58.excalidraw.md",
-    "05 - Arquitectura_de_Computadoras/Arquitectura de computadoras.md",
     "00 - attachments/Arqui2024-09-02 18.48.07.excalidraw.md",
     "00 - attachments/redes3-2024-09-02 15.20.28.excalidraw.md",
     "05 - Arquitectura_de_Computadoras/05 - Arquitectura_de_Computadoras.md",
     "07 - Sistemas_Distribuidos/07 - Sistemas_Distribuidos.md",
-    "00 - attachments/SistDist2024-08-28 18.39.48.excalidraw.md",
     "06 - Aplicaciones_Comunicaciones_en_Red/Material/rfc1180(TCP-IP).pdf",
     "06 - Aplicaciones_Comunicaciones_en_Red/Material",
-    "05 - Arquitectura_de_Computadoras/Material",
-    "00 - attachments/Arqui2024-08-27 16.50.18.excalidraw.md",
-    "06 - Aplicaciones_Comunicaciones_en_Red/temario.pdf",
-    "05 - Arquitectura_de_Computadoras/Evaluación.docx",
-    "07 - Administración_Servicios_en _Red/temario.pdf",
-    "07 - Sistemas_Distribuidos/temario.pdf",
-    "06 - Inteligencia_Artificial/temario.pdf",
-    "06 - Aplicaciones_Comunicaciones_en_Red/06 - Aplicaciones_Comunicaciones_en_Red.md",
-    "00 - attachments/Untitled.md",
-    "00 - attachments/00 - attachments.md",
-    "05 - Arquitectura_de_Computadoras/temario.pdf",
-    "06 - Inteligencia_Artificial/06 - Inteligencia_Artificial.md",
     "00 - attachments/Pasted image 20240816014556.png",
-    "findoc_2024-08-25T02_37_01_818Z.csv",
     "attachments/Pasted Image 20240821125740_992.png",
     "attachments/Pasted Image 20240821115645_555.png",
     "00 - attachments/Pasted image 20240816014259.png"

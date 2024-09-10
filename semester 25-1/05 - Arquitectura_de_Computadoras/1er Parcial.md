@@ -146,3 +146,18 @@ W3:w2
 
 
 MOV carga y al mismo tiempo ejecuta
+
+----
+# 10 Septiembre 2024
+![[Pasted image 20240910172424.png]]
+![[Pasted image 20240910172608.png]]
+
+![[Pasted image 20240910172332.png]]
+
+![[Pasted image 20240910173224.png]]
+
+![[Pasted image 20240910173555.png]]
+Operador directo -> toma la dirección
+Operador inmediato -> toma el dato
+
+![[Pasted image 20240910175129.png]]

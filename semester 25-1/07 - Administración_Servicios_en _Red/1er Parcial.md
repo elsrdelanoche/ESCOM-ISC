@@ -7,3 +7,8 @@ https://www.escom.e-cec.org.mx/my/
 ---
 # 5 de Septiembre 2024
  ![[Redes3_2024-09-05 15.41.35.excalidraw]]
+ ---
+
+# 6 de Septiembre 2024
+
+![[redes3_2024-09-05 21.56.26.excalidraw]]

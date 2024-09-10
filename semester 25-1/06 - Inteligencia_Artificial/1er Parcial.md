@@ -47,12 +47,39 @@ Inteligencia Artificial: Dotar a una maquina con la capacidad de aprender, anali
 Son sistemas conformados por sensores, actuadores y sistemas de almacenamiento; para lograr un objetivo de forma autónoma.
 Ejemplos: 
 - Vehículos autónomos
-- 
+
+Dichos sistemas suelen basar sus decisiones en la "Percepción" del entorno.
+ 
+### Tipos de agentes inteligentes
+- Reactivos: No almacena información del entorno
+- Con conocimiento cognitivo: Se basa en la experiencia previa de otros sistemas.
+- Basado en la teoría de utilidad: Se descarta lo que no le es útil o favorable al sistema
+- Multi-agente: Combinación e interacción de varios agentes
+
 
 ## Sistemas expertos
+Emula lo que el experto humano ha adquirido como conocimiento, emulado por un software o un sistema computacional para la toma de decisiones.
+Ejemplo:
+- Sistemas de descarte de CV's
 
+No aprenden, dado que ya son expertos, no se adaptan a diferentes entornos
 
 
 notas:
 - Sensor: Dispositivo que transforma una variable física en una variable util (ejemplo: eléctrica) 
 - Actuadores: Transforman una variable útil a una variable física.
+
+---
+# 9 de Septiembre del 2024
+## Agente tipo Reflex y Basado en Objetivos
+
+![[IA_2024-09-09 15.11.54.excalidraw]]
+
+Este tipo de agentes son de heurística o Búsqueda de soluciones
+
+Un problema se puede caracterizar por los siguientes 5 elementos
+1. Estado inicial (De donde el agente iniciará)
+2. Descripción de las posibles acciones que el agente puede tomar
+3. Descripción de lo que cada acción provoca (modelo) de transiciones.
+4. "Goal test" -> Si hay diferentes formas de cumplir un objetivo, ¿Cual es la forma más simple de llegar a la meta considerando Edo Inicial los estados?
+5. Costo de trayectoria

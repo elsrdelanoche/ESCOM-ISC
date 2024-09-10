@@ -43,3 +43,12 @@ Para ello usaremos la API de Sockets Ouyeah
 #DiagramaSecuencia
 
 
+# 10 de Septiembre 2024
+
+Apuntes Freddy
+
+## Servicios de transporte disponibles para las aplicaciones
+
+1. **Fiabilidad en la transferencia de datos:** Importancia en garantizar la entrega correcta de los datos
+2. **Tasa de transferencia:** Garantías de tasa de transferencia para aplicaciones sensibles al ancho de banda.
+3. **Temporización:** Garantías de tiempos de entrega de datos en aplicaciones en tiempo real
