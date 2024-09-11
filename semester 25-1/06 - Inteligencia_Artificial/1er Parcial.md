@@ -98,3 +98,11 @@ En IA existen diversas<u> métricas para medir el rendimiento</u> de los algorit
 -> Presión 
 -> Exactitud
 Son orientados a resultados
+
+### Ejercicio
+El problema de las 8 reinas es un problema computacional muy conocido, se trata de colocar en un tablero de ajedrez 8 reinas sin que ninguna se ataque la una a la otra.
+
+Una reina ataca a otra reina si hay dos reinas en la misma fila, columna o diagonal.
+Opcional: https://omegaup.com/arena/problem/8Reinas/#:~:text=El%20problema%20de%20las%208,misma%20fila%2C%20columna%20o%20diagonal.
+
+![[Pasted image 20240911175545.png]]
