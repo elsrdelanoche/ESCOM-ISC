@@ -13,7 +13,37 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "06 - Inteligencia_Artificial/1er Parcial.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "bf9eb74228f13dbb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "06 - Inteligencia_Artificial/1er Parcial Tareas.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "c4d59d3acb176c39",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e6b9dea64d84352a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "06 - Inteligencia_Artificial/Inteligencia artificial.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "06 - Inteligencia_Artificial/1er Parcial Tareas.md",
+                "file": "06 - Inteligencia_Artificial/1er Parcial.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "06 - Inteligencia_Artificial/1er Parcial Tareas.md",
+                "file": "06 - Inteligencia_Artificial/1er Parcial.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -115,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "06 - Inteligencia_Artificial/1er Parcial Tareas.md"
+                "file": "06 - Inteligencia_Artificial/1er Parcial.md"
               }
             }
           },
@@ -165,6 +195,9 @@
   },
   "active": "77860c932140ea8d",
   "lastOpenFiles": [
+    "06 - Inteligencia_Artificial/Inteligencia artificial.md",
+    "06 - Inteligencia_Artificial/1er Parcial.md",
+    "06 - Inteligencia_Artificial/1er Parcial Tareas.md",
     "07 - Sistemas_Distribuidos/1er Parcial.md",
     "07 - Administración_Servicios_en _Red/Tareas/Tarea1_Bautista_Rios_Alfredo.md",
     "00 - attachments/Pasted image 20240911012007.png",
@@ -191,7 +224,6 @@
     "05 - Arquitectura_de_Computadoras/Material/Arquitectura de computdoras2.pdf",
     "06 - Aplicaciones_Comunicaciones_en_Red/Aplicaciones para Comunicaciones en Red.md",
     "06 - Aplicaciones_Comunicaciones_en_Red/1er Parcial.md",
-    "06 - Inteligencia_Artificial/1er Parcial.md",
     "00 - attachments/IA_2024-09-09 15.11.54.excalidraw.md",
     "00 - attachments/redes3_2024-09-05 21.56.26.excalidraw.md",
     "07 - Administración_Servicios_en _Red/Tareas/Tareas.md",
@@ -200,8 +232,6 @@
     "07 - Administración_Servicios_en _Red/Administración Servicios en Red.md",
     "06 - Aplicaciones_Comunicaciones_en_Red/Ejercicio Funciones del Objeto Socket.md",
     "06 - Aplicaciones_Comunicaciones_en_Red/Material/EjercicioFuncionesObjetoSockets.pdf",
-    "06 - Inteligencia_Artificial/1er Parcial Tareas.md",
-    "06 - Inteligencia_Artificial/Inteligencia artificial.md",
     "00 - attachments/Redes3_2024-09-05 15.41.35.excalidraw.md",
     "07 - Administración_Servicios_en _Red/07 - Administración_Servicios_en _Red.md",
     "00 - attachments/SistDist2024-09-04 18.41.07.excalidraw.md",

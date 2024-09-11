@@ -83,3 +83,18 @@ Un problema se puede caracterizar por los siguientes 5 elementos
 3. Descripción de lo que cada acción provoca (modelo) de transiciones.
 4. "Goal test" -> Si hay diferentes formas de cumplir un objetivo, ¿Cual es la forma más simple de llegar a la meta considerando Edo Inicial los estados?
 5. Costo de trayectoria
+
+---
+#  11 de Septiembre 2024
+## Criterios de selección de algoritmos de búsqueda
+1) Completitud: Capacidad del algoritmo de ofrecer alguna solucion si existe alguna
+2) Optimalidad: La solución encontrada es la mejor?
+3) Tiempo de complejidad: Cuanto tiempo se requiere para encontrar una solución
+4) Espacio de complejidad: Cantidad de memoria utilizada para hacer la busqueda
+3 y 4: Comparaciones respecto a otros algoritmos o soluciones encontradas
+
+En IA existen diversas<u> métricas para medir el rendimiento</u> de los algoritmos, sin embargo. No todos son usados en todo momento y hay que hacer uso adecuado de info.
+
+-> Presión 
+-> Exactitud
+Son orientados a resultados

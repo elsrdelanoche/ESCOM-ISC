@@ -47,4 +47,3 @@ Los avances de la Inteligencia Artificial (IA) se presentan continuamente en rev
 Estos avances han sido destacados en las principales publicaciones y congresos como **NeurIPS, ICML, CVPR, ICLR, IJCAI** y **AAAI**, que son pilares en la investigación de IA a nivel mundial.
 
 ---
-#  11 de Septiembre 2024

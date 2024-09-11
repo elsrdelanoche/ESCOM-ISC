@@ -98,7 +98,7 @@ La historia de la inteligencia artificial **comenzó en 1943** con la publicac
 
 - En ese acto, los investigadores presentaron los objetivos y la visión de la IA. Muchos consideran esta conferencia como **el verdadero nacimiento** de la inteligencia artificial, tal y como se conoce hoy en día.
 
-- En 1959, Arthur Samuel acuñó **el término Machine Learning** mientras trabajaba en IBM. Por su parte, John McCarthy y Marvin Minsky fundaron el MIT Artificial Intelligence Project. En 1963, John McCarthy también creó el «AI Lab» en la Universidad de Stanford.
+- En 1959, Arthur Samuel acuñó **el término Machine Learning** mientras trabajaba en IBM. Por su parte, John McCfarthy y Marvin Minsky fundaron el MIT Artificial Intelligence Project. En 1963, John McCarthy también creó el «AI Lab» en la Universidad de Stanford.
 
 - En los siguientes años, se cernieron dudas sobre el campo de la IA. En 1966, **el informe estadounidense ALPAC** puso de manifiesto la falta de avances en la investigación de la traducción automática destinada a traducir simultáneamente la lengua rusa en el contexto de la Guerra Fría. Muchos proyectos financiados por el gobierno estadounidense fueron cancelados.
 
