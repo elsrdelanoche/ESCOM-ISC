@@ -1,10 +1,10 @@
 {
   "cssTheme": "Vauxhall",
   "accentColor": "",
-  "interfaceFontFamily": "JetBrains Mono",
+  "interfaceFontFamily": "",
   "monospaceFontFamily": "Consolas",
   "nativeMenus": true,
-  "textFontFamily": "JetBrains Mono",
+  "textFontFamily": "",
   "baseFontSizeAction": true,
   "enabledCssSnippets": [
     "Colored Sidebar Items",

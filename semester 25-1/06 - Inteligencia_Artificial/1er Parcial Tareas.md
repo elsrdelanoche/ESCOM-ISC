@@ -45,3 +45,6 @@ Los avances de la Inteligencia Artificial (IA) se presentan continuamente en rev
    - En eventos como **QIP** (Quantum Information Processing), el uso de computación cuántica para mejorar algoritmos de IA es un área emergente. Aunque los avances en esta intersección están en etapas iniciales, las investigaciones apuntan a resolver problemas que las computadoras clásicas no pueden abordar eficientemente.
 
 Estos avances han sido destacados en las principales publicaciones y congresos como **NeurIPS, ICML, CVPR, ICLR, IJCAI** y **AAAI**, que son pilares en la investigación de IA a nivel mundial.
+
+---
+#  11 de Septiembre 2024
