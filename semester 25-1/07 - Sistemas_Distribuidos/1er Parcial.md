@@ -83,3 +83,55 @@ Se usa para llevar una bitacora
 
 *Ejecución programa servidorHTTP*
 
+----
+#  11 de Septiembre
+## Criptografía simétrica
+![[SistDist2024-09-11 18.40.47.excalidraw]]
+
+## Criptografía Asimétrica
+![[SistDist2024-09-11 18.46.09.excalidraw]]
+
+## Criptografía Asimétrica - Firma digital
+![[SistDist2024-09-11 18.48.02.excalidraw]]
+
+## Certificado digital
+- Certificado auto-firmado
+- Certificado firmado por una CA
+	- Verificación de dominio
+	- Verificación de empresa
+- Repositorio de certificados
+
+Certificado X.509
+.....
+Aquel certificado que se encripta con clave privada y se desencripta con la clave publica que tiene
+
+#PreguntaExamen: 
+Certificado autofirmado
+Criptografia sincronica
+criptografía asincronica
+
+## SSL (Capas de socket seguro)
+![[SistDist2024-09-11 19.23.47.excalidraw]]
+
+## Creación de repositorios de certificados para JAVA
+``` java
+keytool -genkeypair -keyalg RSA -alias certificado_servidor -keystore
+keystore_servidor.jks -storepass 1234567
+```
+
+Obtener el certificado contenido en el keystore
+
+
+Crear un keystore para el cliente(Repositorio de confianza) incluyendo el certificado auto-firmado
+
+
+## Tema
+
+![[SistDist2024-09-11 19.40.07.excalidraw]]
+
+
+No existe HTTPS, sino HTTP con conexión segura (HTTP/SSL/TCP)
+
+### Tarea 1: 
+jueves sig semana 
+viernes 8pm?

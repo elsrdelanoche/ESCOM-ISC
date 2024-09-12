@@ -106,3 +106,47 @@ Una reina ataca a otra reina si hay dos reinas en la misma fila, columna o diago
 Opcional: https://omegaup.com/arena/problem/8Reinas/#:~:text=El%20problema%20de%20las%208,misma%20fila%2C%20columna%20o%20diagonal.
 
 ![[Pasted image 20240911175545.png]]
+
+---
+# 12 de Septiembre 2024
+Grafos: Estructura matematica para modelar las relaciones que existen entre objetos
+![[IA2024-09-12 16.44.37.excalidraw]]
+
+Los grafos tienen diversas aplicaciones dentro de la IA, específicamente en algoritmos de búsqueda (heuristica),
+se ocupan para obtener soluciones o conjuntos de estas, si las hay.
+
+## Ejemplos de algoritmos de búsqueda
+-> Búsqueda por profundidad
+-> Búsqueda por anchura
+-> A*
+
+## Tipos de grafos:
+### Grafos Dirigidos
+Los vertices indican la direccion que puedan tomar los caminos entre nodos
+
+### Grafos no dirigidos
+Los vertices no tienen asociada ninguna dirección en la relación de los nodos y por lo tanto los caminos que se pueden trazar entre nodos puede ir en cualquier dirección.
+
+![[Pasted image 20240912170723.png]]
+
+Los algoritmos básicos y clásicos son búsqueda por profundidad y anchura
+-> Éstos algoritmos se rigen por ir guardando los nodos en los que se ha estado.
+### Grafos ponderados
+El vértice tiene asociado un peso
+Usados para encontrar rutas óptimas entre nodos, por ejemplo: Aplicaciones para encontrar el mejor camino entre 2 localidades.
+Ejemplo: A*
+![[Pasted image 20240912172043.png]]
+
+
+## BFS: Búsqueda por anchura
+Inicia en un nodo (por ejemplo el nodo raiz)y un recorriendo nodos de forma lateral (Nodos hermanos) y si encuentra la solución se pasa a los siguientes niveles.
+
+![[Pasted image 20240912173648.png]]
+
+-> Si hay solución, es garantía de que llegará a ella
+-> No es optimo computacionalmente para gran cantidad de nodos
+
+
+## DFS: Busqueda por profundidad
+Inicia en un nodo (por ejemplo el nodo inicial) y va recorriendo Padre
+![[Pasted image 20240912174613.png]]

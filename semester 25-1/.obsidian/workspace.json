@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "bef8f9b4bcbdb4f2",
+        "id": "bab6302a2a96a455",
         "type": "tabs",
         "children": [
           {
-            "id": "77860c932140ea8d",
+            "id": "b669b503cf81a960",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -20,25 +20,17 @@
             }
           },
           {
-            "id": "bf9eb74228f13dbb",
+            "id": "0866d947ae2fbaa7",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "06 - Inteligencia_Artificial/1er Parcial Tareas.md",
-                "mode": "source",
-                "source": false
+                "file": "00 - attachments/IA2024-09-12 16.44.37.excalidraw.md"
               }
             }
-          }
-        ]
-      },
-      {
-        "id": "c4d59d3acb176c39",
-        "type": "tabs",
-        "children": [
+          },
           {
-            "id": "e6b9dea64d84352a",
+            "id": "99c7656e9142a861",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -193,14 +185,27 @@
       "daily-notes:Open today's daily note": false
     }
   },
-  "active": "77860c932140ea8d",
+  "active": "b669b503cf81a960",
   "lastOpenFiles": [
-    "00 - attachments/Pasted image 20240911175545.png",
+    "00 - attachments/Pasted image 20240912174613.png",
+    "00 - attachments/Pasted image 20240912173648.png",
+    "00 - attachments/Pasted image 20240912172043.png",
+    "00 - attachments/Pasted image 20240912170723.png",
     "06 - Inteligencia_Artificial/Inteligencia artificial.md",
     "06 - Inteligencia_Artificial/1er Parcial.md",
-    "06 - Inteligencia_Artificial/1er Parcial Tareas.md",
-    "07 - Sistemas_Distribuidos/1er Parcial.md",
+    "00 - attachments/IA2024-09-12 16.44.37.excalidraw.md",
+    "07 - Administración_Servicios_en _Red/1er Parcial.md",
+    "07 - Administración_Servicios_en _Red/Administración Servicios en Red.md",
     "07 - Administración_Servicios_en _Red/Tareas/Tarea1_Bautista_Rios_Alfredo.md",
+    "00 - attachments/SistDist2024-09-11 19.40.07.excalidraw.md",
+    "07 - Sistemas_Distribuidos/1er Parcial.md",
+    "00 - attachments/SistDist2024-09-11 19.23.47.excalidraw.md",
+    "07 - Sistemas_Distribuidos/Sistemas Distribuidos.md",
+    "00 - attachments/SistDist2024-09-11 18.48.02.excalidraw.md",
+    "00 - attachments/SistDist2024-09-11 18.46.09.excalidraw.md",
+    "00 - attachments/SistDist2024-09-11 18.40.47.excalidraw.md",
+    "06 - Inteligencia_Artificial/1er Parcial Tareas.md",
+    "00 - attachments/Pasted image 20240911175545.png",
     "00 - attachments/Pasted image 20240911012007.png",
     "00 - attachments/Redes3_2024-09-10 23.56.17.excalidraw.md",
     "00 - attachments/Redes3_2024-09-10 23.56.17.excalidraw.png",
@@ -208,20 +213,14 @@
     "00 - attachments/Pasted Image 20240911010015_991.png",
     "00 - attachments/Pasted Image 20240911005800_988.png",
     "00 - attachments/Pasted Image 20240911005542_983.png",
-    "00 - attachments/Pasted Image 20240911005312_979.png",
-    "07 - Administración_Servicios_en _Red/1er Parcial.md",
     "07 - Sistemas_Distribuidos/temario.pdf",
-    "07 - Sistemas_Distribuidos/Sistemas Distribuidos.md",
     "05 - Arquitectura_de_Computadoras/Arquitectura de computadoras.md",
     "05 - Arquitectura_de_Computadoras/1er Parcial.md",
-    "00 - attachments/Pasted image 20240910175129.png",
     "05 - Arquitectura_de_Computadoras/Material/Digital systems Tocci 8th edition.pdf",
     "07 - Sistemas_Distribuidos/Codigos/ProxyInverso.java",
     "07 - Sistemas_Distribuidos/Codigos/AnillosClientesServidores.java",
     "07 - Sistemas_Distribuidos/Codigos/ProxyTransparente.java",
     "07 - Sistemas_Distribuidos/Codigos",
-    "00 - attachments/Pasted image 20240910173555.png",
-    "00 - attachments/Pasted image 20240910173224.png",
     "05 - Arquitectura_de_Computadoras/Material/Arquitectura de computdoras2.pdf",
     "06 - Aplicaciones_Comunicaciones_en_Red/Aplicaciones para Comunicaciones en Red.md",
     "06 - Aplicaciones_Comunicaciones_en_Red/1er Parcial.md",
@@ -230,16 +229,9 @@
     "07 - Administración_Servicios_en _Red/Tareas/Tareas.md",
     "07 - Administración_Servicios_en _Red/Tareas",
     "07 - Administración_Servicios_en _Red/Glosario.md",
-    "07 - Administración_Servicios_en _Red/Administración Servicios en Red.md",
     "06 - Aplicaciones_Comunicaciones_en_Red/Ejercicio Funciones del Objeto Socket.md",
     "06 - Aplicaciones_Comunicaciones_en_Red/Material/EjercicioFuncionesObjetoSockets.pdf",
     "00 - attachments/Redes3_2024-09-05 15.41.35.excalidraw.md",
-    "07 - Administración_Servicios_en _Red/07 - Administración_Servicios_en _Red.md",
-    "00 - attachments/SistDist2024-09-04 18.41.07.excalidraw.md",
-    "00 - attachments/SistDist2024-09-03 18.41.41.excalidraw.md",
-    "00 - attachments/Arqui2024-09-03 16.57.58.excalidraw.md",
-    "00 - attachments/Arqui2024-09-02 18.48.07.excalidraw.md",
-    "00 - attachments/redes3-2024-09-02 15.20.28.excalidraw.md",
     "06 - Aplicaciones_Comunicaciones_en_Red/Material/rfc1180(TCP-IP).pdf"
   ]
 }

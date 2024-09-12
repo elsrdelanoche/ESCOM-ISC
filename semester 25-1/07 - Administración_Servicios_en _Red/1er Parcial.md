@@ -12,3 +12,15 @@ https://www.escom.e-cec.org.mx/my/
 # 6 de Septiembre 2024
 
 ![[redes3_2024-09-05 21.56.26.excalidraw]]
+
+---
+# 12 de Septiembre 2024
+
+¿Que es Virtualizar, Emular, Simular en sistemas operativos?
+
+Maquinas virtuales
+- Sistema operativo diferente
+- Nube -> Recurso en red de Internet
+- Entorno asilado
+
+---
