@@ -4,38 +4,65 @@
     "type": "split",
     "children": [
       {
-        "id": "bab6302a2a96a455",
+        "id": "ac313967cbda7def",
         "type": "tabs",
         "children": [
           {
-            "id": "b669b503cf81a960",
+            "id": "81be32a64daabdfa",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "05 - Arquitectura_de_Computadoras/Material/1 Programmer’s Reference Manual.pdf"
+              }
+            }
+          },
+          {
+            "id": "47f8912029e68d9b",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "05 - Arquitectura_de_Computadoras/Material/Digital systems Tocci 8th edition.pdf"
+              }
+            }
+          },
+          {
+            "id": "45bb45ae7288cbee",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "06 - Inteligencia_Artificial/1er Parcial.md",
+                "file": "05 - Arquitectura_de_Computadoras/1er Parcial.md",
                 "mode": "source",
                 "source": false
               }
             }
-          },
+          }
+        ],
+        "currentTab": 2
+      },
+      {
+        "id": "b2de00924d946c7c",
+        "type": "tabs",
+        "children": [
           {
-            "id": "0866d947ae2fbaa7",
+            "id": "83815b146b7e3013",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "pdf",
               "state": {
-                "file": "00 - attachments/IA2024-09-12 16.44.37.excalidraw.md"
+                "file": "05 - Arquitectura_de_Computadoras/Material/2 DSPIC33FJ32MC202.pdf"
               }
             }
           },
           {
-            "id": "99c7656e9142a861",
+            "id": "00cf69734d374cb9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "06 - Inteligencia_Artificial/Inteligencia artificial.md",
+                "file": "05 - Arquitectura_de_Computadoras/Arquitectura de computadoras.md",
                 "mode": "source",
                 "source": false
               }
@@ -92,7 +119,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "c15648a40d8a8acb",
@@ -108,7 +136,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "06 - Inteligencia_Artificial/1er Parcial.md",
+                "file": "05 - Arquitectura_de_Computadoras/1er Parcial.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +153,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "06 - Inteligencia_Artificial/1er Parcial.md",
+                "file": "05 - Arquitectura_de_Computadoras/1er Parcial.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +165,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "06 - Inteligencia_Artificial/1er Parcial.md"
+                "file": "05 - Arquitectura_de_Computadoras/1er Parcial.md"
               }
             }
           },
@@ -185,15 +213,25 @@
       "daily-notes:Open today's daily note": false
     }
   },
-  "active": "b669b503cf81a960",
+  "active": "45bb45ae7288cbee",
   "lastOpenFiles": [
+    "05 - Arquitectura_de_Computadoras/Material/1 Programmer’s Reference Manual.pdf",
+    "05 - Arquitectura_de_Computadoras/1er Parcial.md",
+    "00 - attachments/Pasted image 20240912194336.png",
+    "00 - attachments/Pasted image 20240912193801.png",
+    "05 - Arquitectura_de_Computadoras/Material/2 DSPIC33FJ32MC202.pdf",
+    "00 - attachments/Pasted image 20240912192152.png",
+    "05 - Arquitectura_de_Computadoras/Material/Digital systems Tocci 8th edition.pdf",
+    "05 - Arquitectura_de_Computadoras/Arquitectura de computadoras.md",
+    "00 - attachments/Pasted image 20240912190143.png",
+    "00 - attachments/Pasted image 20240912190123.png",
+    "06 - Inteligencia_Artificial/1er Parcial.md",
+    "00 - attachments/IA2024-09-12 16.44.37.excalidraw.md",
     "00 - attachments/Pasted image 20240912174613.png",
     "00 - attachments/Pasted image 20240912173648.png",
     "00 - attachments/Pasted image 20240912172043.png",
     "00 - attachments/Pasted image 20240912170723.png",
     "06 - Inteligencia_Artificial/Inteligencia artificial.md",
-    "06 - Inteligencia_Artificial/1er Parcial.md",
-    "00 - attachments/IA2024-09-12 16.44.37.excalidraw.md",
     "07 - Administración_Servicios_en _Red/1er Parcial.md",
     "07 - Administración_Servicios_en _Red/Administración Servicios en Red.md",
     "07 - Administración_Servicios_en _Red/Tareas/Tarea1_Bautista_Rios_Alfredo.md",
@@ -206,17 +244,8 @@
     "00 - attachments/SistDist2024-09-11 18.40.47.excalidraw.md",
     "06 - Inteligencia_Artificial/1er Parcial Tareas.md",
     "00 - attachments/Pasted image 20240911175545.png",
-    "00 - attachments/Pasted image 20240911012007.png",
     "00 - attachments/Redes3_2024-09-10 23.56.17.excalidraw.md",
-    "00 - attachments/Redes3_2024-09-10 23.56.17.excalidraw.png",
-    "00 - attachments/Pasted Image 20240911010130_993.png",
-    "00 - attachments/Pasted Image 20240911010015_991.png",
-    "00 - attachments/Pasted Image 20240911005800_988.png",
-    "00 - attachments/Pasted Image 20240911005542_983.png",
     "07 - Sistemas_Distribuidos/temario.pdf",
-    "05 - Arquitectura_de_Computadoras/Arquitectura de computadoras.md",
-    "05 - Arquitectura_de_Computadoras/1er Parcial.md",
-    "05 - Arquitectura_de_Computadoras/Material/Digital systems Tocci 8th edition.pdf",
     "07 - Sistemas_Distribuidos/Codigos/ProxyInverso.java",
     "07 - Sistemas_Distribuidos/Codigos/AnillosClientesServidores.java",
     "07 - Sistemas_Distribuidos/Codigos/ProxyTransparente.java",
@@ -230,8 +259,6 @@
     "07 - Administración_Servicios_en _Red/Tareas",
     "07 - Administración_Servicios_en _Red/Glosario.md",
     "06 - Aplicaciones_Comunicaciones_en_Red/Ejercicio Funciones del Objeto Socket.md",
-    "06 - Aplicaciones_Comunicaciones_en_Red/Material/EjercicioFuncionesObjetoSockets.pdf",
-    "00 - attachments/Redes3_2024-09-05 15.41.35.excalidraw.md",
-    "06 - Aplicaciones_Comunicaciones_en_Red/Material/rfc1180(TCP-IP).pdf"
+    "00 - attachments/Redes3_2024-09-05 15.41.35.excalidraw.md"
   ]
 }

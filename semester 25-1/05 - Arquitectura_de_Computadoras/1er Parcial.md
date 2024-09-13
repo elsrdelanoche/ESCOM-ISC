@@ -161,3 +161,66 @@ Operador directo -> toma la dirección
 Operador inmediato -> toma el dato
 
 ![[Pasted image 20240910175129.png]]
+
+---
+# 12 de Septiembre 2024
+
+
+Memory adress -> Donde se aloja el programa
+Memory contents -> Codigo de la instrucción
+Assembly language -> Descripción
+
+
+![[Pasted image 20240912190143.png]]
+
+Este código en ensamblador parece corresponder a un programa para un microcontrolador, probablemente el 8051.explicación línea por línea:
+
+1. **0000 02 LJMP 0100H**  
+   Salta a la dirección de memoria **0100H**, que es el inicio real del programa.  
+   _LJMP (Long Jump)_ se utiliza para hacer un salto incondicional a una dirección específica, en este caso, **0100H**.
+
+2. **0100 60 08 JZ 010AH**  
+   Si el valor en el acumulador (registro A) es cero, salta a la dirección **010AH**.  
+   _JZ (Jump if Zero)_ verifica si el acumulador tiene el valor cero y, de ser así, realiza el salto. En este contexto, parece estar preguntando si se debe "cocinar la comida".
+
+3. **0102 F5 90 MOV P1, A**  
+   Mueve el valor del acumulador al puerto 1 (**P1**), mostrando el tiempo de cocción en este puerto.  
+   _MOV_ es una instrucción para mover datos entre registros, aquí transfiere el contenido del acumulador al puerto 1.
+
+4. **0104 12 28 55 LCALL 1_SEC_DELAY**  
+   Llama a una subrutina para generar un retraso de un segundo.  
+   _LCALL (Long Call)_ invoca una subrutina ubicada en otra dirección de memoria, en este caso, una función que introduce un retraso de un segundo.
+
+5. **0107 14 DEC A**  
+   Decrementa el valor del acumulador en 1, reduciendo el tiempo de cocción en un segundo.  
+   _DEC A_ simplemente resta uno al valor actual del acumulador.
+
+6. **0108 70 F8 JNZ 0102H**  
+   Si el valor en el acumulador no es cero, salta a la dirección **0102H**.  
+   _JNZ (Jump if Not Zero)_ salta a **0102H** si el acumulador no ha alcanzado cero, lo que significa que el tiempo de cocción no ha terminado y sigue decrementando el tiempo.
+
+7. **010A ******** This is where the rest of the program continues. **********  
+   El programa continúa desde este punto, pero no se muestra en el fragmento.
+
+
+![[Pasted image 20240912192152.png]]
+W0 -> Working register (WREG)
+
+![[Pasted image 20240912193801.png]]
+
+0x332C
+0x5555
+
+`00011 0011 0010 1100`
+`0101 0101 0101 0101`
+`--------------------`
+`0001 0001 0000 0100`
+
+El segundo es el mismo pero irá a W0
+
+
+![[Pasted image 20240912194336.png]]
+
+Or inclusivo es un Or normal
+
+Wd -> Wdestination
