@@ -21,13 +21,9 @@
 | **NFC**                     | 13.56 MHz                                    | Banda ISM                        | ISO/IEC 18092                             | Ancho de banda de 2 MHz             |
 | **Bluetooth**                | 2.4 GHz                                     | Banda ISM                        | IEEE 802.15.1                             | 83.5 MHz                            |
 
-#### Notas personales:
-- **WiFi:** Utiliza frecuencias en las bandas de 2.4 GHz y 5 GHz. El ancho de banda en 2.4 GHz es de 83.5 MHz (de 2.400 a 2.4835 GHz), y en la banda de 5 GHz varía entre 150 MHz y 200 MHz dependiendo de la región.
-- **Telefonía celular:** La banda utilizada depende del operador y la tecnología (2G, 3G, 4G o 5G). En México, el LTE (4G) y 5G utilizan principalmente las bandas de 700 MHz, 850 MHz, 1900 MHz y 2600 MHz.
-- **Televisión terrestre:** En México, la televisión terrestre analógica (NTSC) ha sido reemplazada por la televisión digital (ATSC), pero aún utiliza las mismas bandas de frecuencia (VHF y UHF).
-- **Radio terrestre (AM y FM):** Las frecuencias de radio AM y FM están bien definidas, y el ancho de banda por canal es fijo.
-- **NFC:** Es una tecnología de muy corto alcance que funciona en 13.56 MHz, dentro de la banda ISM.
-- **Bluetooth:** Funciona dentro de la banda ISM en 2.4 GHz, compartida con otras tecnologías como WiFi.
+----
 
 ## Act 2 - Organizador Gráfico 
-![[Redes3_2024-09-10 23.56.17.excalidraw]]![[Pasted image 20240911012007.png]]
+![[Redes3_2024-09-10 23.56.17.excalidraw]]
+
+![[Redes3_2024-09-10 23.56.17.excalidraw.png]]
