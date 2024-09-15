@@ -4,65 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "ac313967cbda7def",
+        "id": "50bda4ba676c4c16",
         "type": "tabs",
         "children": [
           {
-            "id": "81be32a64daabdfa",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "05 - Arquitectura_de_Computadoras/Material/1 Programmer’s Reference Manual.pdf"
-              }
-            }
-          },
-          {
-            "id": "47f8912029e68d9b",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "05 - Arquitectura_de_Computadoras/Material/Digital systems Tocci 8th edition.pdf"
-              }
-            }
-          },
-          {
-            "id": "45bb45ae7288cbee",
+            "id": "4c8482a782e51bd3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "05 - Arquitectura_de_Computadoras/1er Parcial.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ],
-        "currentTab": 2
-      },
-      {
-        "id": "b2de00924d946c7c",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "83815b146b7e3013",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "05 - Arquitectura_de_Computadoras/Material/2 DSPIC33FJ32MC202.pdf"
-              }
-            }
-          },
-          {
-            "id": "00cf69734d374cb9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "05 - Arquitectura_de_Computadoras/Arquitectura de computadoras.md",
+                "file": "07 - Administración_Servicios_en _Red/Tareas/Tarea1_Bautista_Rios_Alfredo.md",
                 "mode": "source",
                 "source": false
               }
@@ -114,13 +65,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "c15648a40d8a8acb",
@@ -136,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "05 - Arquitectura_de_Computadoras/1er Parcial.md",
+                "file": "07 - Administración_Servicios_en _Red/Tareas/Tarea1_Bautista_Rios_Alfredo.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -153,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "05 - Arquitectura_de_Computadoras/1er Parcial.md",
+                "file": "07 - Administración_Servicios_en _Red/Tareas/Tarea1_Bautista_Rios_Alfredo.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -165,7 +114,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "05 - Arquitectura_de_Computadoras/1er Parcial.md"
+                "file": "07 - Administración_Servicios_en _Red/Tareas/Tarea1_Bautista_Rios_Alfredo.md"
               }
             }
           },
@@ -201,28 +150,29 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-excalidraw-plugin:Create new drawing": false,
       "switcher:Open quick switcher": false,
-      "omnisearch:Omnisearch": false,
       "graph:Open graph view": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
+      "daily-notes:Open today's daily note": false,
       "obsidian-kanban:Create new board": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "omnisearch:Omnisearch": false,
       "homepage:Open homepage": false,
-      "daily-notes:Open today's daily note": false
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "45bb45ae7288cbee",
+  "active": "2d61b6a77d5f3264",
   "lastOpenFiles": [
-    "05 - Arquitectura_de_Computadoras/Material/1 Programmer’s Reference Manual.pdf",
+    "07 - Administración_Servicios_en _Red/Tareas/Tarea1_Bautista_Rios_Alfredo.md",
+    "05 - Arquitectura_de_Computadoras/Arquitectura de computadoras.md",
     "05 - Arquitectura_de_Computadoras/1er Parcial.md",
+    "05 - Arquitectura_de_Computadoras/Material/1 Programmer’s Reference Manual.pdf",
     "00 - attachments/Pasted image 20240912194336.png",
     "00 - attachments/Pasted image 20240912193801.png",
     "05 - Arquitectura_de_Computadoras/Material/2 DSPIC33FJ32MC202.pdf",
     "00 - attachments/Pasted image 20240912192152.png",
     "05 - Arquitectura_de_Computadoras/Material/Digital systems Tocci 8th edition.pdf",
-    "05 - Arquitectura_de_Computadoras/Arquitectura de computadoras.md",
     "00 - attachments/Pasted image 20240912190143.png",
     "00 - attachments/Pasted image 20240912190123.png",
     "06 - Inteligencia_Artificial/1er Parcial.md",
@@ -234,7 +184,6 @@
     "06 - Inteligencia_Artificial/Inteligencia artificial.md",
     "07 - Administración_Servicios_en _Red/1er Parcial.md",
     "07 - Administración_Servicios_en _Red/Administración Servicios en Red.md",
-    "07 - Administración_Servicios_en _Red/Tareas/Tarea1_Bautista_Rios_Alfredo.md",
     "00 - attachments/SistDist2024-09-11 19.40.07.excalidraw.md",
     "07 - Sistemas_Distribuidos/1er Parcial.md",
     "00 - attachments/SistDist2024-09-11 19.23.47.excalidraw.md",
