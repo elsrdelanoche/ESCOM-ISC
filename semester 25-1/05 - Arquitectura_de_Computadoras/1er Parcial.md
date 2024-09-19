@@ -224,3 +224,46 @@ El segundo es el mismo pero irá a W0
 Or inclusivo es un Or normal
 
 Wd -> Wdestination
+
+
+---
+# 17 de Septiembre 2024
+
+Descargar software para practicas:
+- MPLAB X
+- XC16 Compiler
+- Proteus
+
+Ejercicio LS
+![[Pasted image 20240917165306.png]]
+Shift Left
+#### Paso 1: Desplazamiento a la izquierda
+
+El valor en `W6` es `0x000C` (12 en decimal), y `W7` es `0x0008` (8 bits).
+
+Desplazamos el valor `0x000C` (12) hacia la izquierda por 8 posiciones:
+
+0x000C≪8=0x0C000x000C \ll 8 = 0x0C000x000C≪8=0x0C00
+
+#### Paso 2: Almacenamiento
+
+El resultado del desplazamiento (0x0C00) se almacena en `W8`.
+
+### Valores después de la instrucción:
+
+- `W6` permanece igual: `0x000C`.
+- `W7` permanece igual: `0x0008`.
+- `W8` ahora es `0x0C00`.
+
+0000 0000 0000 1100
+0000 1100 0000 0000
+
+
+Ejemplo ADD
+W2= 0x33F0
+W3= 0xF8C3
+ADD W3,#56,W2
+W4=0x0038 o 56
+ADD W3,W4,W2
+
+

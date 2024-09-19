@@ -4,16 +4,26 @@
     "type": "split",
     "children": [
       {
-        "id": "50bda4ba676c4c16",
+        "id": "e5a2f9fc39fce9ca",
         "type": "tabs",
         "children": [
           {
-            "id": "4c8482a782e51bd3",
+            "id": "1410f363e3b0d912",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "05 - Arquitectura_de_Computadoras/Material/1 Programmer’s Reference Manual.pdf"
+              }
+            }
+          },
+          {
+            "id": "07f522fc3f0e7348",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "07 - Administración_Servicios_en _Red/Tareas/Tarea1_Bautista_Rios_Alfredo.md",
+                "file": "05 - Arquitectura_de_Computadoras/1er Parcial.md",
                 "mode": "source",
                 "source": false
               }
@@ -65,7 +75,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -85,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "07 - Administración_Servicios_en _Red/Tareas/Tarea1_Bautista_Rios_Alfredo.md",
+                "file": "05 - Arquitectura_de_Computadoras/Material/1 Programmer’s Reference Manual.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "07 - Administración_Servicios_en _Red/Tareas/Tarea1_Bautista_Rios_Alfredo.md",
+                "file": "05 - Arquitectura_de_Computadoras/Material/1 Programmer’s Reference Manual.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -114,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "07 - Administración_Servicios_en _Red/Tareas/Tarea1_Bautista_Rios_Alfredo.md"
+                "file": "05 - Arquitectura_de_Computadoras/Material/1 Programmer’s Reference Manual.pdf"
               }
             }
           },
@@ -162,20 +173,26 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "2d61b6a77d5f3264",
+  "active": "1410f363e3b0d912",
   "lastOpenFiles": [
-    "07 - Administración_Servicios_en _Red/Tareas/Tarea1_Bautista_Rios_Alfredo.md",
-    "05 - Arquitectura_de_Computadoras/Arquitectura de computadoras.md",
     "05 - Arquitectura_de_Computadoras/1er Parcial.md",
     "05 - Arquitectura_de_Computadoras/Material/1 Programmer’s Reference Manual.pdf",
+    "00 - attachments/Pasted image 20240917165306.png",
+    "05 - Arquitectura_de_Computadoras/Material/2 DSPIC33FJ32MC202.pdf",
+    "05 - Arquitectura_de_Computadoras/Material/Arquitectura de computdoras2.pdf",
+    "05 - Arquitectura_de_Computadoras/Material/Digital systems Tocci 8th edition.pdf",
+    "06 - Aplicaciones_Comunicaciones_en_Red/1er Parcial.md",
+    "00 - attachments/Redes2_2024-09-17 15.38.36.excalidraw.md",
+    "00 - attachments/Redes2_2024-09-17 15.25.17.excalidraw.md",
+    "06 - Inteligencia_Artificial/1er Parcial.md",
+    "07 - Administración_Servicios_en _Red/07 - Administración_Servicios_en _Red.md",
+    "07 - Administración_Servicios_en _Red/Tareas/Tarea1_Bautista_Rios_Alfredo.md",
+    "05 - Arquitectura_de_Computadoras/Arquitectura de computadoras.md",
     "00 - attachments/Pasted image 20240912194336.png",
     "00 - attachments/Pasted image 20240912193801.png",
-    "05 - Arquitectura_de_Computadoras/Material/2 DSPIC33FJ32MC202.pdf",
     "00 - attachments/Pasted image 20240912192152.png",
-    "05 - Arquitectura_de_Computadoras/Material/Digital systems Tocci 8th edition.pdf",
     "00 - attachments/Pasted image 20240912190143.png",
     "00 - attachments/Pasted image 20240912190123.png",
-    "06 - Inteligencia_Artificial/1er Parcial.md",
     "00 - attachments/IA2024-09-12 16.44.37.excalidraw.md",
     "00 - attachments/Pasted image 20240912174613.png",
     "00 - attachments/Pasted image 20240912173648.png",
@@ -192,22 +209,16 @@
     "00 - attachments/SistDist2024-09-11 18.46.09.excalidraw.md",
     "00 - attachments/SistDist2024-09-11 18.40.47.excalidraw.md",
     "06 - Inteligencia_Artificial/1er Parcial Tareas.md",
-    "00 - attachments/Pasted image 20240911175545.png",
     "00 - attachments/Redes3_2024-09-10 23.56.17.excalidraw.md",
     "07 - Sistemas_Distribuidos/temario.pdf",
     "07 - Sistemas_Distribuidos/Codigos/ProxyInverso.java",
     "07 - Sistemas_Distribuidos/Codigos/AnillosClientesServidores.java",
     "07 - Sistemas_Distribuidos/Codigos/ProxyTransparente.java",
     "07 - Sistemas_Distribuidos/Codigos",
-    "05 - Arquitectura_de_Computadoras/Material/Arquitectura de computdoras2.pdf",
     "06 - Aplicaciones_Comunicaciones_en_Red/Aplicaciones para Comunicaciones en Red.md",
-    "06 - Aplicaciones_Comunicaciones_en_Red/1er Parcial.md",
     "00 - attachments/IA_2024-09-09 15.11.54.excalidraw.md",
     "00 - attachments/redes3_2024-09-05 21.56.26.excalidraw.md",
     "07 - Administración_Servicios_en _Red/Tareas/Tareas.md",
-    "07 - Administración_Servicios_en _Red/Tareas",
-    "07 - Administración_Servicios_en _Red/Glosario.md",
-    "06 - Aplicaciones_Comunicaciones_en_Red/Ejercicio Funciones del Objeto Socket.md",
-    "00 - attachments/Redes3_2024-09-05 15.41.35.excalidraw.md"
+    "07 - Administración_Servicios_en _Red/Tareas"
   ]
 }

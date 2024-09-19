@@ -52,3 +52,47 @@ Apuntes Freddy
 1. **Fiabilidad en la transferencia de datos:** Importancia en garantizar la entrega correcta de los datos
 2. **Tasa de transferencia:** Garantías de tasa de transferencia para aplicaciones sensibles al ancho de banda.
 3. **Temporización:** Garantías de tiempos de entrega de datos en aplicaciones en tiempo real
+
+Aqui va el ejercicio que hice en el telefono
+---
+# 17 de septiembre 2024
+## Diapositivas
+## Paradigmas de comunicación de internet
+
+Paradigma orientado a Stream
+El cliente y el servidor tendran una comunicación bidireccional con cada cliente, usando la conexión TCP
+
+Paradigma orientado a mensajes
+El cliente solo envia datos, no existe canal, el servidor usando protocolo IP del mismo paquete, envia una respuesta
+
+![[Redes2_2024-09-17 15.25.17.excalidraw]]
+
+Se agregara un socket a cada cliente 
+
+## Función Socket
+
+el modulo socket en python 3.x
+
+
+
+## Objeto Socket
+metodos:
+- Socket.bind(address) // Asociar a formato de dirección IP
+- socket.accept() // Acepta solicitud de conexión
+
+
+![[Redes2_2024-09-17 15.38.36.excalidraw]]
+
+Cerrar sockets, liberar ram, puede petar!!! usar CLOSE()
+
+## Socket no orientado a conexión
+
+## Funciones de UDP
+Diagrama
+
+## Objeto socket
+ya no usaremos sen o rec a secas
+siempre que enviamos datos hay que especificar el destinatario
+
+
+Próxima clase: demostración

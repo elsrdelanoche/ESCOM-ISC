@@ -28,7 +28,7 @@
   "spacesEnabled": true,
   "syncFormulaToFrontmatter": true,
   "spacesPerformance": false,
-  "currentWaypoint": 1,
+  "currentWaypoint": 0,
   "enableFolderNote": true,
   "folderIndentationLines": true,
   "revealActiveFile": false,
@@ -43,10 +43,9 @@
   "deleteFileOption": "trash",
   "expandedSpaces": [
     "/",
-    "//06 - Aplicaciones_Comunicaciones_en_Red/06 - Aplicaciones_Comunicaciones_en_Red/Material",
     "//07 - Administración_Servicios_en _Red/07 - Administración_Servicios_en _Red/Tareas",
     "//05 - Arquitectura_de_Computadoras/05 - Arquitectura_de_Computadoras/Material",
-    "//07 - Administración_Servicios_en _Red"
+    "//05 - Arquitectura_de_Computadoras"
   ],
   "expandFolderOnClick": true,
   "menuTriggerChar": "/",
