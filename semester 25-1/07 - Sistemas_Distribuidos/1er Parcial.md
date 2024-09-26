@@ -132,6 +132,3 @@ Crear un keystore para el cliente(Repositorio de confianza) incluyendo el certif
 
 No existe HTTPS, sino HTTP con conexión segura (HTTP/SSL/TCP)
 
-### Tarea 1: 
-jueves sig semana 
-viernes 8pm?

@@ -4,29 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "e5a2f9fc39fce9ca",
+        "id": "91ad423fee377f08",
         "type": "tabs",
         "children": [
           {
-            "id": "1410f363e3b0d912",
+            "id": "fe525b12c3724529",
             "type": "leaf",
             "state": {
-              "type": "pdf",
-              "state": {
-                "file": "05 - Arquitectura_de_Computadoras/Material/1 Programmer’s Reference Manual.pdf"
-              }
-            }
-          },
-          {
-            "id": "07f522fc3f0e7348",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "05 - Arquitectura_de_Computadoras/1er Parcial.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -96,7 +82,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "05 - Arquitectura_de_Computadoras/Material/1 Programmer’s Reference Manual.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +98,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "05 - Arquitectura_de_Computadoras/Material/1 Programmer’s Reference Manual.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +108,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "05 - Arquitectura_de_Computadoras/Material/1 Programmer’s Reference Manual.pdf"
-              }
+              "state": {}
             }
           },
           {
@@ -173,12 +155,21 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "1410f363e3b0d912",
+  "active": "fe525b12c3724529",
   "lastOpenFiles": [
+    "07 - Sistemas_Distribuidos/notas.md",
+    "07 - Sistemas_Distribuidos/1er Parcial.md",
     "05 - Arquitectura_de_Computadoras/1er Parcial.md",
     "05 - Arquitectura_de_Computadoras/Material/1 Programmer’s Reference Manual.pdf",
-    "00 - attachments/Pasted image 20240917165306.png",
+    "05 - Arquitectura_de_Computadoras/05 - Arquitectura_de_Computadoras.md",
+    "06 - Inteligencia_Artificial/06 - Inteligencia_Artificial.md",
+    "07 - Sistemas_Distribuidos/07 - Sistemas_Distribuidos.md",
+    "07 - Sistemas_Distribuidos/Codigos/AdministradorTrafico.class",
+    "07 - Sistemas_Distribuidos/Codigos/AdministradorTrafico$RespuestaServidorAlNavegador.class",
+    "07 - Sistemas_Distribuidos/Codigos/AdministradorTrafico$ClienteProxy.class",
+    "07 - Sistemas_Distribuidos/Codigos/AdministradorTrafico.java",
     "05 - Arquitectura_de_Computadoras/Material/2 DSPIC33FJ32MC202.pdf",
+    "00 - attachments/Pasted image 20240917165306.png",
     "05 - Arquitectura_de_Computadoras/Material/Arquitectura de computdoras2.pdf",
     "05 - Arquitectura_de_Computadoras/Material/Digital systems Tocci 8th edition.pdf",
     "06 - Aplicaciones_Comunicaciones_en_Red/1er Parcial.md",
@@ -202,7 +193,6 @@
     "07 - Administración_Servicios_en _Red/1er Parcial.md",
     "07 - Administración_Servicios_en _Red/Administración Servicios en Red.md",
     "00 - attachments/SistDist2024-09-11 19.40.07.excalidraw.md",
-    "07 - Sistemas_Distribuidos/1er Parcial.md",
     "00 - attachments/SistDist2024-09-11 19.23.47.excalidraw.md",
     "07 - Sistemas_Distribuidos/Sistemas Distribuidos.md",
     "00 - attachments/SistDist2024-09-11 18.48.02.excalidraw.md",
@@ -212,13 +202,6 @@
     "00 - attachments/Redes3_2024-09-10 23.56.17.excalidraw.md",
     "07 - Sistemas_Distribuidos/temario.pdf",
     "07 - Sistemas_Distribuidos/Codigos/ProxyInverso.java",
-    "07 - Sistemas_Distribuidos/Codigos/AnillosClientesServidores.java",
-    "07 - Sistemas_Distribuidos/Codigos/ProxyTransparente.java",
-    "07 - Sistemas_Distribuidos/Codigos",
-    "06 - Aplicaciones_Comunicaciones_en_Red/Aplicaciones para Comunicaciones en Red.md",
-    "00 - attachments/IA_2024-09-09 15.11.54.excalidraw.md",
-    "00 - attachments/redes3_2024-09-05 21.56.26.excalidraw.md",
-    "07 - Administración_Servicios_en _Red/Tareas/Tareas.md",
-    "07 - Administración_Servicios_en _Red/Tareas"
+    "06 - Aplicaciones_Comunicaciones_en_Red/Aplicaciones para Comunicaciones en Red.md"
   ]
 }
