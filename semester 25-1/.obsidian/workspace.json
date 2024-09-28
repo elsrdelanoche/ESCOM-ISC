@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "91ad423fee377f08",
+        "id": "83b625620ea4645e",
         "type": "tabs",
         "children": [
           {
-            "id": "fe525b12c3724529",
+            "id": "efe507317169a785",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "06 - Inteligencia_Artificial/Notas Practicas.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -82,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "06 - Inteligencia_Artificial/Notas Practicas.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "06 - Inteligencia_Artificial/Notas Practicas.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -108,7 +114,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "06 - Inteligencia_Artificial/Notas Practicas.md"
+              }
             }
           },
           {
@@ -155,29 +163,39 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "fe525b12c3724529",
+  "active": "efe507317169a785",
   "lastOpenFiles": [
+    "06 - Inteligencia_Artificial/1er Parcial Tareas.md",
+    "07 - Administración_Servicios_en _Red/Tareas/Tarea1_Bautista_Rios_Alfredo.md",
+    "07 - Administración_Servicios_en _Red/Tareas/Tarea1_Bautista_Rios_Alfredo.pdf",
+    "07 - Administración_Servicios_en _Red/Tareas/Tareas.md",
+    "05 - Arquitectura_de_Computadoras/05 - Arquitectura_de_Computadoras.md",
+    "05 - Arquitectura_de_Computadoras/Material/1 Programmer’s Reference Manual.pdf",
+    "05 - Arquitectura_de_Computadoras/Material/GitAlumnosArqui-main/README.md",
+    "05 - Arquitectura_de_Computadoras/Material/GitAlumnosArqui-main/Docs dsPIC33/pinout dspic33FJ32MC202.png",
+    "05 - Arquitectura_de_Computadoras/Material/GitAlumnosArqui-main/Docs dsPIC33/dspic en lenguaje C.pdf",
+    "05 - Arquitectura_de_Computadoras/Material/GitAlumnosArqui-main/Docs dsPIC33/conexion.png",
+    "05 - Arquitectura_de_Computadoras/Material/GitAlumnosArqui-main/Docs dsPIC33/Uart.pdf",
+    "05 - Arquitectura_de_Computadoras/Material/GitAlumnosArqui-main/Docs dsPIC33/Timers 70205D.pdf",
+    "05 - Arquitectura_de_Computadoras/Material/GitAlumnosArqui-main/Docs dsPIC33/Interrupts.pdf",
+    "05 - Arquitectura_de_Computadoras/Material/GitAlumnosArqui-main/Docs dsPIC33/IO PORTS with Peripheral Pin Select 70190E.pdf",
+    "05 - Arquitectura_de_Computadoras/Material/GitAlumnosArqui-main/Docs dsPIC33/DSPIC33F Product Overview.pdf",
+    "05 - Arquitectura_de_Computadoras/Material/GitAlumnosArqui-main/Docs dsPIC33/CRUCIGRAMA.docx",
+    "05 - Arquitectura_de_Computadoras/Material/GitAlumnosArqui-main/Docs dsPIC33/CODE GUARD SECURITY DS70199.pdf",
+    "06 - Inteligencia_Artificial/Notas Practicas.md",
+    "07 - Administración_Servicios_en _Red/1er Parcial.md",
+    "07 - Administración_Servicios_en _Red/Glosario.md",
+    "07 - Sistemas_Distribuidos/07 - Sistemas_Distribuidos.md",
     "07 - Sistemas_Distribuidos/notas.md",
     "07 - Sistemas_Distribuidos/1er Parcial.md",
     "05 - Arquitectura_de_Computadoras/1er Parcial.md",
-    "05 - Arquitectura_de_Computadoras/Material/1 Programmer’s Reference Manual.pdf",
-    "05 - Arquitectura_de_Computadoras/05 - Arquitectura_de_Computadoras.md",
     "06 - Inteligencia_Artificial/06 - Inteligencia_Artificial.md",
-    "07 - Sistemas_Distribuidos/07 - Sistemas_Distribuidos.md",
-    "07 - Sistemas_Distribuidos/Codigos/AdministradorTrafico.class",
-    "07 - Sistemas_Distribuidos/Codigos/AdministradorTrafico$RespuestaServidorAlNavegador.class",
-    "07 - Sistemas_Distribuidos/Codigos/AdministradorTrafico$ClienteProxy.class",
-    "07 - Sistemas_Distribuidos/Codigos/AdministradorTrafico.java",
-    "05 - Arquitectura_de_Computadoras/Material/2 DSPIC33FJ32MC202.pdf",
     "00 - attachments/Pasted image 20240917165306.png",
-    "05 - Arquitectura_de_Computadoras/Material/Arquitectura de computdoras2.pdf",
-    "05 - Arquitectura_de_Computadoras/Material/Digital systems Tocci 8th edition.pdf",
     "06 - Aplicaciones_Comunicaciones_en_Red/1er Parcial.md",
     "00 - attachments/Redes2_2024-09-17 15.38.36.excalidraw.md",
     "00 - attachments/Redes2_2024-09-17 15.25.17.excalidraw.md",
     "06 - Inteligencia_Artificial/1er Parcial.md",
     "07 - Administración_Servicios_en _Red/07 - Administración_Servicios_en _Red.md",
-    "07 - Administración_Servicios_en _Red/Tareas/Tarea1_Bautista_Rios_Alfredo.md",
     "05 - Arquitectura_de_Computadoras/Arquitectura de computadoras.md",
     "00 - attachments/Pasted image 20240912194336.png",
     "00 - attachments/Pasted image 20240912193801.png",
@@ -187,21 +205,11 @@
     "00 - attachments/IA2024-09-12 16.44.37.excalidraw.md",
     "00 - attachments/Pasted image 20240912174613.png",
     "00 - attachments/Pasted image 20240912173648.png",
-    "00 - attachments/Pasted image 20240912172043.png",
-    "00 - attachments/Pasted image 20240912170723.png",
     "06 - Inteligencia_Artificial/Inteligencia artificial.md",
-    "07 - Administración_Servicios_en _Red/1er Parcial.md",
     "07 - Administración_Servicios_en _Red/Administración Servicios en Red.md",
     "00 - attachments/SistDist2024-09-11 19.40.07.excalidraw.md",
     "00 - attachments/SistDist2024-09-11 19.23.47.excalidraw.md",
     "07 - Sistemas_Distribuidos/Sistemas Distribuidos.md",
-    "00 - attachments/SistDist2024-09-11 18.48.02.excalidraw.md",
-    "00 - attachments/SistDist2024-09-11 18.46.09.excalidraw.md",
-    "00 - attachments/SistDist2024-09-11 18.40.47.excalidraw.md",
-    "06 - Inteligencia_Artificial/1er Parcial Tareas.md",
-    "00 - attachments/Redes3_2024-09-10 23.56.17.excalidraw.md",
-    "07 - Sistemas_Distribuidos/temario.pdf",
-    "07 - Sistemas_Distribuidos/Codigos/ProxyInverso.java",
-    "06 - Aplicaciones_Comunicaciones_en_Red/Aplicaciones para Comunicaciones en Red.md"
+    "00 - attachments/SistDist2024-09-11 18.48.02.excalidraw.md"
   ]
 }

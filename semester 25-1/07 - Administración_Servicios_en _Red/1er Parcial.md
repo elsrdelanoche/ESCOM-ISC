@@ -24,3 +24,9 @@ Maquinas virtuales
 - Entorno asilado
 
 ---
+
+# 26 de Septiembre 2024
+
+Características para Ubuntu server
+- LTS (22.04)
+- 

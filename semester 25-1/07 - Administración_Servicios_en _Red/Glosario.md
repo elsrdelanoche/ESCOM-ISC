@@ -4,3 +4,6 @@ Servirá como extra para calificación
 Acronimos, terminos, enlaces, que quede bonito
 
 IFT: 
+
+
+*Recopilar palabras de otras expos*
