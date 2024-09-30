@@ -1,6 +1,6 @@
 import socket
 
-HOST = "8.12.0.138"  # El hostname o IP del servidor
+HOST = "192.168.1.72"  # El hostname o IP del servidor
 PORT = 54321  # El puerto que usa el servidor
 bufferSize = 1024
 msgFromServer = "Hola cliente UDP"

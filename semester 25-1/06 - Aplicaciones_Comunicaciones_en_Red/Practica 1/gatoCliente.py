@@ -2,8 +2,8 @@
 
 import socket
 
-HOST = "127.0.0.1"  # Dirección IP del servidor
-PORT = 65432  # Puerto del servidor
+HOST = "187.190.146.19"  # Dirección IP del servidor
+PORT = 54321  # Puerto del servidor
 buffer_size = 1024
 
 def imprimir_tablero(tablero, tamaño):

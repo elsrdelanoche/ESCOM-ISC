@@ -1,3 +1,4 @@
+
 ### Act 1.1: Identificación de servicios de comunicaciones y sus características en redes LAN
 
 | **Servicio de Comunicación**       | **Descripción**                                                                                                              | **Protocolo/Estándar**           | **Características**                                                                                                                        |
@@ -26,3 +27,5 @@
 ## Act 2 - Organizador Gráfico 
 ![[Redes3_2024-09-10 23.56.17.excalidraw]]
 
+## Actividad 3
+El trabajo de las primeras semanas nos permitió comprender la evolución de las redes de datos y las infraestructuras. Las intercomunicaciones pasaron de ser centralizadas y lentas, con líneas telefónicas dedicadas, a redes distribuidas que permiten conexiones rápidas y seguras mediante tecnologías como VPN y fibra óptica. Hoy en día, aplicaciones en la nube como Google Drive permiten la colaboración en tiempo real desde cualquier lugar, algo impensable antes. Los sistemas operativos también han evolucionado, integrando servicios como Dropbox para el acceso remoto. Las políticas de respaldo, antes manuales y locales, ahora son automáticas gracias a servicios como AWS. En caso de fallos, plataformas como Google Cloud permiten la recuperación instantánea. Además, las infraestructuras cableadas pasaron de módems telefónicos lentos a conexiones de fibra óptica ultrarrápidas, mientras que las inalámbricas, como WiFi 6 y 5G, permiten nuevas aplicaciones como IoT y streaming en la nube, ofreciendo mayor eficiencia, velocidad y seguridad que los métodos tradicionales.
