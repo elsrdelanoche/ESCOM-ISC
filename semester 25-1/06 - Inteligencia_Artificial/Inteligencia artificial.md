@@ -271,6 +271,8 @@ función BFS : nodo t;
 Ejemplo: Búsqueda de anchura
 ![[IA_BFS.excalidraw]]
 ### 2.2.2 Búsqueda en profundidad
+Una búsqueda en profundidad (DFS) es un algoritmo de búsqueda para lo cual recorre los nodos de un grafo. Su funcionamiento consiste en ir expandiendo cada uno de los nodos que va localizando, de forma recurrente (desde el nodo padre hacia el nodo hijo). Cuando ya no quedan más nodos que visitar en dicho camino, regresa al nodo predecesor, de modo que repite el mismo proceso con cada uno de los vecinos del nodo. Cabe resaltar que si se encuentra el nodo antes de recorrer todos los nodos, concluye la búsqueda.
+
 - 2.3 Algoritmos de búsqueda informados 
 - 2.3.1 Heurística 
 - 2.3.2 Algoritmo de escalada simple y primero el mejor 
