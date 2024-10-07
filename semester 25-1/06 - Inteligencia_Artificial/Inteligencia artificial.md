@@ -1,79 +1,5 @@
 # Contenido
 
-- 1.Introducción a la inteligencia artificial
-	- 1.1 Inteligencia
-		- 1.1.1 Tipos de inteligencia
-	- 1.2 Historia de la inteligencia Artificial
-	- 1.3 Problemas, áreas y aplicaciones de la inteligencia artificial
-	- 1.4 Agentes inteligentes
-		- 1.4.1 Estructura
-		- 1.4.2 Medio ambiente de trabajo
-		- 1.4.3 Clasificación
-		- 1.4.4 Aplicaciones
-- 2.Algoritmos de búsqueda
-	- 2.1 Problemas y espacios de búsqueda
-		- 2.1.1 Caracterización de problemas
-		- 2.1.2 Espacios de búsqueda
-	- 2.2 Algoritmos de búsqueda no informados
-		- 2.2.1 Búsqueda en anchura 
-		- 2.2.2 Búsqueda en profundidad
-	- 2.3 Algoritmos de búsqueda informados 
-		- 2.3.1 Heurística 
-		- 2.3.2 Algoritmo de escalada simple y primero el mejor 
-		- 2.3.3 Algoritmo A*
-	- 2.4 Búsqueda adversaria 
-		- 2.4.1 Algoritmo Min Max 
-		- 2.4.2 Algoritmo Poda Alpha Beta
-	- 2.5 Comparación de algoritmos búsqueda
-- 3.Modelos de representación del conocimiento
-	- 3.1 Conocimiento 
-		- 3.1.1 Características y taxonomía 
-		- 3.1.2 Modelos y sus características 
-	- 3.2 Lógica de primer orden 
-		- 3.2.1 Razonamiento en la lógica proposicional 
-		- 3.2.2 Lenguaje de predicados 
-	- 3.3 Razonamiento basado en reglas 
-		- 3.3.1 Reglas de inferencia 
-		- 3.3.2 Encadenamiento hacia adelante y hacia atrás 
-		- 3.3.3 Ontologías 
-	- 3.4. Modelos de llenado de ranuras 
-		- 3.4.1 Redes semánticas y marcos 
-		- 3.4.2 Dependencia conceptual y guiones 
-	- 3.5 Modelos de conocimiento incierto e incompleto 
-		- 3.5.1 Factores de certidumbre 
-		- 3.5.2 Lógica difusa
-- 4. Aprendizaje de máquina
-	- 4.1 Aprendizaje 
-		- 4.1.1 Aprendizaje supervisado 
-		- 4.1.2 Aprendizaje no supervisado 
-	- 4.2 Características de un conjunto de datos 
-		- 4.2.1 Tipos de características 
-		- 4.2.2 Problemas en los conjuntos de datos: tamaño de la muestra, desequilibrio de clases, complejidad, cambio del conjunto de datos, datos ruidosos, valores atípicos y costo 
-		- 4.2.3 Selección de características: relevancia, redundancia y métodos de selección 
-	- 4.3 Algoritmos de clasificación  
-		- 4.3.1 Algoritmos basados en distancia: KNN y clasificador de mínima distancia 
-		- 4.3.2 Arboles de decisión: id3 y C4.5 
-		- 4.3.3 Algoritmos estadísticos: Naive Bayes 
-	- 4.4. Algoritmos de agrupamiento 
-		- 4.4.1 Algoritmos basados en distancia: K-Medias y Min-Max 
-		- 4.4.2 Algoritmos basados en jerarquías 
-	- 4.5 Métodos de validación 
-		- 4.5.1 Métodos de validación de algoritmos de clasificación: Entrenamiento y prueba, validación cruzada y matriz de confusión 
-		- 4.5.2 Métodos de validación de algoritmos de agrupamiento: Medidas de validación internas y externas
-- 5 Algoritmos bioinspirados
-	- 5.1 Algoritmos genéticos 
-		- 5.1.1 Trasfondo biológico 
-		- 5.1.2 Algoritmo genético con representación binaria 
-		- 5.1.3 Operadores genéticos para representaciones reales y permutaciones 
-		- 5.1.4 Aplicaciones 
-	- 5.2 Redes neuronales 
-		- 5.2.1 Modelo biológico y modelo artificial 
-		- 5.2.2 Modelo de McCulloch-Pitts 
-		- 5.2.3 Perceptrón simple y multicapa 
-		- 5.2.4 Propagación hacia atrás 
-		- 5.2.5 Aplicaciones
-
----
 # **1.Introducción a la inteligencia artificial**
 ## **1.1 Inteligencia**
 **Inteligencia** es la **capacidad** o facultad **para entender, razonar o relacionar ideas**, así como para resolver problemas, aprender de las experiencias o pensar de forma abstracta en distintos campos.
@@ -273,61 +199,229 @@ Ejemplo: Búsqueda de anchura
 ### 2.2.2 Búsqueda en profundidad
 Una búsqueda en profundidad (DFS) es un algoritmo de búsqueda para lo cual recorre los nodos de un grafo. Su funcionamiento consiste en ir expandiendo cada uno de los nodos que va localizando, de forma recurrente (desde el nodo padre hacia el nodo hijo). Cuando ya no quedan más nodos que visitar en dicho camino, regresa al nodo predecesor, de modo que repite el mismo proceso con cada uno de los vecinos del nodo. Cabe resaltar que si se encuentra el nodo antes de recorrer todos los nodos, concluye la búsqueda.
 
-- 2.3 Algoritmos de búsqueda informados 
-- 2.3.1 Heurística 
-- 2.3.2 Algoritmo de escalada simple y primero el mejor 
-- 2.3.3 Algoritmo A*
-	- 2.4 Búsqueda adversaria 
-		- 2.4.1 Algoritmo Min Max 
-		- 2.4.2 Algoritmo Poda Alpha Beta
-	- 2.5 Comparación de algoritmos búsqueda
-- 3.Modelos de representación del conocimiento
-	- 3.1 Conocimiento 
-		- 3.1.1 Características y taxonomía 
-		- 3.1.2 Modelos y sus características 
-	- 3.2 Lógica de primer orden 
-		- 3.2.1 Razonamiento en la lógica proposicional 
-		- 3.2.2 Lenguaje de predicados 
-	- 3.3 Razonamiento basado en reglas 
-		- 3.3.1 Reglas de inferencia 
-		- 3.3.2 Encadenamiento hacia adelante y hacia atrás 
-		- 3.3.3 Ontologías 
-	- 3.4. Modelos de llenado de ranuras 
-		- 3.4.1 Redes semánticas y marcos 
-		- 3.4.2 Dependencia conceptual y guiones 
-	- 3.5 Modelos de conocimiento incierto e incompleto 
-		- 3.5.1 Factores de certidumbre 
-		- 3.5.2 Lógica difusa
-- 4. Aprendizaje de máquina
-	- 4.1 Aprendizaje 
-		- 4.1.1 Aprendizaje supervisado 
-		- 4.1.2 Aprendizaje no supervisado 
-	- 4.2 Características de un conjunto de datos 
-		- 4.2.1 Tipos de características 
-		- 4.2.2 Problemas en los conjuntos de datos: tamaño de la muestra, desequilibrio de clases, complejidad, cambio del conjunto de datos, datos ruidosos, valores atípicos y costo 
-		- 4.2.3 Selección de características: relevancia, redundancia y métodos de selección 
-	- 4.3 Algoritmos de clasificación  
-		- 4.3.1 Algoritmos basados en distancia: KNN y clasificador de mínima distancia 
-		- 4.3.2 Arboles de decisión: id3 y C4.5 
-		- 4.3.3 Algoritmos estadísticos: Naive Bayes 
-	- 4.4. Algoritmos de agrupamiento 
-		- 4.4.1 Algoritmos basados en distancia: K-Medias y Min-Max 
-		- 4.4.2 Algoritmos basados en jerarquías 
-	- 4.5 Métodos de validación 
-		- 4.5.1 Métodos de validación de algoritmos de clasificación: Entrenamiento y prueba, validación cruzada y matriz de confusión 
-		- 4.5.2 Métodos de validación de algoritmos de agrupamiento: Medidas de validación internas y externas
-- 5 Algoritmos bioinspirados
-	- 5.1 Algoritmos genéticos 
-		- 5.1.1 Trasfondo biológico 
-		- 5.1.2 Algoritmo genético con representación binaria 
-		- 5.1.3 Operadores genéticos para representaciones reales y permutaciones 
-		- 5.1.4 Aplicaciones 
-	- 5.2 Redes neuronales 
-		- 5.2.1 Modelo biológico y modelo artificial 
-		- 5.2.2 Modelo de McCulloch-Pitts 
-		- 5.2.3 Perceptrón simple y multicapa 
-		- 5.2.4 Propagación hacia atrás 
-		- 5.2.5 Aplicaciones
+Aquí te dejo una descripción más completa de los temas solicitados para que puedas nutrir tu conocimiento en la materia de **Inteligencia Artificial**:
+
+## 2.3 Algoritmos de búsqueda informados
+Los algoritmos de búsqueda informados utilizan información adicional (heurística) para guiar la exploración de estados hacia la solución de manera más eficiente que los algoritmos de búsqueda no informados.
+
+### 2.3.1 Heurística
+Una **heurística** es una función que estima el costo de llegar desde el estado actual hasta el estado objetivo. En problemas como el de encontrar la ruta más corta, una buena heurística puede mejorar significativamente el rendimiento de un algoritmo de búsqueda. Ejemplo:
+- En el problema del *viaje más corto* en un mapa, una heurística puede ser la distancia en línea recta entre dos ciudades.
+- Una **heurística admisible** es aquella que nunca sobreestima el costo de alcanzar el objetivo, lo que garantiza que el algoritmo encuentre la solución óptima.
+
+### 2.3.2 Algoritmo de escalada simple y primero el mejor
+- **Escalada simple (Hill Climbing)**: Es un método de optimización que elige el siguiente movimiento basándose en el aumento más significativo de la función de evaluación, similar a subir una colina. Este método puede quedarse atrapado en máximos locales, lo que es una desventaja.  
+- **Primero el mejor (Best-First Search)**: Utiliza una función heurística para expandir los nodos más prometedores, aquellos que parecen estar más cerca del objetivo según la heurística.
+
+### 2.3.3 Algoritmo A*
+El **A*** es un algoritmo de búsqueda que combina las características de búsqueda en amplitud y búsqueda en profundidad, utilizando una función de costo que es la suma del costo acumulado desde el nodo inicial más una estimación heurística del costo restante.
+- Su fórmula de evaluación es: `f(n) = g(n) + h(n)`, donde:
+  - `g(n)` es el costo desde el nodo inicial hasta el nodo `n`.
+  - `h(n)` es la heurística que estima el costo desde `n` hasta el objetivo.
+- A* es óptimo si la heurística es admisible.
+
+## 2.4 Búsqueda adversaria
+La **búsqueda adversaria** es usada en juegos competitivos donde los jugadores toman decisiones alternadas. Aquí, el objetivo es minimizar la pérdida y maximizar la ganancia, anticipando las acciones del oponente.
+
+### 2.4.1 Algoritmo Min Max
+El **Minimax** es un algoritmo usado en juegos de suma cero (como ajedrez o tic-tac-toe), en el que dos jugadores (MAX y MIN) alternan turnos. MAX intenta maximizar su ganancia, mientras que MIN intenta minimizarla. El algoritmo genera un árbol de decisiones, donde cada nivel alterna entre movimientos del jugador MAX y MIN. La estrategia de MAX es escoger el movimiento que maximiza el peor de los resultados posibles de MIN.
+
+### 2.4.2 Algoritmo Poda Alpha Beta
+La **poda Alpha-Beta** es una mejora del Minimax que reduce la cantidad de nodos evaluados en el árbol de decisiones al eliminar ramas que no pueden afectar el resultado final. Funciona manteniendo dos valores: **alpha** (el valor máximo que puede obtener MAX) y **beta** (el valor mínimo que puede obtener MIN). Si un nodo produce un valor peor que alpha o beta, se descarta el resto de esa rama.
+
+## 2.5 Comparación de algoritmos de búsqueda
+Comparar algoritmos implica analizar su **complejidad temporal y espacial**, la **eficiencia** en términos de nodos explorados, y su **capacidad de encontrar soluciones óptimas**. Algunos puntos clave son:
+- **Escalada simple** es rápida pero puede quedarse atrapada en máximos locales.
+- **A*** garantiza la solución óptima si la heurística es admisible, pero puede consumir mucha memoria.
+- **Minimax** es potente para juegos, pero la poda Alpha-Beta mejora su eficiencia sin sacrificar la calidad de las decisiones.
+
+Aquí te dejo una descripción más detallada de los **Modelos de representación del conocimiento** para complementar el temario de **Inteligencia Artificial**:
+
+## 3.1 Conocimiento
+El **conocimiento** en el contexto de la IA es la representación estructurada de información que puede ser utilizada por máquinas para razonar, inferir y tomar decisiones.
+
+### 3.1.1 Características y taxonomía
+El conocimiento se clasifica en diferentes tipos según sus características:
+- **Conocimiento declarativo**: Expresa hechos, como "el sol es una estrella". Es información explícita y verificable.
+- **Conocimiento procedimental**: Describe cómo hacer algo, como un conjunto de instrucciones para resolver un problema.
+- **Conocimiento conceptual**: Relacionado con categorías, relaciones y clasificaciones de objetos o ideas.
+- **Conocimiento tácito**: Implícito, se deriva de la experiencia y es más difícil de codificar.
+
+### 3.1.2 Modelos y sus características
+Existen diferentes **modelos** para representar el conocimiento:
+- **Redes semánticas**: Representan relaciones entre conceptos a través de nodos y aristas.
+- **Marcos**: Estructuras con "ranuras" que almacenan atributos y valores sobre un concepto o situación.
+- **Sistemas basados en reglas**: Se estructuran mediante "si-entonces" (IF-THEN), que permiten inferir nuevos hechos a partir de condiciones específicas.
+
+## 3.2 Lógica de primer orden
+La **lógica de primer orden** (LPO) o lógica de predicados extiende la lógica proposicional al introducir **cuantificadores** y **predicados**, permitiendo expresar hechos más complejos sobre objetos y sus relaciones.
+
+### 3.2.1 Razonamiento en la lógica proposicional
+En la **lógica proposicional**, las proposiciones son oraciones que pueden ser verdaderas o falsas. Se utilizan operadores lógicos (como AND, OR, NOT) para construir oraciones más complejas.
+- Ejemplo: "Si llueve (P), entonces la calle está mojada (Q)", lo que se puede escribir como \( P \rightarrow Q \).
+
+### 3.2.2 Lenguaje de predicados
+El **lenguaje de predicados** permite expresar relaciones entre objetos mediante funciones y predicados. Además, usa **cuantificadores** como ∀ (para todos) y ∃ (existe al menos uno).
+- Ejemplo: "Todos los humanos son mortales" puede expresarse como \( \forall x \, \text{Humano}(x) \rightarrow \text{Mortal}(x) \).
+
+## 3.3 Razonamiento basado en reglas
+El **razonamiento basado en reglas** es un enfoque para inferir hechos nuevos a partir de un conjunto de reglas formales predefinidas.
+
+### 3.3.1 Reglas de inferencia
+Las **reglas de inferencia** permiten derivar nuevas proposiciones a partir de otras ya existentes. Ejemplo de reglas:
+- **Modus ponens**: Si \( P \rightarrow Q \) y \( P \) es verdadero, entonces \( Q \) también es verdadero.
+- **Modus tollens**: Si \( P \rightarrow Q \) y \( Q \) es falso, entonces \( P \) también es falso.
+
+### 3.3.2 Encadenamiento hacia adelante y hacia atrás
+- **Encadenamiento hacia adelante (Forward Chaining)**: Parte de los hechos iniciales y aplica reglas hasta alcanzar una conclusión.
+- **Encadenamiento hacia atrás (Backward Chaining)**: Parte de la meta o conclusión y trabaja hacia atrás para determinar si los hechos iniciales lo soportan.
+
+### 3.3.3 Ontologías
+Una **ontología** es una representación formal de un conjunto de conceptos dentro de un dominio y las relaciones entre esos conceptos. Es fundamental para el intercambio de información entre sistemas de inteligencia artificial.
+
+## 3.4 Modelos de llenado de ranuras
+Los **modelos de llenado de ranuras** permiten representar objetos y sus propiedades mediante estructuras que contienen atributos (ranuras) y valores.
+
+### 3.4.1 Redes semánticas y marcos
+- **Redes semánticas**: Representan el conocimiento mediante nodos (conceptos) conectados por aristas que indican relaciones entre ellos, como "es un tipo de" o "es parte de".
+- **Marcos**: Son estructuras que representan situaciones, objetos o eventos con "ranuras" que contienen información sobre las características o propiedades de la entidad descrita.
+
+### 3.4.2 Dependencia conceptual y guiones
+- **Dependencia conceptual**: Es un modelo que describe cómo los conceptos están conectados mediante acciones y relaciones entre los actores involucrados.
+- **Guiones (Scripts)**: Son secuencias predefinidas de eventos o acciones que ocurren en situaciones típicas, como el proceso de cenar en un restaurante.
+
+## 3.5 Modelos de conocimiento incierto e incompleto
+El conocimiento no siempre es completo ni perfecto, y algunos modelos permiten trabajar con incertidumbre.
+
+### 3.5.1 Factores de certidumbre
+Los **factores de certidumbre** son números que reflejan el grado de confianza en una proposición. Estos factores se utilizan para manejar la incertidumbre en sistemas basados en reglas.
+
+### 3.5.2 Lógica difusa
+La **lógica difusa** permite manejar imprecisiones y valores de verdad intermedios entre 0 y 1, en lugar de limitarse a verdadero o falso. Es útil para representar conceptos que no son binarios, como "alto", "bajo", "caliente", "frío", etc.
+
+# 4. Aprendizaje de máquina
+El **aprendizaje de máquina** es una rama de la inteligencia artificial que permite a los sistemas aprender y mejorar su desempeño automáticamente a partir de datos, sin ser programados explícitamente.
+
+## 4.1 Aprendizaje
+
+### 4.1.1 Aprendizaje supervisado
+El **aprendizaje supervisado** se basa en el uso de un conjunto de datos etiquetado, donde cada entrada está asociada con su salida correcta. El objetivo es aprender un modelo que pueda predecir la salida correcta para nuevas entradas.
+- **Ejemplo**: La clasificación de correos electrónicos como "spam" o "no spam" usando correos etiquetados previamente.
+
+### 4.1.2 Aprendizaje no supervisado
+En el **aprendizaje no supervisado**, el modelo trabaja con datos no etiquetados, intentando encontrar patrones o estructuras ocultas en los datos.
+- **Ejemplo**: El agrupamiento de clientes en un negocio basado en sus comportamientos de compra sin tener categorías predefinidas.
+
+## 4.2 Características de un conjunto de datos
+
+### 4.2.1 Tipos de características
+Las **características** (o atributos) de un conjunto de datos son las variables que describen los datos. Se pueden clasificar como:
+- **Numéricas**: Valores cuantitativos, como el peso o la altura.
+- **Categorícas**: Variables cualitativas, como colores o tipos de productos.
+- **Binarias**: Variables con solo dos posibles valores (por ejemplo, sí/no).
+  
+### 4.2.2 Problemas en los conjuntos de datos
+- **Tamaño de la muestra**: Conjuntos de datos muy pequeños pueden no ser representativos.
+- **Desequilibrio de clases**: Ocurre cuando una clase está sobrerrepresentada en comparación con otras, lo que sesga el modelo.
+- **Complejidad**: Dificultad para encontrar patrones claros debido a la cantidad de atributos o relaciones complejas entre ellos.
+- **Cambio del conjunto de datos**: Los datos pueden evolucionar con el tiempo, afectando el rendimiento del modelo.
+- **Datos ruidosos**: Datos con errores o inconsistencias.
+- **Valores atípicos**: Puntos de datos que se desvían significativamente del resto.
+- **Costo**: El etiquetado de datos o la adquisición de información puede ser costosa.
+
+### 4.2.3 Selección de características
+La **selección de características** es el proceso de identificar las variables más relevantes para el modelo:
+- **Relevancia**: Características que contribuyen a la predicción.
+- **Redundancia**: Características que no aportan nueva información.
+- **Métodos de selección**: Técnicas como la selección hacia adelante (Forward Selection), selección hacia atrás (Backward Elimination) o métodos basados en la importancia de características.
+
+## 4.3 Algoritmos de clasificación
+
+### 4.3.1 Algoritmos basados en distancia: KNN y clasificador de mínima distancia
+- **K-Nearest Neighbors (KNN)**: Clasifica una nueva instancia basándose en la clase de los K vecinos más cercanos.
+- **Clasificador de mínima distancia**: Asigna una clase basándose en la distancia mínima entre la instancia y los centroides de las clases.
+
+### 4.3.2 Árboles de decisión: ID3 y C4.5
+- **ID3**: Construye un árbol de decisión seleccionando la característica que proporciona la mayor ganancia de información en cada paso.
+- **C4.5**: Es una mejora del algoritmo ID3 que maneja datos continuos, atributos faltantes y realiza poda para evitar sobreajuste.
+
+### 4.3.3 Algoritmos estadísticos: Naive Bayes
+El **Naive Bayes** es un clasificador probabilístico basado en el teorema de Bayes, que asume la independencia entre los atributos. Es especialmente útil para problemas de clasificación de texto.
+
+## 4.4 Algoritmos de agrupamiento
+
+### 4.4.1 Algoritmos basados en distancia: K-Medias y Min-Max
+- **K-Medias**: Agrupa los datos en K grupos basándose en la minimización de la suma de distancias cuadráticas entre los puntos y los centroides.
+- **Min-Max**: Un método que asigna puntos al grupo más cercano a través de la minimización de una distancia.
+
+### 4.4.2 Algoritmos basados en jerarquías
+Los **algoritmos jerárquicos** agrupan los datos en una jerarquía de clústeres, ya sea de manera ascendente (aglomerativa) o descendente (divisiva), formando un árbol o dendrograma.
+
+## 4.5 Métodos de validación
+
+### 4.5.1 Métodos de validación de algoritmos de clasificación
+- **Entrenamiento y prueba**: Se divide el conjunto de datos en dos partes, una para entrenar el modelo y otra para probar su desempeño.
+- **Validación cruzada**: Se divide el conjunto de datos en varias particiones (o "folds"), entrenando en algunas y probando en otras en diferentes combinaciones.
+- **Matriz de confusión**: Es una tabla que compara las predicciones con los resultados reales, evaluando el desempeño del modelo en términos de verdaderos positivos, falsos negativos, etc.
+
+### 4.5.2 Métodos de validación de algoritmos de agrupamiento
+- **Medidas internas**: Evalúan la calidad del agrupamiento sin tener en cuenta información externa (ej. índice de silueta).
+- **Medidas externas**: Comparan los resultados del agrupamiento con una clasificación preexistente, si está disponible.
+---
+# 5. Algoritmos bioinspirados
+Los **algoritmos bioinspirados** se basan en procesos y principios de la biología para resolver problemas complejos de optimización y aprendizaje. Estos incluyen los algoritmos genéticos y las redes neuronales, entre otros.
+
+## 5.1 Algoritmos genéticos
+Los **algoritmos genéticos** son métodos de búsqueda y optimización inspirados en los procesos evolutivos, como la selección natural y la reproducción genética.
+
+### 5.1.1 Trasfondo biológico
+El fundamento de los algoritmos genéticos proviene de la teoría de la evolución de Darwin, donde los individuos mejor adaptados a su entorno tienen mayores probabilidades de sobrevivir y reproducirse. Este concepto se aplica a la búsqueda de soluciones óptimas mediante la simulación de la evolución de una población de soluciones candidatas.
+
+### 5.1.2 Algoritmo genético con representación binaria
+Un **algoritmo genético** con representación binaria trabaja con soluciones representadas como cadenas de bits (0s y 1s). Cada cadena (cromosoma) representa una posible solución a un problema. El proceso del algoritmo implica las siguientes etapas:
+- **Inicialización**: Se genera una población inicial de soluciones aleatorias.
+- **Evaluación**: Se calcula el valor de la función objetivo o fitness para cada individuo.
+- **Selección**: Se seleccionan los mejores individuos para formar una nueva generación.
+- **Crossover**: Se combinan las características de dos individuos (padres) para producir nuevos individuos (hijos).
+- **Mutación**: Se modifica aleatoriamente una pequeña parte del individuo para mantener la diversidad genética.
+- **Reemplazo**: Los nuevos individuos sustituyen a los antiguos para formar la nueva generación.
+
+### 5.1.3 Operadores genéticos para representaciones reales y permutaciones
+En problemas con representaciones **reales** o de **permutación** (como el problema del viajante), se emplean operadores genéticos específicos:
+- **Crossover en representación real**: Métodos como el *Blend Crossover* (BLX-α) o el *Arithmetic Crossover* permiten combinar variables continuas.
+- **Mutación en representación real**: Se altera ligeramente el valor de una variable continua.
+- **Crossover en permutaciones**: Se utiliza el *Order Crossover* (OX) o el *Partially Mapped Crossover* (PMX) para intercambiar subsecuencias de las permutaciones de los padres.
+- **Mutación en permutaciones**: Implica intercambiar dos posiciones en una secuencia.
+
+### 5.1.4 Aplicaciones
+Los **algoritmos genéticos** se aplican en diversos campos, como:
+- **Optimización**: Resolución de problemas complejos de búsqueda de soluciones óptimas.
+- **Diseño de circuitos**: Creación de circuitos electrónicos eficientes.
+- **Planificación**: Optimización de horarios, rutas o recursos.
+- **Problemas de ingeniería**: Diseño y optimización de estructuras, aeronaves, etc.
+
+## 5.2 Redes neuronales
+Las **redes neuronales** están inspiradas en el funcionamiento del cerebro humano y se utilizan para modelar relaciones complejas y patrones en los datos. Pueden aprender de manera autónoma y generalizar a partir de ejemplos.
+### 5.2.1 Modelo biológico y modelo artificial
+El **modelo biológico** de una neurona consiste en la interacción de dendritas, axones y sinapsis que transmiten señales eléctricas. El **modelo artificial** de una neurona se simplifica en una función matemática que recibe entradas ponderadas, las suma, y aplica una función de activación para generar una salida.
+
+### 5.2.2 Modelo de McCulloch-Pitts
+El **modelo de McCulloch-Pitts** es uno de los primeros modelos matemáticos de una neurona artificial. Este modelo recibe múltiples entradas binarias y aplica una función umbral que activa o no la neurona. Aunque es un modelo muy simple, fue el precursor de las redes neuronales modernas.
+
+### 5.2.3 Perceptrón simple y multicapa
+- **Perceptrón simple**: Es una red neuronal de una sola capa, útil para problemas linealmente separables. Cada neurona está conectada directamente a las entradas y produce una salida basada en una función de activación (como la función escalón).
+- **Perceptrón multicapa (MLP)**: Extiende el perceptrón simple agregando capas ocultas entre las entradas y las salidas. Es capaz de resolver problemas no lineales y es la base de muchas redes neuronales profundas modernas.
+
+### 5.2.4 Propagación hacia atrás
+El **algoritmo de retropropagación** es un método utilizado para entrenar redes neuronales multicapa. Consiste en ajustar los pesos de las conexiones neuronales minimizando el error entre la salida predicha por la red y la salida deseada. Se utilizan métodos como el **descenso de gradiente** para actualizar los pesos en función de los errores propagados hacia atrás a través de la red.
+
+### 5.2.5 Aplicaciones
+Las **redes neuronales** tienen una amplia gama de aplicaciones, entre ellas:
+- **Reconocimiento de patrones**: Reconocimiento de imágenes, voz y texto.
+- **Clasificación**: Clasificación de datos en diversas categorías.
+- **Regresión**: Predicción de valores continuos, como precios de mercado o condiciones climáticas.
+- **Procesamiento del lenguaje natural (NLP)**: Traducción automática, generación de texto, chatbots.
+- **Juegos y simulación**: Inteligencia artificial para agentes autónomos en videojuegos.
 
 # Referencias
  [https://www.significados.com/inteligencia/](https://www.significados.com/inteligencia/)  

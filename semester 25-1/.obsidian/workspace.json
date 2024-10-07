@@ -4,31 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "fc8541d8efb04ed1",
+        "id": "7d8d1fd42aadb95a",
         "type": "tabs",
         "children": [
           {
-            "id": "6f3366cd3e7acb57",
+            "id": "a9d4c5f42b589c6e",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "00 - attachments/IA_P1grafo1.excalidraw.md"
-              }
-            }
-          },
-          {
-            "id": "c6a7fb6e608af1bb",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "00 - attachments/IA_P1grafo2.excalidraw.md"
+                "file": "06 - Inteligencia_Artificial/Inteligencia artificial.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -95,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00 - attachments/IA_P1grafo2.excalidraw.md",
+                "file": "06 - Inteligencia_Artificial/Inteligencia artificial.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00 - attachments/IA_P1grafo2.excalidraw.md",
+                "file": "06 - Inteligencia_Artificial/Inteligencia artificial.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,7 +115,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00 - attachments/IA_P1grafo2.excalidraw.md"
+                "file": "06 - Inteligencia_Artificial/Inteligencia artificial.md"
               }
             }
           },
@@ -172,18 +163,27 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "c6a7fb6e608af1bb",
+  "active": "a9d4c5f42b589c6e",
   "lastOpenFiles": [
-    "00 - attachments/IA_P1grafo1.excalidraw.md",
-    "00 - attachments/IA_P1grafo2.excalidraw.md",
+    "07 - Sistemas_Distribuidos/1. Antecedentes del computo en la nube.md",
+    "07 - Sistemas_Distribuidos/1.pdf",
+    "07 - Sistemas_Distribuidos/1er Parcial.md",
+    "07 - Sistemas_Distribuidos/Sistemas Distribuidos.md",
+    "00 - attachments/arqui_P2_BubbleSort.excalidraw.md",
+    "00 - attachments/arqui_P2_BubbleSort.excalidraw.png",
+    "06 - Inteligencia_Artificial/06 - Inteligencia_Artificial.md",
     "06 - Inteligencia_Artificial/1er Parcial.md",
+    "05 - Arquitectura_de_Computadoras/Material/ASSEMBLER/32MC202/Template.X/burbuja.s",
+    "05 - Arquitectura_de_Computadoras/Material/ASSEMBLER/32MC202/Template.X/debug/default",
+    "05 - Arquitectura_de_Computadoras/Material/ASSEMBLER/32MC202/Template.X/debug",
+    "00 - attachments/IA_P1grafo2.excalidraw.md",
+    "00 - attachments/IA_P1grafo1.excalidraw.md",
     "06 - Inteligencia_Artificial/Inteligencia artificial.md",
     "00 - attachments/IA_BFS.excalidraw.md",
     "06 - Inteligencia_Artificial/Notas Practicas.md",
     "07 - Administración_Servicios_en _Red/Practicas/Bautista_Ríos_Alfredo_Practica1.pdf",
     "07 - Administración_Servicios_en _Red/Practicas",
     "07 - Administración_Servicios_en _Red/1er Parcial.md",
-    "06 - Inteligencia_Artificial/06 - Inteligencia_Artificial.md",
     "06 - Aplicaciones_Comunicaciones_en_Red/Ejercicios/Ejercicio Funciones del Objeto Socket.md",
     "06 - Aplicaciones_Comunicaciones_en_Red/Ejercicios/Ejercicios.md",
     "06 - Aplicaciones_Comunicaciones_en_Red/Ejercicios",
@@ -193,10 +193,6 @@
     "07 - Administración_Servicios_en _Red/Tareas/Tareas.md",
     "06 - Aplicaciones_Comunicaciones_en_Red/Practicas/1_Cliente-Servidor_juegoGato/gatoServidor.py",
     "06 - Aplicaciones_Comunicaciones_en_Red/Practicas/1_Cliente-Servidor_juegoGato/gatoSamServer.py",
-    "06 - Aplicaciones_Comunicaciones_en_Red/Practicas/1_Cliente-Servidor_juegoGato/gatoCliente.py",
-    "06 - Aplicaciones_Comunicaciones_en_Red/Practicas/1_Cliente-Servidor_juegoGato",
-    "06 - Aplicaciones_Comunicaciones_en_Red/Practicas/gatoServidor.py",
-    "06 - Aplicaciones_Comunicaciones_en_Red/Practicas/gatoSamServer.py",
     "06 - Inteligencia_Artificial/1er Parcial Tareas.md",
     "05 - Arquitectura_de_Computadoras/Material/Docs dsPIC33/pinout dspic33FJ32MC202.png",
     "05 - Arquitectura_de_Computadoras/Material/Docs dsPIC33/conexion.png",
@@ -209,16 +205,10 @@
     "05 - Arquitectura_de_Computadoras/GitAlumnosArqui-main/README.md",
     "05 - Arquitectura_de_Computadoras/GitAlumnosArqui-main/Docs dsPIC33/pinout dspic33FJ32MC202.png",
     "05 - Arquitectura_de_Computadoras/GitAlumnosArqui-main/Docs dsPIC33/conexion.png",
-    "07 - Administración_Servicios_en _Red/Glosario.md",
-    "07 - Sistemas_Distribuidos/07 - Sistemas_Distribuidos.md",
-    "07 - Sistemas_Distribuidos/notas.md",
-    "07 - Sistemas_Distribuidos/1er Parcial.md",
-    "05 - Arquitectura_de_Computadoras/1er Parcial.md",
     "00 - attachments/Pasted image 20240917165306.png",
     "00 - attachments/Pasted image 20240912194336.png",
     "00 - attachments/Pasted image 20240912193801.png",
     "00 - attachments/Pasted image 20240912192152.png",
-    "00 - attachments/Pasted image 20240912190143.png",
-    "00 - attachments/Pasted image 20240912190123.png"
+    "00 - attachments/Pasted image 20240912190143.png"
   ]
 }

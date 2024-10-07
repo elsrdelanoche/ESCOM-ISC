@@ -42,7 +42,7 @@ void bfs(int u, int x) {
         int v = q.front(); q.pop();
         cout << v << " ";  // Imprime el nodo actual.
         if (v == x) {
-            cout << "Me encontraste" << "\n";  // Si encuentra el nodo buscado, imprime el mensaje.
+            cout << "Me encontraste " << "\n";  // Si encuentra el nodo buscado, imprime el mensaje.
             return;  // Detén la búsqueda.
         } else {
             cout << "\n";
@@ -69,14 +69,13 @@ int main() {
     }
 
     srand(time(0));  // Inicializa el generador de números aleatorios.
+    int numeroRaiz = 1;  // Establece 1 como raíz.
+    int numeroAleatorioEncontrar = rand() % n + 1;  // Elige un nodo aleatorio a buscar.
+    cout << "Raiz: "<<numeroRaiz <<" Buscar: " <<numeroAleatorioEncontrar << endl;
 
     // DFS
     cout << "DFS" << "\n";
     for (int i = 0; i <= n; i++) vis[i] = 0;  // Reinicia el array de nodos visitados.
-    int numeroRaiz = 1;  // Establece 1 como raíz.
-    int numeroAleatorioEncontrar = rand() % n + 1;  // Elige un nodo aleatorio a buscar.
-    cout << numeroAleatorioEncontrar << " " << numeroRaiz << endl;
-
     encontrado = false;  // Resetea la variable de control.
     auto start = high_resolution_clock::now();  // Captura el tiempo inicial.
     long memoriaInicialDFS = getMemoryUsage();  // Obtén la memoria inicial.
@@ -84,8 +83,8 @@ int main() {
     auto end = high_resolution_clock::now();  // Captura el tiempo final.
     long memoriaFinalDFS = getMemoryUsage();  // Obtén la memoria final.
     auto duration = duration_cast<microseconds>(end - start);  // Calcula la duración.
-    cout << duration.count() << "ms\n";  // Imprime el tiempo de ejecución.
-    cout << "Memoria utilizada (DFS): " << (memoriaFinalDFS - memoriaInicialDFS) * 1024 << " B\n";  // Imprime la memoria utilizada en bytes.
+    cout <<"en "<< duration.count() << "ms";  // Imprime el tiempo de ejecución.
+    cout << (memoriaFinalDFS - memoriaInicialDFS) * 1024 << " B\n";  // Imprime la memoria utilizada en bytes.
 
     // BFS
     cout << "BFS" << "\n";
@@ -96,8 +95,8 @@ int main() {
     end = high_resolution_clock::now();  // Captura el tiempo final.
     long memoriaFinalBFS = getMemoryUsage();  // Obtén la memoria final.
     duration = duration_cast<microseconds>(end - start);  // Calcula la duración.
-    cout << duration.count() << "ms\n";  // Imprime el tiempo de ejecución.
-    cout << "Memoria utilizada (BFS): " << (memoriaFinalBFS - memoriaInicialBFS) * 1024 << " B\n";  // Imprime la memoria utilizada en bytes.
+    cout <<"en "<< duration.count() << "ms y ";  // Imprime el tiempo de ejecución.
+    cout << (memoriaFinalBFS - memoriaInicialBFS) * 1024 << " B\n";  // Imprime la memoria utilizada en bytes.
 
     return 0;  // Indica que el programa terminó correctamente.
 }

@@ -150,3 +150,17 @@ Inicia en un nodo (por ejemplo el nodo raiz)y un recorriendo nodos de forma late
 ## DFS: Busqueda por profundidad
 Inicia en un nodo (por ejemplo el nodo inicial) y va recorriendo Padre
 ![[Pasted image 20240912174613.png]]
+
+---
+# 03 Octubre 2024
+Consideraciones para el algoritmo A*
+1) Se suelen tener 3 tipos de listas (arreglos), lista cerrada la cual registra los nodos visitados, una lista abierta que registra los nodos con los que el nodo i-j esimo tiene que compararse y finalmente una lista de nodos bloqueados
+2) Se debe definir desde un inicio "H" y "g"
+3) Se recomienda empezar los análisis de vecinos en sentido horario o antihorario
+4) Se debe ir guardando las relaciones padre-hijo
+5) Se debe conocer el inicio y el final
+
+g: Distancia Euclidiana
+6) En la parte de las comparaciones se contempla la suma de las g del nodo i-j-esimo con el nodo a analizar en la lista abierta
+Heuristica
+h: Distancia manhattan (no considera diagonales)
