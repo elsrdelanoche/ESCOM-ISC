@@ -164,3 +164,7 @@ g: Distancia Euclidiana
 6) En la parte de las comparaciones se contempla la suma de las g del nodo i-j-esimo con el nodo a analizar en la lista abierta
 Heuristica
 h: Distancia manhattan (no considera diagonales)
+
+---
+# 7 de Octubre 2024
+![[IA_2024-10-07 17.33.14.excalidraw]]

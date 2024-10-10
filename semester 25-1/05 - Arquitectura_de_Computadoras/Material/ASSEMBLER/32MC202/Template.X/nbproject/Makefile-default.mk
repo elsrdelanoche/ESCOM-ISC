@@ -51,17 +51,17 @@ OBJECTDIR=build/${CND_CONF}/${IMAGE_TYPE}
 DISTDIR=dist/${CND_CONF}/${IMAGE_TYPE}
 
 # Source Files Quoted if spaced
-SOURCEFILES_QUOTED_IF_SPACED=newmainasm33.s burbuja.s
+SOURCEFILES_QUOTED_IF_SPACED=newmainasm33.s
 
 # Object Files Quoted if spaced
-OBJECTFILES_QUOTED_IF_SPACED=${OBJECTDIR}/newmainasm33.o ${OBJECTDIR}/burbuja.o
-POSSIBLE_DEPFILES=${OBJECTDIR}/newmainasm33.o.d ${OBJECTDIR}/burbuja.o.d
+OBJECTFILES_QUOTED_IF_SPACED=${OBJECTDIR}/newmainasm33.o
+POSSIBLE_DEPFILES=${OBJECTDIR}/newmainasm33.o.d
 
 # Object Files
-OBJECTFILES=${OBJECTDIR}/newmainasm33.o ${OBJECTDIR}/burbuja.o
+OBJECTFILES=${OBJECTDIR}/newmainasm33.o
 
 # Source Files
-SOURCEFILES=newmainasm33.s burbuja.s
+SOURCEFILES=newmainasm33.s
 
 
 
@@ -101,24 +101,12 @@ ${OBJECTDIR}/newmainasm33.o: newmainasm33.s  .generated_files/flags/default/739f
 	@${RM} ${OBJECTDIR}/newmainasm33.o 
 	${MP_CC} $(MP_EXTRA_AS_PRE)  newmainasm33.s  -o ${OBJECTDIR}/newmainasm33.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -D__DEBUG -D__MPLAB_DEBUGGER_SIMULATOR=1  -omf=elf -DXPRJ_default=$(CND_CONF)    -Wa,-MD,"${OBJECTDIR}/newmainasm33.o.d",--defsym=__MPLAB_BUILD=1,--defsym=__MPLAB_DEBUG=1,--defsym=__DEBUG=1,--defsym=__MPLAB_DEBUGGER_SIMULATOR=1,-g,--no-relax$(MP_EXTRA_AS_POST) 
 	
-${OBJECTDIR}/burbuja.o: burbuja.s  .generated_files/flags/default/36a615772b99441302771a8843b3440e7cd9042d .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
-	@${MKDIR} "${OBJECTDIR}" 
-	@${RM} ${OBJECTDIR}/burbuja.o.d 
-	@${RM} ${OBJECTDIR}/burbuja.o 
-	${MP_CC} $(MP_EXTRA_AS_PRE)  burbuja.s  -o ${OBJECTDIR}/burbuja.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -D__DEBUG -D__MPLAB_DEBUGGER_SIMULATOR=1  -omf=elf -DXPRJ_default=$(CND_CONF)    -Wa,-MD,"${OBJECTDIR}/burbuja.o.d",--defsym=__MPLAB_BUILD=1,--defsym=__MPLAB_DEBUG=1,--defsym=__DEBUG=1,--defsym=__MPLAB_DEBUGGER_SIMULATOR=1,-g,--no-relax$(MP_EXTRA_AS_POST) 
-	
 else
 ${OBJECTDIR}/newmainasm33.o: newmainasm33.s  .generated_files/flags/default/9e39c680888609362aa186b9a2826fc7afa66a0d .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}" 
 	@${RM} ${OBJECTDIR}/newmainasm33.o.d 
 	@${RM} ${OBJECTDIR}/newmainasm33.o 
 	${MP_CC} $(MP_EXTRA_AS_PRE)  newmainasm33.s  -o ${OBJECTDIR}/newmainasm33.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -omf=elf -DXPRJ_default=$(CND_CONF)    -Wa,-MD,"${OBJECTDIR}/newmainasm33.o.d",--defsym=__MPLAB_BUILD=1,-g,--no-relax$(MP_EXTRA_AS_POST) 
-	
-${OBJECTDIR}/burbuja.o: burbuja.s  .generated_files/flags/default/9995c24e313e1a0cd2ed3b22176de9a9a62a76ca .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
-	@${MKDIR} "${OBJECTDIR}" 
-	@${RM} ${OBJECTDIR}/burbuja.o.d 
-	@${RM} ${OBJECTDIR}/burbuja.o 
-	${MP_CC} $(MP_EXTRA_AS_PRE)  burbuja.s  -o ${OBJECTDIR}/burbuja.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -omf=elf -DXPRJ_default=$(CND_CONF)    -Wa,-MD,"${OBJECTDIR}/burbuja.o.d",--defsym=__MPLAB_BUILD=1,-g,--no-relax$(MP_EXTRA_AS_POST) 
 	
 endif
 

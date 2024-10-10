@@ -20,7 +20,6 @@
                    displayName="Source Files"
                    projectFiles="true">
       <itemPath>newmainasm33.s</itemPath>
-      <itemPath>burbuja.s</itemPath>
     </logicalFolder>
   </logicalFolder>
   <sourceRootList>

@@ -4,22 +4,33 @@
     "type": "split",
     "children": [
       {
-        "id": "7d8d1fd42aadb95a",
+        "id": "4457577e6b3fa0ab",
         "type": "tabs",
         "children": [
           {
-            "id": "a9d4c5f42b589c6e",
+            "id": "be7c53f6f753a397",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Arqui_2024-10-09 09.52.27.excalidraw.md"
+              }
+            }
+          },
+          {
+            "id": "531b811f54e627b8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "06 - Inteligencia_Artificial/Inteligencia artificial.md",
+                "file": "05 - Arquitectura_de_Computadoras/Códigos/4. Números primos.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "06 - Inteligencia_Artificial/Inteligencia artificial.md",
+                "file": "05 - Arquitectura_de_Computadoras/Códigos/4. Números primos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "06 - Inteligencia_Artificial/Inteligencia artificial.md",
+                "file": "05 - Arquitectura_de_Computadoras/Códigos/4. Números primos.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -115,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "06 - Inteligencia_Artificial/Inteligencia artificial.md"
+                "file": "05 - Arquitectura_de_Computadoras/Códigos/4. Números primos.md"
               }
             }
           },
@@ -141,12 +152,21 @@
                 "useHierarchy": true
               }
             }
+          },
+          {
+            "id": "c94014b2da8b283b",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 200,
     "collapsed": true
   },
   "left-ribbon": {
@@ -163,52 +183,53 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "a9d4c5f42b589c6e",
+  "active": "531b811f54e627b8",
   "lastOpenFiles": [
+    "05 - Arquitectura_de_Computadoras/nPrimos.s",
+    "05 - Arquitectura_de_Computadoras/numerosPrimos.pdf",
+    "Excalidraw/Arqui_2024-10-09 09.52.27.excalidraw.md",
+    "05 - Arquitectura_de_Computadoras/Códigos/4. Números primos.md",
+    "05 - Arquitectura_de_Computadoras/Códigos/2. BubbleSort ascd y descendente.md",
+    "05 - Arquitectura_de_Computadoras/05 - Arquitectura_de_Computadoras.md",
+    "07 - Sistemas_Distribuidos/3. Servicios Distribuidos.md",
+    "07 - Sistemas_Distribuidos/2. Aspectos básicos del computo en la nube.md",
     "07 - Sistemas_Distribuidos/1. Antecedentes del computo en la nube.md",
+    "07 - Sistemas_Distribuidos/07 - Sistemas_Distribuidos.md",
+    "00 - attachments/Pasted Image 20241009100549_756.png",
+    "00 - attachments/Pasted Image 20241009095236_666.png",
+    "Excalidraw/Drawing 2024-10-09 09.51.34.excalidraw.md",
+    "Excalidraw",
+    "05 - Arquitectura_de_Computadoras/Material/Docs dsPIC33/2 DSPIC33FJ32MC202.pdf",
+    "05 - Arquitectura_de_Computadoras/Material/Docs dsPIC33/1 Programmer’s Reference Manual.pdf",
+    "05 - Arquitectura_de_Computadoras/1er Parcial.md",
+    "05 - Arquitectura_de_Computadoras/Arquitectura de computadoras.md",
+    "05 - Arquitectura_de_Computadoras/Códigos/3. Examen 1.md",
+    "05 - Arquitectura_de_Computadoras/Códigos/1. Ejercicios iniciales.md",
+    "05 - Arquitectura_de_Computadoras/Códigos/Códigos.md",
+    "05 - Arquitectura_de_Computadoras/Códigos",
+    "05 - Arquitectura_de_Computadoras/.md",
+    "00 - attachments/Drawing 2024-10-07 19.44.01.excalidraw.md",
+    "00 - attachments/IA_2024-10-07 17.33.14.excalidraw.md",
+    "06 - Inteligencia_Artificial/1er Parcial.md",
+    "06 - Inteligencia_Artificial/Inteligencia artificial.md",
+    "05 - Arquitectura_de_Computadoras/bubbleSort.s",
     "07 - Sistemas_Distribuidos/1.pdf",
     "07 - Sistemas_Distribuidos/1er Parcial.md",
     "07 - Sistemas_Distribuidos/Sistemas Distribuidos.md",
     "00 - attachments/arqui_P2_BubbleSort.excalidraw.md",
     "00 - attachments/arqui_P2_BubbleSort.excalidraw.png",
     "06 - Inteligencia_Artificial/06 - Inteligencia_Artificial.md",
-    "06 - Inteligencia_Artificial/1er Parcial.md",
     "05 - Arquitectura_de_Computadoras/Material/ASSEMBLER/32MC202/Template.X/burbuja.s",
     "05 - Arquitectura_de_Computadoras/Material/ASSEMBLER/32MC202/Template.X/debug/default",
     "05 - Arquitectura_de_Computadoras/Material/ASSEMBLER/32MC202/Template.X/debug",
     "00 - attachments/IA_P1grafo2.excalidraw.md",
     "00 - attachments/IA_P1grafo1.excalidraw.md",
-    "06 - Inteligencia_Artificial/Inteligencia artificial.md",
-    "00 - attachments/IA_BFS.excalidraw.md",
-    "06 - Inteligencia_Artificial/Notas Practicas.md",
-    "07 - Administración_Servicios_en _Red/Practicas/Bautista_Ríos_Alfredo_Practica1.pdf",
-    "07 - Administración_Servicios_en _Red/Practicas",
-    "07 - Administración_Servicios_en _Red/1er Parcial.md",
-    "06 - Aplicaciones_Comunicaciones_en_Red/Ejercicios/Ejercicio Funciones del Objeto Socket.md",
-    "06 - Aplicaciones_Comunicaciones_en_Red/Ejercicios/Ejercicios.md",
-    "06 - Aplicaciones_Comunicaciones_en_Red/Ejercicios",
-    "06 - Inteligencia_Artificial/Practicas/Practicas.md",
-    "06 - Inteligencia_Artificial/Practicas",
-    "07 - Administración_Servicios_en _Red/07 - Administración_Servicios_en _Red.md",
-    "07 - Administración_Servicios_en _Red/Tareas/Tareas.md",
-    "06 - Aplicaciones_Comunicaciones_en_Red/Practicas/1_Cliente-Servidor_juegoGato/gatoServidor.py",
-    "06 - Aplicaciones_Comunicaciones_en_Red/Practicas/1_Cliente-Servidor_juegoGato/gatoSamServer.py",
-    "06 - Inteligencia_Artificial/1er Parcial Tareas.md",
     "05 - Arquitectura_de_Computadoras/Material/Docs dsPIC33/pinout dspic33FJ32MC202.png",
     "05 - Arquitectura_de_Computadoras/Material/Docs dsPIC33/conexion.png",
-    "05 - Arquitectura_de_Computadoras/Material/README.md",
-    "05 - Arquitectura_de_Computadoras/Material.md",
-    "05 - Arquitectura_de_Computadoras/Material/Material.md",
-    "07 - Sistemas_Distribuidos/Untitled.md",
-    "07 - Administración_Servicios_en _Red/Tareas/Tarea1_Bautista_Rios_Alfredo.md",
-    "05 - Arquitectura_de_Computadoras/05 - Arquitectura_de_Computadoras.md",
-    "05 - Arquitectura_de_Computadoras/GitAlumnosArqui-main/README.md",
     "05 - Arquitectura_de_Computadoras/GitAlumnosArqui-main/Docs dsPIC33/pinout dspic33FJ32MC202.png",
     "05 - Arquitectura_de_Computadoras/GitAlumnosArqui-main/Docs dsPIC33/conexion.png",
     "00 - attachments/Pasted image 20240917165306.png",
     "00 - attachments/Pasted image 20240912194336.png",
-    "00 - attachments/Pasted image 20240912193801.png",
-    "00 - attachments/Pasted image 20240912192152.png",
-    "00 - attachments/Pasted image 20240912190143.png"
+    "00 - attachments/Pasted image 20240912193801.png"
   ]
 }
