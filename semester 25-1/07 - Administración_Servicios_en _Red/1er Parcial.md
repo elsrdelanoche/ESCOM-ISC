@@ -29,4 +29,12 @@ Maquinas virtuales
 
 Características para Ubuntu server
 - LTS (22.04)
-- 
+
+---
+# 4 de Noviembre 2024
+Para la evaluación 2 clientes
+se capturara en cliente y en servidor
+bitácora arranca ese día
+todo lo que se hace se guarda en un archivo.log
+archivos de conf, archivo de errores
+
