@@ -22,18 +22,6 @@
             }
           },
           {
-            "id": "55666365c468a83a",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/IA2024-11-14 17.10.35.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "IA2024-11-14 17.10.35.excalidraw"
-            }
-          },
-          {
             "id": "8d47151d6b8fe661",
             "type": "leaf",
             "state": {
@@ -51,12 +39,26 @@
             "id": "32786d68d976abcd",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "05 - Arquitectura_de_Computadoras/Material/Docs dsPIC33/2 DSPIC33FJ32MC202.pdf"
+                "file": "07 - Sistemas_Distribuidos/4. Servicios web y microservicios.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "2 DSPIC33FJ32MC202"
+              "icon": "lucide-file",
+              "title": "4. Servicios web y microservicios"
+            }
+          },
+          {
+            "id": "31b6588290d33549",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/IA2024-11-17 03.07.33.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "IA2024-11-17 03.07.33.excalidraw"
             }
           }
         ],
@@ -103,7 +105,7 @@
             }
           },
           {
-            "id": "6c1957b6a4c8f984",
+            "id": "621854299883a79b",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -230,32 +232,35 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "8d47151d6b8fe661",
+  "active": "32786d68d976abcd",
   "lastOpenFiles": [
+    "07 - Sistemas_Distribuidos/3. Servicios Distribuidos.md",
+    "07 - Sistemas_Distribuidos/2. Aspectos básicos del computo en la nube.md",
+    "07 - Sistemas_Distribuidos/1. Antecedentes del computo en la nube.md",
+    "07 - Sistemas_Distribuidos/Examen 3.md",
+    "06 - Inteligencia_Artificial/2do Parcial Practicas.md",
+    "06 - Inteligencia_Artificial/Ejercicios/Apuntes.md",
+    "Excalidraw/IA2024-11-17 03.07.33.excalidraw.md",
+    "06 - Inteligencia_Artificial/Practicas/dijkstra_lab",
+    "06 - Inteligencia_Artificial/Practicas/dijkstra_lab.cpp",
+    "06 - Inteligencia_Artificial/Practicas/dijkstra",
+    "06 - Inteligencia_Artificial/Practicas/dijkstra.cpp",
+    "06 - Inteligencia_Artificial/Practicas/matriz",
+    "06 - Inteligencia_Artificial/Practicas/matriz.cpp",
     "05 - Arquitectura_de_Computadoras/Untitled 1.md",
     "05 - Arquitectura_de_Computadoras/Projectos Proteus/SecuenciaLEDs.pdsprj.INSPIRON.alfre.workspace",
     "05 - Arquitectura_de_Computadoras/Projectos Proteus/SecuenciaLEDs.pdsprj",
     "05 - Arquitectura_de_Computadoras/Projectos Proteus/Project Backups",
     "05 - Arquitectura_de_Computadoras/Projectos Proteus",
     "Excalidraw/IA2024-11-14 17.10.35.excalidraw.md",
-    "07 - Sistemas_Distribuidos/Examen 3.md",
-    "06 - Inteligencia_Artificial/Ejercicios/Apuntes.md",
-    "07 - Administración_Servicios_en _Red/PSA2/PSA2.pdf",
-    "07 - Administración_Servicios_en _Red/PSA2",
-    "07 - Sistemas_Distribuidos/Tareas/Tarea6-SistDist.pdf",
-    "07 - Administración_Servicios_en _Red/PSA1/operaciones.txt",
-    "07 - Administración_Servicios_en _Red/PSA1/Elemento grafico.pdf",
-    "07 - Administración_Servicios_en _Red/PSA1/7CV1_5Configuracion.txt",
     "07 - Sistemas_Distribuidos/4. Servicios web y microservicios.md",
     "07 - Sistemas_Distribuidos/1.md",
-    "07 - Sistemas_Distribuidos/3. Servicios Distribuidos.md",
     "07 - Sistemas_Distribuidos/Practicas.md",
     "07 - Sistemas_Distribuidos/Practicas/Practicas.md",
     "07 - Sistemas_Distribuidos/.md",
     "07 - Administración_Servicios_en _Red/Administración Servicios en Red.md",
     "07 - Administración_Servicios_en _Red/1er Parcial.md",
     "07 - Administración_Servicios_en _Red/Glosario.md",
-    "06 - Inteligencia_Artificial/2do Parcial Practicas.md",
     "05 - Arquitectura_de_Computadoras/Códigos/5. Operaciones con matrices.md",
     "05 - Arquitectura_de_Computadoras/Códigos/6. Reloj.md",
     "06 - Inteligencia_Artificial/2do Parcial Tareas.md",
@@ -267,9 +272,6 @@
     "Excalidraw/Drawing 2024-10-21 17.08.16.excalidraw.md",
     "Excalidraw/diagrama DFS_BFS_2024-10-21 17.08.11.excalidraw.md",
     "06 - Inteligencia_Artificial/1er Parcial.md",
-    "05 - Arquitectura_de_Computadoras/Untitled.md",
-    "05 - Arquitectura_de_Computadoras/Códigos/4. Números primos.md",
-    "Excalidraw/IA_DF_Aestrella2024-10-17 16.48.45.excalidraw.md",
     "Excalidraw/TT_metodologia2024-10-17 11.09.03.excalidraw.png",
     "00 - attachments/Pasted Image 20241013234520_721.png",
     "00 - attachments/Pasted Image 20241013234505_720.png",
