@@ -7,7 +7,7 @@
 #include <climits>
 using namespace std; 
 
-// Laberinto
+// Laberinto definido como una matriz de enteros (0: espacio libre, 1: obstáculo)
 vector<vector<int>> maze = {
     {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
     {0, 0, 1, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 1, 1},
@@ -21,13 +21,13 @@ vector<vector<int>> maze = {
 
 const int CELL_SIZE = 40; // Tamaño de cada celda en píxeles
 
-// Estructura para el nodo
+// Estructura para representar un nodo del laberinto
 struct Node {
     int x, y, cost; // Coordenadas y costo acumulado para llegar a este nodo
     bool operator>(const Node &other) const { return cost > other.cost; } // Comparador para la cola de prioridad
 };
 
-// Algoritmo Dijkstra
+// Implementación del algoritmo de Dijkstra para encontrar el camino más corto
 vector<sf::Vector2i> dijkstra(sf::Vector2i start, sf::Vector2i end) {
     int rows = maze.size();  // Número de filas
     int cols = maze[0].size(); // Número de columnas
@@ -51,11 +51,11 @@ vector<sf::Vector2i> dijkstra(sf::Vector2i start, sf::Vector2i end) {
         Node current = pq.top();
         pq.pop();
 
-        // Si llegamos al nodo final, termina el progrma
+        // Si llegamos al nodo final, terminamos
         if (sf::Vector2i(current.x, current.y) == end)
             break;
 
-        // Explorar vecinos
+        // Explorar los vecinos
         for (auto dir : directions) {
             int nx = current.x + dir.x; // Nueva posición en x
             int ny = current.y + dir.y; // Nueva posición en y
@@ -78,7 +78,7 @@ vector<sf::Vector2i> dijkstra(sf::Vector2i start, sf::Vector2i end) {
     for (sf::Vector2i at = end; at != sf::Vector2i{-1, -1}; at = prev[at.x][at.y]) {
         path.push_back(at);
     }
-    reverse(path.begin(), path.end()); // Se invierte el camino para ir de inicio a fin
+    reverse(path.begin(), path.end()); // Invertimos el camino para que vaya del inicio al final
     return path;
 }
 
@@ -86,7 +86,7 @@ int main() {
     int rows = maze.size();  // Número de filas
     int cols = maze[0].size(); // Número de columnas
 
-    // Crear ventana
+    // Crear la ventana de renderizado
     sf::RenderWindow window(sf::VideoMode(cols * CELL_SIZE, rows * CELL_SIZE), "Dijkstra Maze Solver");
 
     sf::Vector2i start{-1, -1}, end{-1, -1}; // Coordenadas del inicio y fin
@@ -99,7 +99,7 @@ int main() {
             if (event.type == sf::Event::Closed)
                 window.close(); // Cerrar ventana
 
-            // Detección de clics del mouse para inicio y fin
+            // Detectar clics del mouse para seleccionar inicio y fin
             if (event.type == sf::Event::MouseButtonPressed) {
                 int x = event.mouseButton.y / CELL_SIZE; // Coordenada x en celdas
                 int y = event.mouseButton.x / CELL_SIZE; // Coordenada y en celdas
@@ -125,9 +125,9 @@ int main() {
 
                 // Color de las celdas
                 if (maze[i][j] == 1)
-                    cell.setFillColor(sf::Color::Black); // Muros o barreras
+                    cell.setFillColor(sf::Color::Black); // Obstáculo
                 else
-                    cell.setFillColor(sf::Color::White); // Espacio transitable 
+                    cell.setFillColor(sf::Color::White); // Espacio libre
 
                 // Colorear inicio y fin
                 if (start == sf::Vector2i(i, j))
@@ -135,7 +135,7 @@ int main() {
                 if (end == sf::Vector2i(i, j))
                     cell.setFillColor(sf::Color::Red); // Fin
 
-                // Dibujar borde negro a cada celda
+                // Dibujar borde negro
                 cell.setOutlineThickness(1);
                 cell.setOutlineColor(sf::Color::Black);
 
@@ -161,4 +161,3 @@ int main() {
 
     return 0;
 }
-

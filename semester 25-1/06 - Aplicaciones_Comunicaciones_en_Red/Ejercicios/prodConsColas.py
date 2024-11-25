@@ -57,7 +57,7 @@ def main():
     # Configuración inicial
     num_producers = int(input("Ingrese la cantidad de hilos productores: "))
     num_consumers = int(input("Ingrese la cantidad de hilos consumidores: "))
-    max_buffer_size = int(input("Ingrese el tamaño máximo del buffer: "))
+    max_buffer_size = 10
 
     # Inicialización del buffer
     buffer = Buffer(max_buffer_size)
