@@ -1,3 +1,3 @@
 Tarea
-Suponga un laberinto como el de la clase pasada, elabore SIN USAR INTERNET un diagrama y pseudocodigo para implementar el algoritmo BFS y DFS
+Suponga un laberinto como el de la clase pasada, elabore SIN USAR INTERNET un diagrama y pseudocodigo para implementar el algoritmo BFS y DFS....
 ![[diagrama DFS_BFS_2024-10-21 17.08.11.excalidraw]]
