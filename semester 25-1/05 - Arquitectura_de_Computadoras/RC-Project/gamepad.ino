@@ -1,6 +1,18 @@
-#include "BluetoothSerial.h"
-#include <stdlib.h> 
+/*
+Equipo 8 : Carrito a control remoto versión 2.2
+Funciones principales:
+ * Control de movimiento via Bluetooth
+ * Encendido de luz inferior en condiciones de poca luz
+ * Frenado de emergencia en caso de choque inminente
+ * Claxon al presionar cuadrado
+ * Circulo para encendido de luces traseras */
 
+//Librerias
+#include "BluetoothSerial.h"
+#include <stdlib.h>
+#include <Arduino.h>
+
+//Definiciones
 #define FORWARD 'F'
 #define BACKWARD 'B'
 #define LEFT 'L'
@@ -12,82 +24,179 @@
 #define START 'A'
 #define PAUSE 'P'
 
-const int pinDireccion = 2;
+//Definicion de variables globales
 
-String device_name = "ESP32-BMW"; // Name for your Bluetooth device
+int LDR = 35;    //Definimos el pin para el sensor de luz
+int trig = 19;   // Definimos el pin para el transmisor
+int eco = 21;    //Definimos el pin para el eco
+int faros = 22;  //Definimos el pin para las luces
+int faros2 = 32;
+int claxon = 23; 
+int flow = 15;
+int luz;       //Variable para guardar el valor de iluminacion
+int duracion;  //Variable para guardar duracion de pulso de sonido
+int distancia; //Variable para guardar la distancia medida
+int d = 1;   //Variable para delay's en el codigo
+//Pines para movimiento
+int diri = 25; //Pin para direccion izquierda
+int dird = 14;
+int movf = 4;
+int movb = 5;
+int hab1 = 33;
+int hab2 = 2;
+
+
+String device_name = "BMW"; // Nombre de la conexion Bluetooth
 BluetoothSerial SerialBT;
 
+
 void setup() {
-  pinMode(pinDireccion, OUTPUT);
-  Serial.begin(9600);  // Set the baud rate for serial communication
-  SerialBT.begin(device_name);
-  // Initialize any other necessary setup code here
-  Serial.println("Bluetooth listo, conectar");
-  if (SerialBT.available()) {
-    Serial.println("Conectado, esperando...");
-  }
+    pinMode(diri, OUTPUT);
+    pinMode(dird, OUTPUT);
+    pinMode(movf, OUTPUT);
+    pinMode(movb, OUTPUT);
+    pinMode(trig, OUTPUT);   //Pin trig es salida
+    pinMode(faros, OUTPUT);  //Pin de faros es salida
+    pinMode(faros2, OUTPUT);
+    pinMode(claxon, OUTPUT);  //Pin de claxon es salida
+    pinMode(hab1, OUTPUT);
+    pinMode(hab2, OUTPUT);
+    pinMode(LDR, INPUT);     //Pin LDR es entrada
+    pinMode(eco, INPUT);     //Pin eco es entrada
+    pinMode(flow, OUTPUT);
+
+    Serial.begin(9600);    //Iniciamos comunicacion serial en 115200
+    SerialBT.begin(device_name);
+
+    Serial.println("Bluetooth listo, conectar");
+    if (SerialBT.available()) {
+        Serial.println("Conectado, esperando...");
+    }
+
+    //Condicion Inicial del auto
+    digitalWrite(diri, LOW);
+    digitalWrite(dird, LOW);
+    digitalWrite(movf, LOW);
+    digitalWrite(movb, LOW);
+    digitalWrite(hab1, LOW);
+    digitalWrite(hab2, LOW);
+    digitalWrite(faros, LOW);
+    digitalWrite(faros2, LOW);
+    digitalWrite(claxon, LOW);
+    digitalWrite(flow, LOW);
 }
 
-void loop() {
-  if (SerialBT.available()) {
-    char command = SerialBT.read();
-    Serial.println(command);
-    executeCommand(command);
-  }
+void loop(){
+    //Leer valores de distancia
+    digitalWrite(trig, LOW);
+    delay(2);
+    digitalWrite(trig, HIGH);
+    delay(10);
+    digitalWrite(trig, LOW);
+    
+    //Calculo de distancia frontal
+    duracion = pulseIn(eco, HIGH);
+    distancia = duracion / 58.2;
+    Serial.print(distancia);
+    //Serial.println(" cm");
+    delay(d);
 
+    //Si hay entrada en puerto serial Bt
+    if (SerialBT.available()) {
+        char command = SerialBT.read();
+        //Serial.println(command);
+        executeCommand(command);
+    }
+  //Leer valor del ldr para saber condiciones de luz
+      luz=analogRead(LDR);
+      Serial.println(luz);
+      delay(d);
+      if(luz > 200){
+        digitalWrite(flow, HIGH);
+      } else{
+        digitalWrite(flow, LOW);
+      }
 }
 
 void executeCommand(char command) {
   switch (command) {
     case FORWARD:
-      // Perform action for moving forward
-      Serial.println("Adelante");
+        if(distancia < 10){
+            // Detener el movimiento
+            digitalWrite(diri, LOW);
+            digitalWrite(dird, LOW);
+            digitalWrite(movf, LOW);
+            digitalWrite(movb, LOW);
+            Serial.println("Obstáculo detectado, deteniendo el movimiento.");
+            return;
+        }else {
+        digitalWrite(diri, LOW);
+        digitalWrite(hab1, HIGH);
+        digitalWrite(hab2, HIGH);
+        digitalWrite(dird, LOW);
+        digitalWrite(movf, HIGH);
+        digitalWrite(movb, LOW);
+        Serial.println("Adelante");
+        }
       break;
     case BACKWARD:
-      // Perform action for moving backward
-      Serial.println("Atras");
+        digitalWrite(diri, LOW);
+        digitalWrite(hab1, HIGH);
+        digitalWrite(hab2, HIGH);
+        digitalWrite(dird, LOW);
+        digitalWrite(movf, LOW);
+        digitalWrite(movb, HIGH);
+        Serial.println("Atras");
       break;
     case LEFT:
-      // Perform action for turning left
-      Serial.println("Izquierda");
-
+        digitalWrite(diri, HIGH);
+        digitalWrite(hab1, HIGH);
+        digitalWrite(hab2, HIGH);
+        digitalWrite(dird, LOW);
+        digitalWrite(movf, HIGH);
+        digitalWrite(movb, LOW);
+        Serial.println("Izquierda");
       break;
-      
     case RIGHT:
-      // Perform action for turning right
-      Serial.println("Derecha");
-      while(SerialBT.read()!='0'){
-        digitalWrite(pinDireccion, HIGH);
-      }
-      digitalWrite(pinDireccion, LOW);
-    break;    
+        digitalWrite(diri, LOW);
+        digitalWrite(hab1, HIGH);
+        digitalWrite(hab2, HIGH);
+        digitalWrite(dird, HIGH);
+        digitalWrite(movf, HIGH);
+        digitalWrite(movb, LOW);
+        Serial.println("Derecha");
+      break;
     case CIRCLE:
-      // Perform action for circle
-      Serial.println("Circulo");
+        digitalWrite(faros, HIGH);
+        digitalWrite(faros2, HIGH);
+        Serial.println("Faros");
       break;
     case CROSS:
-      // Perform action for immediate stop or crossing
-      Serial.println("Equis");
+        digitalWrite(claxon, HIGH);
+        Serial.println("Claxon");
       break;
     case TRIANGLE:
-      // Perform action for toggling a state (e.g., LED on/off)
       Serial.println("Triangulo");
       break;
     case SQUARE:
-      // Perform action for retrieving and sending status information
       Serial.println("Cuadrado");
       break;
     case START:
-      // Perform action for starting a process or operation
       Serial.println("START");
       break;
     case PAUSE:
-      // Perform action for pausing a process or operation
       Serial.println("PAUSE");
       break;
     default:
-      // Invalid command received
+        digitalWrite(diri, LOW);
+        digitalWrite(dird, LOW);
+        digitalWrite(movf, LOW);
+        digitalWrite(movb, LOW);
+        digitalWrite(faros, LOW);
+        digitalWrite(faros2, LOW);
+        digitalWrite(claxon, LOW);
+        digitalWrite(hab1, LOW);
+        digitalWrite(hab2, LOW);
       break;
-    
   }
 }
